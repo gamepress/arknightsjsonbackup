@@ -1,0 +1,949 @@
+﻿{
+  "1": {
+    "name": "Originium Slugs Race",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_1.jpg",
+    "type": "DOWNTIME RECREATION",
+    "description": "You see a bunch of wilderness inhabitants surronding and shouting around a fence made of scrap metal and wood. They are betting on originium slugs in the cage. An ugly Liberi man asks do you want to try your luck?",
+    "options": {
+      "option_1": {
+        "name": "A marvelous force makes you head back to the betting table again.",
+        "description": "-2 Ingots",
+        "on_success_0": "Bet on a slug",
+        "on_success_1": "You choose a slug, it finishes the race without anything extraordinary. Although it is not last, you still lost.",
+        "on_success_2": "You choose a slug, this agile slug runs really fast. Its finish place is pretty decent, you didn't lose.",
+        "on_success_3": "You choose a slug, this violent slug didn't join the race, instead it beat up all slugs around it, making the scene chaotic in the moment. You have fun watch this happen.",
+        "on_success_4": "You choose a slug, this sly slug cheats and cuts corners, ending up first place. You win the prize.",
+        "on_success_5": "You choose a slug, this fat slug is too lazy to move, so it loses the race without any question.",
+        "on_success_6": "Everyone starts to accuse each other as cheater, soon they start to throw punches and kicks. The scene becomes a mess.",
+        "on_success_7": "Bet again?",
+        "on_success_8": "+1 Ingots",
+        "on_success_9": "+3 Ingots",
+        "on_success_10": "+1 Target Life Point",
+        "on_success_11": "Gain 1 random relic",
+        "result": "Possibilities:<br>The slug is 1st place, gain 1 random relic.<br>The slug won but it's not 1st place, +1 Ingots.<br>The slug lost.<br>The slug beat up other slugs around it, +1 Target Life Point.<br>People are accusing each other cheating, the scene becomes a mess, +5 Ingots and exit the event."
+      },
+      "option_2": {
+        "name": "You guys are so boring",
+        "description": "Leave",
+        "result": "You been staring at them for 10 minutes already, and the slugs only moved half the race track. You have more important things to do..."
+      }
+    }
+  },
+  "2": {
+    "name": "A Duck",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_2.jpg",
+    "type": "ENCOUNTER",
+    "description": "You sense someone following you since last night, but every time you look behind you don't see anything, it is too unusual. After a simple ambush you found out who this stalker is, it is an oddly dressed ...... duck?",
+    "options": {
+      "option_1": {
+        "name": "Why are you following me?",
+        "description": "Engage",
+        "on_success_1": "Engage in a difficult battle",
+        "result": "Beat it up first.<br>&ltISW-DU 鸭爵的嘲讽&gt"
+      },
+      "option_2": {
+        "name": "Whatever, let him be.",
+        "description": "Leave",
+        "result": "It doesn't have the balls to bite me anyways. "
+      }
+    }
+  },
+  "3": {
+    "name": "Non-Existent Fairytale I",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_3.jpg",
+    "type": "ENCOUNTER",
+    "description": "You met a heavily wounder bounty hunter on the barren lands. Strangly, what he grips is not a wanted poster nor a treasure map, it is a strange shop flyer. He puts a gold coin in your hand, and he passes away before saying a single word.",
+    "options": {
+      "option_1": {
+        "name": "He deserves a proper burial",
+        "description": "-5 Ingots",
+        "result": "To perform a proper burial in this deserted place, you were ripped off by the only village within hundreds of kilometers.<br>(Potentially unlock story II)"
+      },
+      "option_2": {
+        "name": "Take his treasure",
+        "description": "+5 Ingots",
+        "result": "He gave you a gold coin, why not exchange it for not money? That's exactly what you did."
+      }
+    }
+  },
+  "4": {
+    "name": "Non-Existent Fairytale II",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_4.jpg",
+    "type": "ENCOUNTER",
+    "description": "You followed the blood trail left by the treasure hunter, you discovered a few destoryed vehicles, and the ground is scattered with battle traces left by mercenaries and bounty hunters. It is obvious, danger is everywhere here, but danger is the aroma emitted by treasure.",
+    "options": {
+      "option_1": {
+        "name": "I am here already, no reason to stop here now",
+        "description": "-1 Target Life Point",
+        "result": "(-1 TLP multiple times)<br>Traversing through a torned battlefield, you notice a tunnel hidden behind an abandoned vehicle. You are not sure what is the tunnel, but you are certain there will be danger.<br>Within a gravel pile near you, you notice a faint marking. After some light digging, you pick up a strange treasure map.<br>Gain &lt Psychedelic Treasure Map, Relic #160, SR&gt"
+      },
+      "option_2": {
+        "name": "Know the task is too difficult",
+        "description": "Leave",
+        "result": "N/A"
+      }
+    }
+  },
+  "5": {
+    "name": "Group Fight Scene",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_5.jpg",
+    "type": "ENCOUNTER",
+    "description": "You see a group of mean-looking buff locals arguing with each other, on a step closer you notice they are aruging about who has the most beautiful tail in the rainforest. They start to throw punches instead of arguing, making the scene very lively.",
+    "options": {
+      "option_1": {
+        "name": "Come on! Lets have fun together!",
+        "description": "Engage",
+        "result": "You gladly joins the fighting crowd. There is nothing more fun than fist-fighting. Encounter a hard fight.<br>&ltEMERGENCY OPS&gt"
+      },
+      "option_2": {
+        "name": "Lets stay out of trouble",
+        "description": "Leave",
+        "result": "Arguing over something like this. Of all those years, this group of people are the most boring you even seen."
+      }
+    }
+  },
+  "6": {
+    "name": "Drinking Contest",
+    "stage": 0,
+    "src": "../media/ceobe_mist/node_6.jpg",
+    "type": "DOWNTIME RECREATION",
+    "description": "As we all know, drinking contest with Durin people never ends well. I mean, they act crazy when they are drunk.",
+    "options": {
+      "option_1": {
+        "name": "Drink 2 bottles",
+        "description": "(allows retry)  -2 Target Life Points, +6 Ingots",
+        "result": "Your bravery earned people's cheering. They give you some coins."
+      },
+      "option_2": {
+        "name": "Drink 3 bottles",
+        "description": "(allows retry) -3 Target Life Points, +1 random Recruitment Ticket",
+        "result": "Your chugging earned even greater cheering from Durins. They give you some gifts."
+      },
+      "option_3": {
+        "name": "Drink 6 bottles",
+        "description": "(allows retry) -6 Target Life Points, +1 random relic",
+        "result": "The Durins watch in awe, and express disbelief about your drinking tolerance. You win the prize."
+      },
+      "option_4": {
+        "name": "Nope",
+        "description": "Leave",
+        "result": "You leave the Durins to their party, you turn and walk away."
+      }
+    }
+  },
+  "7": {
+    "name": "A Girl Crying For Help",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_7.jpg",
+    "type": "ENCOUNTER",
+    "description": "You hear someone crying for help in the distance, on close up you see a Cautus girl who has her feet under fallen metal heavyweights. She sees you too, and she asks for your help urgently. Why is there a girl on her own in the middle of nowhere?",
+    "options": {
+      "option_1": {
+        "name": "Dont think too much, help her",
+        "description": "Engage",
+        "on_success_1": "Engage in a difficult battle",
+        "result": "As you approach, the Cautus girl stands up with a mocking smile on her face, and she draws her weapon. A group of burly men jumps out of the ruins too.<br>&ltISW-SP 狂徒围攻&gt"
+      },
+      "option_2": {
+        "name": "Looks suspicious, not a good idea to get closer",
+        "description": "Leave",
+        "result": "Seeing that you are leaving, she curses and stands up. It is better to be careful."
+      }
+    }
+  },
+  "8": {
+    "name": "Gigantic Skeleton",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_8.jpg",
+    "type": "ENCOUNTER",
+    "description": "You notice a gigantic skull, with its tooth being bigger than a car. Half of the skull is buried underground, there is no other bone that is suppose to come attack to the skull. Witnessing the skull disturbes the perception of ground in your head, you cannot use 'death' to describe this lost legacy. What was this creature? No, was this a even a creature?",
+    "options": {
+      "option_1": {
+        "name": "Stand and watch",
+        "description": "-2 max Hope, gain 1 random relic (needs 2 Hope available too)",
+        "result": "It feels as if it's still alive. No, it's dead, or rather it no longer exists. You look at the camp ruin under the skeleton. Even magnificent being like this, can fall to becoming a mere shelter for travellers."
+      },
+      "option_2": {
+        "name": "Leave",
+        "description": "Leave",
+        "result": "Creatures like this used to roam the land, where did they go?"
+      }
+    }
+  },
+  "9": {
+    "name": "Friendly Travelling Merchants",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_9.jpg",
+    "type": "ENCOUNTER",
+    "description": "A Kjerag merchant band rings their bells. It seems even if they are here, their faraway homeland's snow still shelters them. The night isn't cold, they take rest and set up their camp, and it is lively like a carnival. Their guards notice your team, and they recognize who you are. The band owner raises his glass and invites you.",
+    "options": {
+      "option_1": {
+        "name": "Join their night",
+        "description": "-5 Ingots, +3 Hope",
+        "result": "Between the drink exchanges, a friendly deal is confirmed by both sides. When the sun rises again, you politely say your goodbye. This charming night brought benifits to everyone involved."
+      },
+      "option_2": {
+        "name": "Thank them for their offer",
+        "description": "Leave",
+        "result": "You know the weight of your mission, and you know their invitation is well intended. But because of this, you cannot let those peaceful people be involved in the troubles you could bring. This is a common sense shared by explorers."
+      }
+    }
+  },
+  "10": {
+    "name": "Camping",
+    "stage": [
+      0,
+      1,
+      2
+    ],
+    "src": "../media/ceobe_mist/node_10.jpg",
+    "type": "ENCOUNTER",
+    "description": "The long distance travelled tires out the team, you have to halt your step. Setting up camp and taking break, you gaze out at the view from afar, and you think about your friends who await the news of victory. Everything seems to be worth it.",
+    "options": {
+      "option_1": {
+        "name": "Have a good sleep",
+        "description": "+3 Target Life Points",
+        "result": "You feel your thoughts calming down, some flame-like determination burns silently while you rest. When you open you eyes again, you know you are ready."
+      }
+    }
+  },
+  "11": {
+    "name": "Miasma Woodland",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_11.jpg",
+    "type": "ENCOUNTER",
+    "description": "You see a dense forest covered in mist, the air is filled with pungent and disgusting smell. Through the suffocating miasma, you see a mud pit in the distance, surronded by trees. Some cargo are scattered in the mud pit, don't know which unfortunate soul left it here.",
+    "options": {
+      "option_1": {
+        "name": "A little bit of mist won't hurt",
+        "description": "-2 Target Life Points, +8 Ingots",
+        "result": "The pungent mist corrodes your skin, the forest throns twitches and attack you, you now understand why someone would abandoned cargo here."
+      },
+      "option_2": {
+        "name": "Look for another way",
+        "description": "Leave",
+        "result": "No need to take risks for just this."
+      }
+    }
+  },
+  "12": {
+    "name": "Someone With A Story",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_12.jpg",
+    "type": "ENCOUNTER",
+    "description": "You see a ragged-looking man sitting on stump with depression written on his face, his leather jacket is missing a sleeve. You chat with him for a bit, and you learn his story. His hometown's Originium water pump broke down, he went to many places looking for replacement parts, but he contacted the infection and was banished from his hometown in the end.",
+    "options": {
+      "option_1": {
+        "name": "Talk him out of his state",
+        "description": "Gain &ltAdvance Supplies Ration Ticket&gt, which promotes any 1 operator",
+        "result": "\"My story has ended.\" The sorrowful man handed his weapon to you, and walks towards the open wilderness. His back view is all thats left now.\""
+      }
+    }
+  },
+  "13": {
+    "name": "Strange Drinking Machine",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_13.jpg",
+    "type": "ENCOUNTER",
+    "description": "You see a strange machine with rust spots all over it, standingly by itself on this barren place. Its cover painting, which is almost fully gone now, writes 'There is 1-in-5 chance of receiving a Mystery Reward'. It is obivous all the drinks are sold now, but you are not sure would there by any mystery reward left.",
+    "options": {
+      "option_1": {
+        "name": "Chances... Give it a shot",
+        "description": "-3 Ingots, 20% chance of receiving the Mystery Reward",
+        "on_fail_1": "The machine says 'sold out', but does not return your money",
+        "on_fail_2": "-3 Ingots, 40% chance of receiving the Mystery Reward",
+        "on_fail_3": "-3 Ingots, 60% chance of receiving the Mystery Reward",
+        "on_fail_4": "-3 Ingots, 80% chance of receiving the Mystery Reward",
+        "on_fail_5": "-3 Ingots, 100% chance of receiving the Mystery Reward",
+        "on_success_1": "The machine shakes violently for a bit, then it spits out a heavy metal can.",
+        "on_success_2": "Take your mystery rewards",
+        "on_success_3": "Gain Infinitely Refilling Cup, Relic #164, SR",
+        "result": "(Allows retry, +20% chances on each failure)<br>(On fail) The machine says 'sold out', but does not return your money<br>(On success) The machine shakes violently for a bit, then it spits out a heavy metal can. <br>Gain&ltInfinitely Refilling Cup, Relic #164, SR&gt"
+      },
+      "option_2": {
+        "name": "Leave",
+        "description": "Leave",
+        "result": "missing"
+      }
+    }
+  },
+  "14": {
+    "name": "Dark Festival",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_14.jpg",
+    "type": "ENCOUNTER",
+    "description": "The sky is dark, the air is heavy. You look into the horizon, a disorganized but sizable swarm slowly moves forward. They dress in strange black clothes, and use primitive instruments to form non-melodic pieces. People in this march are mumbling words you do not understand, and rallying cries too. This is Sarkaz people's Dark Festival, and the true origin of Day of the Dead",
+    "options": {
+      "option_1": {
+        "name": "Dance with them",
+        "description": "-5 Total Life Points, +15 Ingots",
+        "result": "missing"
+      },
+      "option_2": {
+        "name": "Drink some drinks",
+        "description": "-5 Total Life Points, +8 Hope",
+        "result": "missing"
+      },
+      "option_3": {
+        "name": "Buy some supplies",
+        "description": "-10 Ingots, +8 Hope",
+        "result": "missing"
+      },
+      "option_4": {
+        "name": "Leave",
+        "description": "Leave",
+        "result": "They say everyone who attends the Dark Festival will eventually meet misfortune. You should leave."
+      }
+    }
+  },
+  "15": {
+    "name": "Supplies",
+    "stage": [
+      0,
+      2
+    ],
+    "src": "../media/ceobe_mist/node_15.jpg",
+    "type": "SAFE HOUSE / BOONS",
+    "description": "A gift from a friendly local, a box of unclaimed cargo, a safe half buried in dirt, a industrial remain that is damaged... You gain a supply, most importantly, they are free.",
+    "options": {
+      "option_1": {
+        "name": "It's all good",
+        "description": "Gain 1 random relic",
+        "result": "Good things can come in free. Don't overthink it, enjoy this gift."
+      }
+    }
+  },
+  "16": {
+    "name": "Messenger Hiring",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_16.jpg",
+    "type": "ENCOUNTER",
+    "description": "You arrive at a post relay station, messengers from every country stop here for resting. Being physically at a information crossway node, to adjust tactical lay out and team composition, you decied to commision a collaborator's messenger.",
+    "options": {
+      "option_1": {
+        "name": "Give a small tips",
+        "description": "-2 Ingots, recruit 1 operator (from 2 random classes)",
+        "result": "Fengchi Logistics has the most stable and widespread delivery channels, you will soon get the result you hope for."
+      },
+      "option_2": {
+        "name": "Give a big tips",
+        "description": "-5 Ingots, gain &ltAdvance Personnel Dispatch Letter&gt, which recruit 1 of any operator",
+        "result": "The complex communication network provides more possibility for operator dispatchment. Money can expand many things, and you practice this fact well."
+      },
+      "option_3": {
+        "name": "Don't give tips",
+        "description": "Leave",
+        "result": "There is no time to waste here, there are more important things to be done."
+      }
+    }
+  },
+  "17": {
+    "name": "Safe House",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_17.jpg",
+    "type": "SAFE HOUSE",
+    "description": "Rhode Island's facility in every district has special personnel maintaining them. Since the day you begun your journey, you encountered harsh enviornment, tough enemies, and strange incidents countless many times. It is time to resharpen the blade, patch up the equipments, learn from past experiences, and face even greater challenges.",
+    "options": {
+      "option_1": {
+        "name": "Intensive training",
+        "description": "Gain &ltAdvance Supplies Ration Ticket&gt, which promotes any 1 operator",
+        "result": "Terra is filled with unforseenable danger, now is not the time to rest"
+      },
+      "option_2": {
+        "name": "Morale boost",
+        "description": "+3 Hope",
+        "result": "You tell some morale-boosting tales, mixed with some humorous stories. Everyone maintains his/her optimism about advantures up ahead"
+      },
+      "option_3": {
+        "name": "Get some rest",
+        "description": "+5 Target Life Points",
+        "result": "You spend a calm night, the Terra calendar flips a new page"
+      }
+    }
+  },
+  "18": {
+    "name": "A Toaster",
+    "stage": [
+      0,
+      1
+    ],
+    "src": "../media/ceobe_mist/node_18.jpg",
+    "type": "ENCOUNTER",
+    "description": "You see a fliped over pack beast caravan, the coachman and the pack beast are nowhere to be seen. There is nothing left in the caravan, nothing but one rust stained toaster. Unless the scorching sun, you notice a reflection from inside of the toaster.",
+    "options": {
+      "option_1": {
+        "name": "Dismentle it",
+        "description": "+5 Ingots",
+        "result": "You find many valuables hidden inside the toaster. Don't tell me that living in the wilderness requires toaster repairing skills."
+      }
+    }
+  },
+  "19": {
+    "name": "Safe House",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_19.jpg",
+    "type": "SAFE HOUSE",
+    "description": "Rhode Island's facility in every district has special personnel maintaining them. Since the day you begun your journey, you encountered harsh enviornment, tough enemies, and strange incidents countless many times. It is time to resharpen the blade, patch up the equipments, learn from past experiences, and face even greater challenges.",
+    "options": {
+      "option_1": {
+        "name": "Reorganization",
+        "description": "Maximum operator in team +1",
+        "result": "You double-check the supplies at hand, and reorganizes the team composition. It seems there is room for some extra hands"
+      },
+      "option_2": {
+        "name": "Intensive training",
+        "description": "Gain &ltAdvance Supplies Ration Ticket&gt, which promotes any 1 operator",
+        "result": "Terra is filled with unforseenable danger, now is not the time to rest"
+      },
+      "option_3": {
+        "name": "Get some rest",
+        "description": "+5 Target Life Points",
+        "result": "You spend a calm night, the Terra calendar flips a new page"
+      }
+    }
+  },
+  "20": {
+    "name": "Formidable Messenger",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_20.jpg",
+    "type": "ENCOUNTER",
+    "description": "You see a stout man smiling broadly, carrying a pack beast and walking towards you. You walk up and ask him some questions, he tells you he is a messenger and this pack beast is a gift from his son. He is carrying the beast because he thinks it walks too slow. You realize maybe you can commision this messenger for a delivery.",
+    "options": {
+      "option_1": {
+        "name": "Commision a delivery",
+        "description": "Recruit 1 operator (from 2 random classes)",
+        "result": "He accepts your commision, continues his jouney with the pack beast carried on his back."
+      },
+      "option_2": {
+        "name": "Commision an expedited delivery",
+        "description": "-8 Ingots, gain &ltSpecial Personnel Dispatch Letter&gt, which recruits one of any operator and one of which will be temporary hired operator that costs no Hope.",
+        "result": "You give the messenger a bonus tips, he understands the meaning behind this. With him taking big steps leaping away, only the pack beast sad whimper remains."
+      }
+    }
+  },
+  "21": {
+    "name": "Lost Victorian Knight",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_21.jpg",
+    "type": "ENCOUNTER",
+    "description": "You meet a Victorian knight, wondering through the land with his servant. For some reason, when the servants walks he also knocks two coconut shell and creates weird noises. He asks you have you every heard of 'Holy Originium Grenade'",
+    "options": {
+      "option_1": {
+        "name": "Honestly, never heard of it",
+        "description": "Gain &ltLeft Half of a Coconut Shell, Relic #165, SR&gt",
+        "result": "He thanks you for your honesty, gives you a half coconut shell, and walks in a random direction he picked."
+      },
+      "option_2": {
+        "name": "Lie, point in a random direction",
+        "description": "Gain &ltRight Half of a Coconut Shell, Relic #166, SR&gt",
+        "result": "He thanks you for your honesty, gives you a half coconut shell, and walks in the direction you picked."
+      },
+      "option_3": {
+        "name": "Ask him which direction Rhode Island is at instead",
+        "description": "Leave",
+        "result": "He is surprised by your question. He randomly points in a direction, and continues his way with his servant."
+      }
+    }
+  },
+  "22": {
+    "name": "Storyteller",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_22.jpg",
+    "type": "missing",
+    "description": "Under the cover of the night, you set up your camping tent. Across from you sits a special passersby, he calls himself 'a Storyteller', and he shares many interesting stories with you. 'On the ice fields up far North, knights with old Wendigo bloods fought the twisted demonic creatures for their country...' 'Under the grand tower, the twin princesses defeated the evil warlock king and saved their people.' 'When the golden city was shrouded by the great silence, people who held their faith step forward bravely...' 'In a remote and uninhabited volcano crater, there lives a tin man...'",
+    "options": {
+      "option_1": {
+        "name": "Wow interesting stories",
+        "description": "+2 Hope",
+        "result": "This land is filled with cruelty, heartlessness and apathy. But behind this ravaging desolation, there never lacks those powerful and humane storys. Are those stories real?"
+      }
+    }
+  },
+  "23": {
+    "name": "Tale Of The Pocketwatch",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_23.jpg",
+    "type": "ENCOUNTER",
+    "description": "Inside the dark there lives a mad Sarkaz man. He mumbles about everything that never happened, throws punches and kicks at his shadow. He claims ever since a Sankta took the key, all pocketwatch lost their purpose. It showcases come broken pocketwatch to you, and now nobody wants to buy those watches.",
+    "options": {
+      "option_1": {
+        "name": "A watch that turns backward? Thats a buy!",
+        "description": "-all Ingots, gain &ltInverted Pocket Watch, Relic #167, SR&gt",
+        "result": "The thing about money is that, it's only meaningful when you spend it... I think."
+      },
+      "option_2": {
+        "name": "This expensive for an unsellable item?",
+        "description": "Leave",
+        "result": "I will eat it alive if it is useful at all."
+      }
+    }
+  },
+  "24": {
+    "name": "Operation Reward",
+    "stage": [
+      1
+    ],
+    "src": "../media/ceobe_mist/node_24.jpg",
+    "type": "STARTBUFF (random 3 from 6 total)",
+    "description": "You broke through 2 or more layers of difficulties in your last advanture, this time you are entitled to more support from Rhode Island",
+    "options": {
+      "option_1": {
+        "name": "Recycle Loots",
+        "description": "-1 max Hope, gain 1 random relic",
+        "result": "N/A"
+      },
+      "option_2": {
+        "name": "Buy collectible",
+        "description": "-all Ingots, gain 1 random relic",
+        "result": "N/A"
+      },
+      "option_3": {
+        "name": "More supplies",
+        "description": "+3 Target Life Points",
+        "result": "N/A"
+      }
+    }
+  },
+  "25": {
+    "name": "Rhode Island Field Worker",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_25.jpg",
+    "type": "ENCOUNTER",
+    "description": "You meet with a team of Rhode Island operators who are on field scouting duty. You greet them, and they share their extra supplies with you.",
+    "options": {
+      "option_1": {
+        "name": "Gain supply",
+        "description": "Gain &ltTemporary Supplies Ration Ticket&gt, which promotes any 1 operator who is 5 star and below, without costing Hope",
+        "result": "You accept their kindness. It's a long journey ahead"
+      }
+    }
+  },
+  "26": {
+    "name": "Still A Duck",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_26.jpg",
+    "type": "ENCOUNTER",
+    "description": "This duck shows up before you upright and frank. You have no idea how he appeared, it's as if he was always beside you. He yaps to you nonstop, it's really annoying you. He says you and him have a common friend, but judging his behaviour, it seems like he just want to tease you and run off with him box.",
+    "options": {
+      "option_1": {
+        "name": "Does he think he can come and go as he pleases?",
+        "description": "Engage",
+        "on_success_1": "Engage in an unusual battle",
+        "result": "You decide to catch him. Wait, why did he 'run' over there? Is this even 'running'? <br>&ltISW-DU 鸭爵的挑战&gt"
+      },
+      "option_2": {
+        "name": "Whatever, let him be",
+        "description": "Leave",
+        "result": "You are occupied with trying to remember who this common friend would be. Unfortunatly, this style of boastful and arrogant talks does remind you of a ... respectable big boss."
+      }
+    }
+  },
+  "27": {
+    "name": "Operation Reward",
+    "stage": [
+      1
+    ],
+    "src": "../media/ceobe_mist/node_27.jpg",
+    "type": "STARTBUFF (random 3 from 6 total)",
+    "description": "You broke through 2 or more layers of difficulties in your last advanture, this time you are entitled to more support from Rhode Island",
+    "options": {
+      "option_1": {
+        "name": "More supplies",
+        "description": "+3 Target Life Points",
+        "result": "N/A"
+      },
+      "option_2": {
+        "name": "Grab something",
+        "description": "Gain &ltKettle, Relic #177, N&gt",
+        "result": "N/A"
+      },
+      "option_3": {
+        "name": "Buy collectible",
+        "description": "-all Ingots, gain 1 random relic",
+        "result": "N/A"
+      }
+    }
+  },
+  "28": {
+    "name": "Battle With The Rusty Hammer Gang",
+    "stage": [
+      5
+    ],
+    "src": "../media/ceobe_mist/node_28.jpg",
+    "type": "ENCOUNTER",
+    "description": "While you march forward strenuously in the Sargon desert, you encounter a group of armed gang attacking noble's logistic transport team. This gang is the Rusty Hammer Gang, and they recognize you as enemy just by the look of your clothes and equipments. Now, their heavy crossbow turn towards you.",
+    "options": {
+      "option_1": {
+        "name": "Battle formation!",
+        "description": "Engage",
+        "on_success_1": "Engage in a difficult battle",
+        "result": "Rhode Island has no reasons to let these mobs to do whatever they want. Besides, their violence is headed towards you now."
+      },
+      "option_2": {
+        "name": "All teams fall back!",
+        "description": "Exit",
+        "result": "You know the importantce of avoiding conflicts. In this situation where you lacks too much information, there is no need to deal with the gang that roams the land."
+      }
+    }
+  },
+  "29": {
+    "name": "Operation Reward",
+    "stage": [
+      1
+    ],
+    "src": "../media/ceobe_mist/node_29.jpg",
+    "type": "STARTBUFF (random 3 from 6 total)",
+    "description": "You broke through 2 or more layers of difficulties in your last advanture, this time you are entitled to more support from Rhode Island",
+    "options": {
+      "option_1": {
+        "name": "More supplies",
+        "description": "+3 Target Life Points",
+        "result": "N/A"
+      },
+      "option_2": {
+        "name": "Use reserved fund",
+        "description": "+5 Ingots",
+        "result": "N/A"
+      },
+      "option_3": {
+        "name": "Buy collectible",
+        "description": "-all Ingots, gain 1 random relic",
+        "result": "N/A"
+      }
+    }
+  },
+  "30": {
+    "name": "Tactical Supplies",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_30.jpg",
+    "type": "ENCOUNTER",
+    "description": "you see a huge safe marked with 'Rhode Island Supplies' sign, it looks like this is a field supply for frontline operators. However, you don't know the password, this giant crate weights 2 tonnes, it's almost impossible to open.",
+    "options": {
+      "option_1": {
+        "name": "Break it open at all costs",
+        "description": "-1 Target Life Points, gain 1 random relic",
+        "result": "You tried everything and you opened the safe, but inside are only some personal belongings. The two elite operators who arrive on scene look at you with disbelief. You now realize, maybe you shouldn't have touched the safe."
+      },
+      "option_2": {
+        "name": "Lay beside it and get some rest",
+        "description": "Leave",
+        "result": "Laying in the shadow of the safe, life feels good. Slacking while working is an attitude too."
+      }
+    }
+  },
+
+  "31": {
+    "name": "A ... Duck?",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_31.jpg",
+    "type": "ENCOUNTER",
+    "description": "In front of you ... You see that duck mocking you, this time a strong Ursus man stands behind him. Your vision start to become blocked by duck feathers, you are unable to move. You hear the sound of droplets smashing to bits, you are a prey that fell into hunter's trap and you are sweating all over. Soon you are drawn back to reality by an irritating laugh. The duck makes a gesture with his hand, and the strong Ursus man charges toward you.",
+    "options": {
+      "option_1": {
+        "name": "Don't you dare think I would be afraid of this new guy",
+        "description": "Engage",
+        "on_success_1": "Engage in an unusual battle",
+        "result": "For some unknown reason, you think chasing him down is a shared responsibility between the two of you. He is happy to play with you, and mentions this time the present will be even better, for purpose making money is to ensure a happier life."
+      },
+      "option_2": {
+        "name": "Let it go, buy him a soda instead",
+        "description": "Leave",
+        "result": "Honestly, you think there is no real beef between you and the duck. The smell of muddy pits from reeds and ponds still lingers near you. Maybe this 'duck' isn't so ordinary."
+      }
+    }
+  },
+  "32": {
+    "name": "Socializing At A Banquet",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_32.jpg",
+    "type": "ENCOUNTER",
+    "description": "Inside the travel relay station, you find a few L.G.D. members who also came from afar. They are all blacked-out drunk, the only sober one asks you for a favor which he will repay you. Looking at another member who stripped naked and starting to sing, you are thinking about it.",
+    "options": {
+      "option_1": {
+        "name": "Stop this crazy drunk guy with force",
+        "description": "-3 Target Life Points, gain &ltGao! Dongle&gt, relic #26, R",
+        "result": "You worked hard to complete the favor. Afterwards the member slips you a pendent, it looks kinda familiar?"
+      },
+      "option_2": {
+        "name": "Nice singing bro",
+        "description": "+4 Ingots",
+        "result": "He pays respect for the first applause he receives on his artistic journey. He tosses his wallet at you, let's hope he doesn't regret it."
+      }
+    }
+  },
+  "33": {
+    "name": "Exhausting Inspector's Tour",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_33.jpg",
+    "type": "ENCOUNTER",
+    "description": "In front of you stands a L.G.D. member, he looks like an Inspector with his glasses, looking refined. He wants to speak multiple times but halts himself, you can see the awarkness in his eyes. Finally he tells you, he is searching for his colleagues, who went on business trips but were never heard of again. He asks for your help, and promises necessary rewards.",
+    "options": {
+      "option_1": {
+        "name": "That reminded you of someone",
+        "description": "Requires &ltGao! Dongle&gt, +20 Ingots",
+        "result": "He pushes his glasses, his facial expression tells you the two events are related. He gives you a large sum of money, and tells you do not leak the words."
+      },
+      "option_2": {
+        "name": "Make your proposal",
+        "description": "-2 Target Life Points, +3 Hope",
+        "result": "Extra investigation took some time, but you have his recognition, as well as extra pair of hands. Win-win."
+      },
+      "option_3": {
+        "name": "Resting is more important than dealing with this",
+        "description": "+3 Target Life Points",
+        "result": "You have no obligation to deal with some drunk L.G.D. member. You might as well use this time to let your operators get some quality sleep, right?"
+      }
+    }
+  },
+  "34": {
+  "name": "Non-Existent Fairytale III",
+  "stage": [
+    0
+  ],
+  "src": "../media/ceobe_mist/node_34.jpg",
+  "type": "ENCOUNTER",
+  "description": "All city names and shop names are fictional on the map, following the coordinates ran you in a circle, and there is still just banana groves at the destination. Those location names seems to be nonsense talk from some Sami nursery rhyme. You try to make sense of the words, and for some reason, the air is getting colder.",
+  "options": {
+    "option_1": {
+        "name": "Search everywhere",
+        "description": "Gain relic &ltBlood-stained Flyer&gt, relic #161, SR",
+        "result": "You found an invisible city and an invisible person. They only exists in those fragmented clues. You realize this could be a trap, or a signal from a frosted ghost."
+      }
+    }
+  },
+  "35": {
+    "name": "Aftermath Of A Death Fight",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_35.jpg",
+    "type": "ENCOUNTER",
+    "description": "In the wilderness, you see many fully armed mercenaries lying on the ground, each one of them is lifeless. You quickly inspect them, and find a big and heavy metal box. The box has a sturdy lock, and you didn't find a key.",
+    "options": {
+      "option_1": {
+          "name": "They have no use of this box anymore",
+          "description": "Gain relic &ltHeavy Metal Box&gt, relic #169, SR",
+          "result": "You look at all the dead bodies again, then look back at the metal box in your hand. You start to get a bad vibe."
+      },
+      "option_2": {
+          "name": "Hope they rest in peace",
+          "description": "+2 Target Life Points",
+          "result": "Although people have many complains about the city life, but leaving the city would mean encountering things like this."
+      }
+    }
+  },
+  "36": {
+    "name": "Brewing Disaster",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/404.png",
+    "tru_src": "../media/ceobe_mist/node_36.jpg",
+    "description": "You insert the black key in the keyhole of the metal box, the lock clicks and opens, but the box's content chill you to the bone. You see a hacked hand gripping a Laterano protection rifle. The hand has rotted to its bones, but no matter how hard you try you cannot remove it from the rifle. Prehaps you unintentionally involved yourself in some terrifying scheme.",
+    "options": {
+      "option_1": {
+        "name": "Handle the item with care",
+        "description": "Gain relic &ltHandgun&gt, relic #168, SR",
+        "result": "You more or less heard of it, in the wilderness far away from mobile cities, sin and greed grow and spread, pure violence will always be beside you. This one you can't stay out."
+      },
+      "option_2": {
+        "name": "'I shouldn't been involved!'",
+        "description": "Leave",
+        "result": "You throw both the box and what's inside in garbage can. Although you are involved in big trouble, it is not too late to withdraw now."
+      }
+    }
+  },
+  "999":
+  {
+    "comment": "This section is a temporary workaround on some event options i dont have screenshot for, since this tl is tl by screenshot. The missing ones are: choice_16_2, choice_16_3, choice_23_2, choice_23_3, choice_23_4 choice_c1_7, choice_c2_1, choice_c2_2, choice_c2_3, choice_c2_4, choice_blackm_4, choice_startbuff_2",
+    "name": "Brewing Disaster",
+    "stage": [
+      0
+    ],
+    "src": "../media/ceobe_mist/node_1.jpg",
+    "type": "",
+    "description": "",
+    "options": {
+      "scene_16_3": {
+        "name": "Dark Festival",
+        "description": "",
+        "result": "A Sarkaz mage hands you a deformed pendent."
+      },
+      "scene_16_4": {
+        "name": "Dark Festival",
+        "description": "",
+        "result": "This is a strange song, best you can do is hum along to its melody. For some reason, you are suddently determined."
+      },
+      "scene_16_5": {
+        "name": "Dark Festival",
+        "description": "",
+        "result": "You accepts a drink from a Sarkaz man. The drink tastes horrible, but you feel more relaxed after drinking it."
+      },
+      "scene_16_6": {
+        "name": "Dark Festival",
+        "description": "",
+        "result": "You dance together with Sarkaz people, body movements mingle with your deliberately relaxed spirit. When you refocus your attention, you see someone threw a coin at your feet but you have no idea why."
+      },
+      "option_16_2": {
+        "name": "Buy some local products",
+        "description": "-10 Ingots, +6 Hope",
+        "result": "A vampire hands you a foul bottle of potion"
+      },
+      "option_16_3": {
+        "name": "Sing together with them",
+        "description": "-4 max Hope, +10 Target Life Points",
+        "result": ""
+      },
+      "option_23_2": {
+        "name": "Risk and Rewards co-exists",
+        "description": "-1 Target Life Point",
+        "result": ""
+      },
+      "option_23_3": {
+        "name": "It is not time to give up yet",
+        "description": "-1 Target Life Point",
+        "result": ""
+      },
+      "option_23_4": {
+        "name": "Pick up the treasure map",
+        "description": "Gain &ltPsychedelic Treasure Map&gt, relic #160, SR",
+        "result": ""
+      },
+      "option_c1_7": {
+        "name": "Grab something and leave",
+        "description": "+5 Ingots",
+        "result": ""
+      },
+      "option_c2_1": {
+        "name": "Buy one and see what's inside",
+        "description": "-5 Ingots, has a chance of earning 1 relic",
+        "result": ""
+      },
+      "option_c2_2": {
+        "name": "Take what's in the box",
+        "description": "Gain 1 random relic",
+        "result": ""
+      },
+      "option_c2_3": {
+        "name": "Try again?",
+        "description": "Engage",
+        "result": ""
+      },
+      "option_c2_4": {
+        "name": "Nah, not worth it",
+        "description": "Leave",
+        "result": ""
+      },
+      "option_blackm_4": {
+        "name": "Back to the table",
+        "description": "Engage",
+        "result": ""
+      },
+      "option_startbuff_2": {
+        "name": "Give a speech before you leave",
+        "description": "+2 Hope",
+        "result": ""
+      },
+      "option_scene_23_2": {
+        "name": "Non-Existent Fairytale II",
+        "description": "",
+        "result": "You realize traps set up by bounty hunters are all over the place here. Pushing forward will most likely end yourself up in covered by wounds."
+      },
+      "option_scene_23_3": {
+        "name": "Non-Existent Fairytale II",
+        "description": "",
+        "result": "In a nearby pile of gravel, you see a hidden marking. After some light digging, you find a treasure map."
+      },
+      "option_scene_23_4": {
+        "name": "Non-Existent Fairytale II",
+        "description": "",
+        "result": "Prehaps you inherited that bounty hunter's sence of advanture, prehaps you are just curious or greedy. Whatever it be, you decided to presist on the matter."
+      },
+      "option_scene_23_5": {
+        "name": "Non-Existent Fairytale II",
+        "description": "",
+        "result": "Prehaps there really is nothing here? That is the way of life of bounty hunters, you do not have to walk their path."
+      },
+      "option_scene_c2_enter": {
+        "name": "Strange Salesman",
+        "description": "",
+        "result": "You see a Zalak man in ragged formal attire, standing on a pile of boxes. He is selling those boxes to wilderness inhabitants, he claims those boxes are rarity goods he obtained through 'special channels'. But you notice those boxes bare logos of Columbian major military contractors and logistic companies."
+      },
+      "option_scene_c2_1": {
+        "name": "Strange Salesman",
+        "description": "",
+        "result": "Although something feels strange, you did have fun pulling gacha boxes"
+      },
+      "option_scene_c2_2": {
+        "name": "Strange Salesman",
+        "description": "",
+        "result": "The box contains some useful items. Your win, his loss"
+      },
+      "option_scene_c2_3": {
+        "name": "Strange Salesman",
+        "description": "",
+        "result": "The box only contains suspicious reagents and useless mechanical parts, you feel disappointed"
+      },
+      "option_scene_c2_4": {
+        "name": "Strange Salesman",
+        "description": "",
+        "result": "Those boxes has suspicious origins, something isn't right"
+      }
+    }
+  }
+}

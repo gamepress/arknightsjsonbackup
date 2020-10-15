@@ -1,0 +1,2420 @@
+﻿{
+  "choices": {
+    "choice_leave": {
+      "id": "choice_leave",
+      "title": "离开",
+      "description": null,
+      "type": "LEAVE",
+      "nextSceneId": null,
+      "icon": null,
+      "param": {},
+      "tl_title": "1.options.option_2.description"
+    },
+    "choice_1_1": {
+      "id": "choice_1_1",
+      "title": "好好睡一觉",
+      "description": "获得<@ro.get>3</>目标生命",
+      "type": "TRADE",
+      "nextSceneId": "scene_1_1",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "hp"
+          }
+        ]
+      },
+      "tl_title": "10.options.option_1.name",
+      "tl_description": "10.options.option_1.description"
+    },
+    "choice_2_1": {
+      "id": "choice_2_1",
+      "title": "获得补给",
+      "description": "<@ro.get>进阶</>一名5星以下的干员",
+      "type": "TRADE",
+      "nextSceneId": "scene_2_1",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "upgrade_ticket_5star"
+          }
+        ]
+      },
+      "tl_title": "25.options.option_1.name",
+      "tl_description": "25.options.option_1.description"
+    },
+    "choice_3_1": {
+      "id": "choice_3_1",
+      "title": "一点迷雾而已，没什么问题",
+      "description": "消耗<@ro.lose>2</>目标生命，获得<@ro.get>8</>源石锭",
+      "type": "TRADE",
+      "nextSceneId": "scene_3_1",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "gold"
+          }
+        ]
+      },
+      "tl_title": "11.options.option_1.name",
+      "tl_description": "11.options.option_1.description"
+    },
+    "choice_3_2": {
+      "id": "choice_3_2",
+      "title": "还是另寻他路",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_3_2",
+      "icon": "leave",
+      "param": {},
+      "tl_title": "11.options.option_2.name",
+      "tl_description": null
+    },
+    "choice_4_1": {
+      "id": "choice_4_1",
+      "title": "参与他们的晚会",
+      "description": "消耗<@ro.lose>5</>源石锭，获得<@ro.get>3</>希望",
+      "type": "TRADE",
+      "nextSceneId": "scene_4_1",
+      "icon": "population",
+      "param": {
+        "rewards": [
+          {
+            "id": "population"
+          }
+        ]
+      },
+      "tl_title": "9.options.option_1.name",
+      "tl_description": "9.options.option_1.description"
+    },
+    "choice_4_2": {
+      "id": "choice_4_2",
+      "title": "婉拒好意",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_4_2",
+      "icon": "leave",
+      "param": {},
+      "tl_title": "9.options.option_2.name",
+      "tl_description": null
+    },
+    "choice_5_1": {
+      "id": "choice_5_1",
+      "title": "给一点小费",
+      "description": "消耗<@ro.lose>2</>源石锭，<@ro.get>招募</>一名干员（从随机2个职业中选择）",
+      "type": "TRADE_PROB",
+      "nextSceneId": "scene_5_1",
+      "icon": "recruit",
+      "param": {
+        "rewards": [
+          {
+            "id": "recruit_ticket_double_1"
+          },
+          {
+            "id": "recruit_ticket_double_2"
+          },
+          {
+            "id": "recruit_ticket_double_3"
+          },
+          {
+            "id": "recruit_ticket_double_4"
+          }
+        ]
+      },
+      "tl_title": "16.options.option_1.name",
+      "tl_description": "16.options.option_1.description"
+    },
+    "choice_5_2": {
+      "id": "choice_5_2",
+      "title": "给很多小费",
+      "description": "消耗<@ro.lose>5</>源石锭，<@ro.get>招募</>任意一名干员",
+      "type": "TRADE",
+      "nextSceneId": "scene_5_2",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "recruit_ticket_all"
+          }
+        ]
+      },
+      "tl_title": "16.options.option_2.name",
+      "tl_description": "16.options.option_2.description"
+    },
+    "choice_5_3": {
+      "id": "choice_5_3",
+      "title": "不给小费",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_5_3",
+      "icon": "leave",
+      "param": {},
+      "tl_title": "16.options.option_3.name",
+      "tl_description": null
+    },
+    "choice_6_1": {
+      "id": "choice_6_1",
+      "title": "来！一起热闹！",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_6_1",
+      "icon": "unknown",
+      "param": {},
+      "tl_title": "5.options.option_1.name",
+      "tl_description": null
+    },
+    "choice_6_2": {
+      "id": "choice_6_2",
+      "title": "还是别惹事了",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_6_2",
+      "icon": "leave",
+      "param": {},
+      "tl_title": "5.options.option_2.name",
+      "tl_description": "5.options.option_2.description"
+    },
+    "choice_6_3": {
+      "id": "choice_6_3",
+      "title": "进入战斗",
+      "description": "遭遇一场困难的战斗",
+      "type": "TRADE",
+      "nextSceneId": null,
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "ro_e_1_1"
+          },
+          {
+            "id": "ro_e_1_2"
+          },
+          {
+            "id": "ro_e_1_3"
+          }
+        ]
+      },
+      "tl_title": "5.options.option_1.result",
+      "tl_description": "5.options.option_1.result"
+    },
+    "choice_7_1": {
+      "id": "choice_7_1",
+      "title": "驻足观望",
+      "description": "消耗<@ro.lose>2</>希望上限，<@ro.get>获得</>一件随机收藏品",
+      "type": "TRADE",
+      "nextSceneId": "scene_7_1",
+      "icon": "relic",
+      "param": {
+        "rewards": [
+          {
+            "id": "pool_treasure"
+          }
+        ]
+      },
+      "tl_title": "8.options.option_1.name",
+      "tl_description": "8.options.option_1.description"
+    },
+    "choice_7_2": {
+      "id": "choice_7_2",
+      "title": "离开",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_7_2",
+      "icon": "leave",
+      "param": {},
+      "tl_title": "8.options.option_2.name",
+      "tl_description": null
+    },
+    "choice_8_1": {
+      "id": "choice_8_1",
+      "title": "好好劝劝他",
+      "description": "<@ro.get>进阶</>任意一名干员",
+      "type": "TRADE",
+      "nextSceneId": "scene_8_1",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "upgrade_ticket_all"
+          }
+        ]
+      },
+      "tl_title": "12.options.option_1.name",
+      "tl_description": "12.options.option_1.description"
+    },
+    "choice_9_1": {
+      "id": "choice_9_1",
+      "title": "拼了命也要给他撬开",
+      "description": "消耗<@ro.lose>1</>目标生命，<@ro.get>随机获得</>一件神秘收藏品",
+      "type": "TRADE_PROB",
+      "nextSceneId": "scene_9_1",
+      "icon": "relic",
+      "param": {
+        "rewards": [
+          {
+            "id": "relic_162"
+          },
+          {
+            "id": "relic_163"
+          }
+        ]
+      },
+      "tl_title": "30.options.option_1.name",
+      "tl_description": "30.options.option_1.description"
+    },
+    "choice_9_2": {
+      "id": "choice_9_2",
+      "title": "至少能靠着休息一会儿",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_9_2",
+      "icon": "leave",
+      "param": {},
+      "tl_title": "30.options.option_2.name",
+      "tl_description": null
+    },
+    "choice_10_1": {
+      "id": "choice_10_1",
+      "title": "委托信件",
+      "description": "<@ro.get>招募</>一名干员（从随机2个职业中选择）",
+      "type": "TRADE_PROB",
+      "nextSceneId": "scene_10_1",
+      "icon": "recruit",
+      "param": {
+        "rewards": [
+          {
+            "id": "recruit_ticket_double_1"
+          },
+          {
+            "id": "recruit_ticket_double_2"
+          },
+          {
+            "id": "recruit_ticket_double_3"
+          },
+          {
+            "id": "recruit_ticket_double_4"
+          }
+        ]
+      },
+      "tl_title": "20.options.option_1.name",
+      "tl_description": "20.options.option_1.description"
+    },
+    "choice_10_2": {
+      "id": "choice_10_2",
+      "title": "委托加急信件",
+      "description": "消耗<@ro.lose>8</>源石锭，<@ro.get>获得</>招募券",
+      "type": "TRADE",
+      "nextSceneId": "scene_10_2",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "recruit_ticket_all_premium"
+          }
+        ]
+      },
+      "tl_title": "20.options.option_2.name",
+      "tl_description": "20.options.option_2.description"
+    },
+    "choice_11_1": {
+      "id": "choice_11_1",
+      "title": "别想了，快去帮帮她",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_11_1",
+      "icon": "unknown",
+      "param": {},
+      "tl_title": "7.options.option_1.name",
+      "tl_description": null
+    },
+    "choice_11_2": {
+      "id": "choice_11_2",
+      "title": "有点可疑，还是别靠近了",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_11_2",
+      "icon": "leave",
+      "param": {},
+      "tl_title": "7.options.option_2.name",
+      "tl_description": null
+    },
+    "choice_11_3": {
+      "id": "choice_11_3",
+      "title": "进入战斗",
+      "description": "遭遇一场艰难的战斗",
+      "type": "TRADE",
+      "nextSceneId": null,
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "ro_ev_2"
+          }
+        ]
+      },
+      "tl_title": "7.options.option_1.description",
+      "tl_description": "7.options.option_1.on_success_1"
+    },
+    "choice_12_1": {
+      "id": "choice_12_1",
+      "title": "一定概率......试试看呗？",
+      "description": "消耗<@ro.lose>3</>源石锭，<@ro.get>20%</>概率获得“那个东西”",
+      "type": "NEXT_PROB",
+      "nextSceneId": null,
+      "icon": "unknown",
+      "param": {},
+      "tl_title": "13.options.option_1.name",
+      "tl_description": "13.options.option_1.description"
+    },
+    "choice_12_2": {
+      "id": "choice_12_2",
+      "title": "一定概率......试试看呗？",
+      "description": "消耗<@ro.lose>3</>源石锭，<@ro.get>40%</>概率获得“那个东西”",
+      "type": "NEXT_PROB",
+      "nextSceneId": null,
+      "icon": "unknown",
+      "param": {},
+      "tl_title": "13.options.option_1.name",
+      "tl_description": "13.options.option_1.on_fail_2"
+    },
+    "choice_12_3": {
+      "id": "choice_12_3",
+      "title": "一定概率......试试看呗？",
+      "description": "消耗<@ro.lose>3</>源石锭，<@ro.get>60%</>概率获得“那个东西”",
+      "type": "NEXT_PROB",
+      "nextSceneId": null,
+      "icon": "unknown",
+      "param": {},
+      "tl_title": "13.options.option_1.name",
+      "tl_description": "13.options.option_1.on_fail_3"
+    },
+    "choice_12_4": {
+      "id": "choice_12_4",
+      "title": "一定概率......试试看呗？",
+      "description": "消耗<@ro.lose>3</>源石锭，<@ro.get>80%</>概率获得“那个东西”",
+      "type": "NEXT_PROB",
+      "nextSceneId": null,
+      "icon": "unknown",
+      "param": {},
+      "tl_title": "13.options.option_1.name",
+      "tl_description": "13.options.option_1.on_fail_4"
+    },
+    "choice_12_5": {
+      "id": "choice_12_5",
+      "title": "一定概率......试试看呗？",
+      "description": "消耗<@ro.lose>3</>源石锭，<@ro.get>100%</>概率获得“那个东西”",
+      "type": "NEXT_PROB",
+      "nextSceneId": null,
+      "icon": "unknown",
+      "param": {},
+      "tl_title": "13.options.option_1.name",
+      "tl_description": "13.options.option_1.on_fail_5"
+    },
+    "choice_12_6": {
+      "id": "choice_12_6",
+      "title": "拿走你的神秘奖品",
+      "description": "<@ro.get>获得</>收藏品",
+      "type": "TRADE",
+      "nextSceneId": null,
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "relic_164"
+          }
+        ]
+      },
+      "tl_title": "13.options.option_1.on_success_2",
+      "tl_description": "13.options.option_1.on_success_3"
+    },
+    "choice_13_1": {
+      "id": "choice_13_1",
+      "title": "说实话，没听说过",
+      "description": "<@ro.get>获得</>收藏品",
+      "type": "TRADE",
+      "nextSceneId": "scene_13_1",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "relic_165"
+          }
+        ]
+      },
+      "tl_title": "21.options.option_1.name",
+      "tl_description": "21.options.option_1.description"
+    },
+    "choice_13_2": {
+      "id": "choice_13_2",
+      "title": "骗他，瞎指一个方向",
+      "description": "<@ro.get>获得</>收藏品",
+      "type": "TRADE",
+      "nextSceneId": "scene_13_2",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "relic_166"
+          }
+        ]
+      },
+      "tl_title": "21.options.option_2.name",
+      "tl_description": "21.options.option_2.description"
+    },
+    "choice_13_3": {
+      "id": "choice_13_3",
+      "title": "反问他，知不知道罗德岛在哪",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_13_3",
+      "icon": "leave",
+      "param": {},
+      "tl_title": "21.options.option_3.name",
+      "tl_description": "21.options.option_3.description"
+    },
+    "choice_14_1": {
+      "id": "choice_14_1",
+      "title": "倒着转的表？买了！",
+      "description": "消耗<@ro.lose>所有</>源石锭，<@ro.get>获得</>收藏品",
+      "type": "TRADE",
+      "nextSceneId": "scene_14_1",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "relic_167"
+          }
+        ]
+      },
+      "tl_title": "23.options.option_1.name",
+      "tl_description": "23.options.option_1.description"
+    },
+    "choice_14_2": {
+      "id": "choice_14_2",
+      "title": "卖不出去还这么贵？",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_14_2",
+      "icon": "leave",
+      "param": {},
+      "tl_title": "23.options.option_2.name",
+      "tl_description": "23.options.option_2.description"
+    },
+    "choice_15_1": {
+      "id": "choice_15_1",
+      "title": "准备应战！",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_15_1",
+      "icon": "unknown",
+      "param": {},
+      "tl_title": "28.options.option_1.name",
+      "tl_description": null
+    },
+    "choice_15_2": {
+      "id": "choice_15_2",
+      "title": "全队后撤！",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_15_2",
+      "icon": "leave",
+      "param": {},
+      "tl_title": "28.options.option_2.name",
+      "tl_description": null
+    },
+    "choice_15_3": {
+      "id": "choice_15_3",
+      "title": "进入战斗",
+      "description": "遭遇一场极其艰难的战斗",
+      "type": "TRADE",
+      "nextSceneId": null,
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "ro_ev_1"
+          }
+        ]
+      },
+      "tl_title": "28.options.option_1.description",
+      "tl_description": "28.options.option_1.on_success_1"
+    },
+    "choice_16_1": {
+      "id": "choice_16_1",
+      "title": "买一点补给",
+      "description": "消耗<@ro.lose>10</>源石锭，获得<@ro.get>8</>目标生命",
+      "type": "TRADE",
+      "nextSceneId": "scene_16_2",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "hp"
+          }
+        ]
+      },
+      "tl_title": "14.options.option_3.name",
+      "tl_description": "14.options.option_3.description"
+    },
+    "choice_16_2": {
+      "id": "choice_16_2",
+      "title": "买一点特产",
+      "description": "消耗<@ro.lose>10</>源石锭，获得<@ro.get>6</>希望",
+      "type": "TRADE",
+      "nextSceneId": "scene_16_3",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "population"
+          }
+        ]
+      },
+      "tl_title": "999.options.option_16_2.name",
+      "tl_description": "999.options.option_16_2.description"
+    },
+    "choice_16_3": {
+      "id": "choice_16_3",
+      "title": "和他们一起唱歌",
+      "description": "消耗<@ro.lose>4</>希望上限，获得<@ro.get>10</>目标生命",
+      "type": "TRADE",
+      "nextSceneId": "scene_16_4",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "hp"
+          }
+        ]
+      },
+      "tl_title": "999.options.option_16_3.name",
+      "tl_description": "999.options.option_16_3.description"
+    },
+    "choice_16_4": {
+      "id": "choice_16_4",
+      "title": "喝点饮料",
+      "description": "消耗<@ro.lose>5</>目标生命，获得<@ro.get>8</>希望",
+      "type": "TRADE",
+      "nextSceneId": "scene_16_5",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "population"
+          }
+        ]
+      },
+      "tl_title": "14.options.option_2.name",
+      "tl_description": "14.options.option_2.description"
+    },
+    "choice_16_5": {
+      "id": "choice_16_5",
+      "title": "和他们一起跳舞",
+      "description": "消耗<@ro.lose>5</>目标生命，获得<@ro.get>15</>源石锭",
+      "type": "TRADE",
+      "nextSceneId": "scene_16_6",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "gold"
+          }
+        ]
+      },
+      "tl_title": "14.options.option_1.name",
+      "tl_description": "14.options.option_1.description"
+    },
+    "choice_16_6": {
+      "id": "choice_16_6",
+      "title": "离开",
+      "description": null,
+      "type": "TRADE",
+      "nextSceneId": "scene_16_1",
+      "icon": "leave",
+      "param": {},
+      "tl_title": "14.options.option_4.name",
+      "tl_description": null
+    },
+    "choice_17_1": {
+      "id": "choice_17_1",
+      "title": "干嘛跟着我？",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_17_1",
+      "icon": "unknown",
+      "param": {},
+      "tl_title": "2.options.option_1.name",
+      "tl_description": null
+    },
+    "choice_17_2": {
+      "id": "choice_17_2",
+      "title": "算了，随它去吧",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_17_2",
+      "icon": "leave",
+      "param": {},
+      "tl_title": "2.options.option_2.name",
+      "tl_description": null
+    },
+    "choice_17_3": {
+      "id": "choice_17_3",
+      "title": "进入战斗",
+      "description": "遭遇一场特殊的战斗",
+      "type": "TRADE",
+      "nextSceneId": null,
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "ro_t_1"
+          }
+        ]
+      },
+      "tl_title": "2.options.option_1.description",
+      "tl_description": "2.options.option_1.on_success_1"
+    },
+    "choice_18_1": {
+      "id": "choice_18_1",
+      "title": "你想来就来想走就走？",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_18_1",
+      "icon": "unknown",
+      "param": {},
+      "tl_title": "26.options.option_1.name",
+      "tl_description": null
+    },
+    "choice_18_2": {
+      "id": "choice_18_2",
+      "title": "算了，随它去吧",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_18_2",
+      "icon": "leave",
+      "param": {},
+      "tl_title": "26.options.option_2.name",
+      "tl_description": null
+    },
+    "choice_18_3": {
+      "id": "choice_18_3",
+      "title": "进入战斗",
+      "description": "遭遇一场特殊的战斗",
+      "type": "TRADE",
+      "nextSceneId": null,
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "ro_t_2"
+          }
+        ]
+      },
+      "tl_title": "2.options.option_1.description",
+      "tl_description": "2.options.option_1.on_success_1"
+    },
+    "choice_19_1": {
+      "id": "choice_19_1",
+      "title": "不要以为换个人我就怕你！",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_19_1",
+      "icon": "unknown",
+      "param": {},
+      "tl_title": "31.options.option_1.name",
+      "tl_description": null
+    },
+    "choice_19_2": {
+      "id": "choice_19_2",
+      "title": "算了，请他喝杯汽水吧",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_19_2",
+      "icon": "leave",
+      "param": {},
+      "tl_title": "31.options.option_2.name",
+      "tl_description": null
+    },
+    "choice_19_3": {
+      "id": "choice_19_3",
+      "title": "进入战斗",
+      "description": "遭遇一场特殊的战斗",
+      "type": "TRADE",
+      "nextSceneId": null,
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "ro_t_3"
+          }
+        ]
+      },
+      "tl_title": "31.options.option_1.description",
+      "tl_description": "31.options.option_1.on_success_1"
+    },
+    "choice_20_1": {
+      "id": "choice_20_1",
+      "title": "强行制伏发酒疯的人",
+      "description": "消耗<@ro.lose>3</>目标生命，<@ro.get>获得</>收藏品",
+      "type": "TRADE",
+      "nextSceneId": "scene_20_1",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "relic_26"
+          }
+        ]
+      },
+      "tl_title": "32.options.option_1.name",
+      "tl_description": "32.options.option_1.description"
+    },
+    "choice_20_2": {
+      "id": "choice_20_2",
+      "title": "“歌声还不错朋友！”",
+      "description": "获得<@ro.get>4</>源石锭",
+      "type": "TRADE",
+      "nextSceneId": "scene_20_2",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "gold"
+          }
+        ]
+      },
+      "tl_title": "32.options.option_2.name",
+      "tl_description": "32.options.option_2.description"
+    },
+    "choice_21_1": {
+      "id": "choice_21_1",
+      "title": "你的确想起了某人",
+      "description": "（需要【“嘎呜”挂饰】）获得<@ro.get>20</>源石锭",
+      "type": "TRADE",
+      "nextSceneId": "scene_21_1",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "gold"
+          }
+        ]
+      },
+      "tl_title": "33.options.option_1.name",
+      "tl_description": "33.options.option_1.description"
+    },
+    "choice_21_2": {
+      "id": "choice_21_2",
+      "title": "提出你的需求",
+      "description": "消耗<@ro.lose>2</>目标生命，获得<@ro.get>3</>希望",
+      "type": "TRADE",
+      "nextSceneId": "scene_21_2",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "population"
+          }
+        ]
+      },
+      "tl_title": "33.options.option_2.name",
+      "tl_description": "33.options.option_2.description"
+    },
+    "choice_21_3": {
+      "id": "choice_21_3",
+      "title": "休息比麻烦事重要些",
+      "description": "获得<@ro.get>3</>目标生命",
+      "type": "TRADE",
+      "nextSceneId": "scene_21_3",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "hp"
+          }
+        ]
+      },
+      "tl_title": "33.options.option_3.name",
+      "tl_description": "33.options.option_3.description"
+    },
+    "choice_22_1": {
+      "id": "choice_22_1",
+      "title": "他值得体面的下葬",
+      "description": "消耗<@ro.lose>5</>源石锭",
+      "type": "TRADE",
+      "nextSceneId": "scene_22_1",
+      "icon": null,
+      "param": {},
+      "tl_title": "3.options.option_1.name",
+      "tl_description": "3.options.option_1.description"
+    },
+    "choice_22_2": {
+      "id": "choice_22_2",
+      "title": "拿走他的财富",
+      "description": "获得<@ro.get>5</>源石锭",
+      "type": "TRADE",
+      "nextSceneId": "scene_22_2",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "gold"
+          }
+        ]
+      },
+      "tl_title": "3.options.option_2.name",
+      "tl_description": "3.options.option_2.description"
+    },
+    "choice_23_1": {
+      "id": "choice_23_1",
+      "title": "来都来了，没有理由放弃",
+      "description": "消耗<@ro.lose>1</>目标生命",
+      "type": "TRADE",
+      "nextSceneId": "scene_23_1",
+      "icon": null,
+      "param": {},
+      "tl_title": "4.options.option_1.name",
+      "tl_description": "4.options.option_1.description"
+    },
+    "choice_23_2": {
+      "id": "choice_23_2",
+      "title": "风险和收益是并存的",
+      "description": "消耗<@ro.lose>1</>目标生命",
+      "type": "TRADE",
+      "nextSceneId": "scene_23_2",
+      "icon": null,
+      "param": {},
+      "tl_title": "999.options.option_23_2.name",
+      "tl_description": "999.options.option_23_2.description"
+    },
+    "choice_23_3": {
+      "id": "choice_23_3",
+      "title": "还没到放弃的时候！",
+      "description": "消耗<@ro.lose>1</>目标生命",
+      "type": "TRADE",
+      "nextSceneId": "scene_23_3",
+      "icon": null,
+      "param": {},
+      "tl_title": "999.options.option_23_3.name",
+      "tl_description": "999.options.option_23_3.description"
+    },
+    "choice_23_4": {
+      "id": "choice_23_4",
+      "title": "拿起藏宝图",
+      "description": "<@ro.get>获得</>收藏品",
+      "type": "TRADE",
+      "nextSceneId": "scene_23_4",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "relic_160"
+          }
+        ]
+      },
+      "tl_title": "999.options.option_23_4.name",
+      "tl_description": "999.options.option_23_4.description"
+    },
+    "choice_23_5": {
+      "id": "choice_23_5",
+      "title": "知难而退",
+      "description": null,
+      "type": "TRADE",
+      "nextSceneId": "scene_23_5",
+      "icon": null,
+      "param": {},
+      "tl_title": "4.options.option_2.name",
+      "tl_description": null
+    },
+    "choice_24_1": {
+      "id": "choice_24_1",
+      "title": "四处搜索",
+      "description": "<@ro.get>获得</>收藏品",
+      "type": "TRADE",
+      "nextSceneId": "scene_24_1",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "relic_161"
+          }
+        ]
+      },
+      "tl_title": "34.options.option_1.name",
+      "tl_description": "34.options.option_1.description"
+    },
+    "choice_25_1": {
+      "id": "choice_25_1",
+      "title": "他们已经用不到这个箱子了",
+      "description": "<@ro.get>获得</>收藏品",
+      "type": "TRADE",
+      "nextSceneId": "scene_25_1",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "relic_169"
+          }
+        ]
+      },
+      "tl_title": "35.options.option_1.name",
+      "tl_description": "35.options.option_1.description"
+    },
+    "choice_25_2": {
+      "id": "choice_25_2",
+      "title": "希望他们安息",
+      "description": "获得<@ro.get>2</>目标生命",
+      "type": "TRADE",
+      "nextSceneId": "scene_25_2",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "hp"
+          }
+        ]
+      },
+      "tl_title": "35.options.option_2.name",
+      "tl_description": "35.options.option_2.description"
+    },
+    "choice_26_1": {
+      "id": "choice_26_1",
+      "title": "小心地保存这件物品",
+      "description": "<@ro.get>获得</>收藏品",
+      "type": "TRADE",
+      "nextSceneId": "scene_26_1",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "relic_168"
+          }
+        ]
+      },
+      "tl_title": "36.options.option_1.name",
+      "tl_description": "36.options.option_1.description"
+    },
+    "choice_26_2": {
+      "id": "choice_26_2",
+      "title": "我不该掺和进来的！",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_26_2",
+      "icon": null,
+      "param": {},
+      "tl_title": "36.options.option_2.name",
+      "tl_description": null
+    },
+    "choice_27_1": {
+      "id": "choice_27_1",
+      "title": "拆开看看",
+      "description": "获得<@ro.get>5</>源石锭",
+      "type": "TRADE",
+      "nextSceneId": "scene_27_1",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "gold"
+          }
+        ]
+      },
+      "tl_title": "18.options.option_1.name",
+      "tl_description": "18.options.option_1.description"
+    },
+    "choice_28_1": {
+      "id": "choice_28_1",
+      "title": "真是太有趣了！",
+      "description": "获得<@ro.get>2</>希望",
+      "type": "TRADE",
+      "nextSceneId": "scene_28_1",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "population"
+          }
+        ]
+      },
+      "tl_title": "22.options.option_1.name",
+      "tl_description": "22.options.option_1.description"
+    },
+    "choice_rest_1": {
+      "id": "choice_rest_1",
+      "title": "稍事休息",
+      "description": "获得<@ro.get>5</>目标生命",
+      "type": "TRADE",
+      "nextSceneId": "scene_rest_1",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "hp"
+          }
+        ]
+      },
+      "tl_title": "17.options.option_3.name",
+      "tl_description": "17.options.option_3.description"
+    },
+    "choice_rest_2": {
+      "id": "choice_rest_2",
+      "title": "强化训练",
+      "description": "<@ro.get>进阶</>任意一名干员",
+      "type": "TRADE",
+      "nextSceneId": "scene_rest_2",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "upgrade_ticket_all"
+          }
+        ]
+      },
+      "tl_title": "17.options.option_1.name",
+      "tl_description": "17.options.option_1.description"
+    },
+    "choice_rest_3": {
+      "id": "choice_rest_3",
+      "title": "鼓舞士气",
+      "description": "获得<@ro.get>3</>希望",
+      "type": "TRADE",
+      "nextSceneId": "scene_rest_3",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "population"
+          }
+        ]
+      },
+      "tl_title": "17.options.option_2.name",
+      "tl_description": "17.options.option_2.description"
+    },
+    "choice_rest_4": {
+      "id": "choice_rest_4",
+      "title": "重整编制",
+      "description": "可携带干员<@ro.get>+1</>",
+      "type": "TRADE",
+      "nextSceneId": "scene_rest_4",
+      "icon": "member",
+      "param": {
+        "rewards": [
+          {
+            "id": "squad_capacity"
+          }
+        ]
+      },
+      "tl_title": "19.options.option_1.name",
+      "tl_description": "19.options.option_1.description"
+    },
+    "choice_c1_1": {
+      "id": "choice_c1_1",
+      "title": "选一只源石虫押注",
+      "description": "消耗<@ro.lose>2</>源石锭",
+      "type": "NEXT_PROB",
+      "nextSceneId": null,
+      "icon": "unknown",
+      "param": {},
+      "tl_title": "1.options.option_1.on_success_0",
+      "tl_description": "1.options.option_1.description"
+    },
+    "choice_c1_2": {
+      "id": "choice_c1_2",
+      "title": "再来一次？",
+      "description": "获得<@ro.get>1</>源石锭",
+      "type": "TRADE",
+      "nextSceneId": "scene_c1_1",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "gold"
+          }
+        ]
+      },
+      "tl_title": "1.options.option_1.on_success_7",
+      "tl_description": "1.options.option_1.on_success_8"
+    },
+    "choice_c1_3": {
+      "id": "choice_c1_3",
+      "title": "再来一次？",
+      "description": "获得<@ro.get>3</>源石锭",
+      "type": "TRADE",
+      "nextSceneId": "scene_c1_1",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "gold"
+          }
+        ]
+      },
+      "tl_title": "1.options.option_1.on_success_7",
+      "tl_description": "1.options.option_1.on_success_9"
+    },
+    "choice_c1_4": {
+      "id": "choice_c1_4",
+      "title": "再来一次？",
+      "description": "获得<@ro.get>1</>目标生命",
+      "type": "TRADE",
+      "nextSceneId": "scene_c1_1",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "hp"
+          }
+        ]
+      },
+      "tl_title": "1.options.option_1.on_success_7",
+      "tl_description": "1.options.option_1.on_success_10"
+    },
+    "choice_c1_5": {
+      "id": "choice_c1_5",
+      "title": "再来一次？",
+      "description": "<@ro.get>获得</>一件随机收藏品",
+      "type": "TRADE",
+      "nextSceneId": "scene_c1_1",
+      "icon": "relic",
+      "param": {
+        "rewards": [
+          {
+            "id": "pool_battle_1"
+          }
+        ]
+      },
+      "tl_title": "1.options.option_1.on_success_7",
+      "tl_description": "1.options.option_1.on_success_11"
+    },
+    "choice_c1_6": {
+      "id": "choice_c1_6",
+      "title": "再来一次？",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_c1_1",
+      "icon": null,
+      "param": {},
+      "tl_title": "1.options.option_1.on_success_7"
+    },
+    "choice_c1_7": {
+      "id": "choice_c1_7",
+      "title": "随手拿点东西离开现场",
+      "description": "获得<@ro.get>5</>源石锭",
+      "type": "TRADE",
+      "nextSceneId": "scene_c1_8",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "gold"
+          }
+        ]
+      },
+      "tl_title": "999.options.option_c1_7.name",
+      "tl_description": "999.options.option_c1_7.description"
+    },
+    "choice_c1_8": {
+      "id": "choice_c1_8",
+      "title": "你们也太无聊了",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_c1_8",
+      "icon": "leave",
+      "param": {},
+      "tl_title": "1.options.option_2.name",
+      "tl_description": "1.options.option_2.description"
+    },
+    "choice_c2_1": {
+      "id": "choice_c2_1",
+      "title": "来，买一个看看有什么",
+      "description": "消耗<@ro.lose>5</>源石锭，有几率<@ro.get>获得</>一件收藏品",
+      "type": "NEXT_PROB",
+      "nextSceneId": null,
+      "icon": "unknown",
+      "param": {},
+      "tl_title": "999.options.option_c2_1.name",
+      "tl_description": "999.options.option_c2_1.description"
+    },
+    "choice_c2_2": {
+      "id": "choice_c2_2",
+      "title": "拿走盒子里的东西",
+      "description": "<@ro.get>获得</>一件随机收藏品",
+      "type": "TRADE",
+      "nextSceneId": "scene_c2_1",
+      "icon": "relic",
+      "param": {
+        "rewards": [
+          {
+            "id": "pool_treasure"
+          }
+        ]
+      },
+      "tl_title": "999.options.option_c2_2.name",
+      "tl_description": "999.options.option_c2_2.description"
+    },
+    "choice_c2_3": {
+      "id": "choice_c2_3",
+      "title": "要不要再试一试？",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_c2_1",
+      "icon": null,
+      "param": {},
+      "tl_title": "999.options.option_c2_3.name",
+      "tl_description": null
+    },
+    "choice_c2_4": {
+      "id": "choice_c2_4",
+      "title": "算了吧，感觉不值得",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_c2_4",
+      "icon": "leave",
+      "param": {},
+      "tl_title": "999.options.option_c2_4.name",
+      "tl_description": null
+    },
+    "choice_blackm_1": {
+      "id": "choice_blackm_1",
+      "title": "大喝2瓶",
+      "description": "消耗<@ro.lose>2</>目标生命，获得<@ro.get>6</>源石锭",
+      "type": "TRADE",
+      "nextSceneId": "scene_blackm_1",
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "gold"
+          }
+        ]
+      },
+      "tl_title": "6.options.option_1.name",
+      "tl_description": "6.options.option_1.description"
+    },
+    "choice_blackm_2": {
+      "id": "choice_blackm_2",
+      "title": "豪饮3瓶",
+      "description": "消耗<@ro.lose>3</>目标生命，<@ro.get>获得</>一张随机招募券",
+      "type": "TRADE",
+      "nextSceneId": "scene_blackm_2",
+      "icon": "recruit",
+      "param": {
+        "rewards": [
+          {
+            "id": "pool_recruit_3"
+          }
+        ]
+      },
+      "tl_title": "6.options.option_2.name",
+      "tl_description": "6.options.option_2.description"
+    },
+    "choice_blackm_3": {
+      "id": "choice_blackm_3",
+      "title": "狂饮6瓶",
+      "description": "消耗<@ro.lose>6</>目标生命，<@ro.get>获得</>一件随机收藏品",
+      "type": "TRADE",
+      "nextSceneId": "scene_blackm_3",
+      "icon": "relic",
+      "param": {
+        "rewards": [
+          {
+            "id": "pool_battle_1"
+          }
+        ]
+      },
+      "tl_title": "6.options.option_3.name",
+      "tl_description": "6.options.option_3.description"
+    },
+    "choice_blackm_4": {
+      "id": "choice_blackm_4",
+      "title": "回到酒桌",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_blackm_enter",
+      "icon": null,
+      "param": {},
+      "tl_title": "999.options.option_blackm_4.name",
+      "tl_description": null
+    },
+    "choice_blackm_5": {
+      "id": "choice_blackm_5",
+      "title": "算了算了",
+      "description": null,
+      "type": "NEXT",
+      "nextSceneId": "scene_blackm_4",
+      "icon": "leave",
+      "param": {},
+      "tl_title": "6.options.option_4.name",
+      "tl_description": "6.options.option_4.description"
+    },
+    "choice_treasure_1": {
+      "id": "choice_treasure_1",
+      "title": "都是好事",
+      "description": "<@ro.get>获得</>一件随机收藏品",
+      "type": "TRADE",
+      "nextSceneId": "scene_treasure_1",
+      "icon": "relic",
+      "param": {
+        "rewards": [
+          {
+            "id": "pool_treasure"
+          }
+        ]
+      },
+      "tl_title": "15.options.option_1.name",
+      "tl_description": "15.options.option_1.description"
+    },
+    "choice_startbuff_1": {
+      "id": "choice_startbuff_1",
+      "title": "更多补给品",
+      "description": "获得<@ro.get>3</>目标生命",
+      "type": "TRADE",
+      "nextSceneId": null,
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "hp"
+          }
+        ]
+      },
+      "tl_title": "24.options.option_3.name",
+      "tl_description": "24.options.option_3.description"
+    },
+    "choice_startbuff_2": {
+      "id": "choice_startbuff_2",
+      "title": "出发前演讲",
+      "description": "获得<@ro.get>2</>希望",
+      "type": "TRADE",
+      "nextSceneId": null,
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "population"
+          }
+        ]
+      },
+      "tl_title": "999.options.option_startbuff_2.name",
+      "tl_description": "999.options.option_startbuff_2.description"
+    },
+    "choice_startbuff_3": {
+      "id": "choice_startbuff_3",
+      "title": "储备金支援",
+      "description": "获得<@ro.get>5</>源石锭",
+      "type": "TRADE",
+      "nextSceneId": null,
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "gold"
+          }
+        ]
+      },
+      "tl_title": "29.options.option_2.name",
+      "tl_description": "29.options.option_2.description"
+    },
+    "choice_startbuff_4": {
+      "id": "choice_startbuff_4",
+      "title": "购买收藏品",
+      "description": "消耗<@ro.lose>所有</>源石锭，<@ro.get>获得</>一件随机收藏品",
+      "type": "TRADE",
+      "nextSceneId": null,
+      "icon": "relic",
+      "param": {
+        "rewards": [
+          {
+            "id": "pool_battle_1"
+          }
+        ]
+      },
+      "tl_title": "29.options.option_3.name",
+      "tl_description": "29.options.option_3.description"
+    },
+    "choice_startbuff_5": {
+      "id": "choice_startbuff_5",
+      "title": "回收战利品",
+      "description": "消耗<@ro.lose>1</>希望上限，<@ro.get>获得</>一件随机收藏品",
+      "type": "TRADE",
+      "nextSceneId": null,
+      "icon": "relic",
+      "param": {
+        "rewards": [
+          {
+            "id": "pool_battle_1"
+          }
+        ]
+      },
+      "tl_title": "24.options.option_1.name",
+      "tl_description": "24.options.option_1.description"
+    },
+    "choice_startbuff_6": {
+      "id": "choice_startbuff_6",
+      "title": "随手拿点啥",
+      "description": "<@ro.get>获得</>收藏品",
+      "type": "TRADE",
+      "nextSceneId": null,
+      "icon": null,
+      "param": {
+        "rewards": [
+          {
+            "id": "relic_177"
+          }
+        ]
+      },
+      "tl_title": "27.options.option_2.name",
+      "tl_description": "27.options.option_2.description"
+    }
+  },
+  "choiceScenes": {
+    "scene_1_enter": {
+      "id": "scene_1_enter",
+      "title": "扎营",
+      "description": "长途跋涉使队伍精疲力竭，你不得不选择停下脚步，扎营休憩，望着远方大地上的风景，想起那些还等着你们胜利消息的伙伴，这一切似乎都是值得的。",
+      "background": "rl_camp",
+      "tl_title": "10.name",
+      "tl_description": "10.description"
+
+    },
+    "scene_1_1": {
+      "id": "scene_1_1",
+      "title": "扎营",
+      "description": "你感到思绪安静了下来，某种如火的意志在你休息的时候无声燃烧。直到你重新睁眼，你知道自己准备好了。",
+      "background": "rl_camp",
+      "tl_title": "10.name",
+      "tl_description": "10.options.option_1.result"
+
+    },
+    "scene_2_enter": {
+      "id": "scene_2_enter",
+      "title": "罗德岛外勤",
+      "description": "你遇到了一队正在执行外勤勘察任务的罗德岛干员，你们互相问候了一下，对方很贴心的给你们分享了一些额外的补给物资。",
+      "background": "rl_messenger",
+      "tl_title": "25.name",
+      "tl_description": "25.description"
+    },
+    "scene_2_1": {
+      "id": "scene_2_1",
+      "title": "罗德岛外勤",
+      "description": "你接受了对方的好意，前方的路还很漫长。",
+      "background": "rl_messenger",
+      "tl_title": "25.name",
+      "tl_description": "25.options.option_1.result"
+    },
+    "scene_3_enter": {
+      "id": "scene_3_enter",
+      "title": "瘴气林地",
+      "description": "你看到了一片迷雾笼罩的密林，空气中充斥着刺鼻难闻的气味，透过令人窒息的瘴气，你看到远处树木环绕的泥坑中散落着一些货物，不知道是哪个倒霉蛋留在这里的。",
+      "background": "rl_forest",
+      "tl_title": "11.name",
+      "tl_description": "11.description"
+    },
+    "scene_3_1": {
+      "id": "scene_3_1",
+      "title": "瘴气林地",
+      "description": "刺鼻的迷雾腐蚀了你的皮肤，树林里的荆棘抽动着对你发起攻击，你现在明白为什么有人会把货物丢在这里了。",
+      "background": "rl_forest",
+      "tl_title": "11.name",
+      "tl_description": "11.options.option_1.result"
+    },
+    "scene_3_2": {
+      "id": "scene_3_2",
+      "title": "瘴气林地",
+      "description": "没有必要为了这点东西冒险。",
+      "background": "rl_forest",
+      "tl_title": "11.name",
+      "tl_description": "11.options.option_2.result"
+    },
+    "scene_4_enter": {
+      "id": "scene_4_enter",
+      "title": "旅行友商",
+      "description": "一支来自谢拉格的商队敲着铃铛，即使身在此处，遥远家乡的雪花似乎依旧庇护着他们。他们在一个并不寒冷的夜晚扎营停步，热闹的如同盛大集市。商队护卫发现了你的队伍，认出了你的身份，商队的主人向你举杯邀约。",
+      "background": "rl_camp",
+      "tl_title": "9.name",
+      "tl_description": "9.description"
+    },
+    "scene_4_1": {
+      "id": "scene_4_1",
+      "title": "旅行友商",
+      "description": "在推杯换盏间，友好的商贸也被双方敲定。天明时，你们礼貌地告别，这一场带着浪漫色彩的晚会为大家带来了不少好处。",
+      "background": "rl_camp",
+      "tl_title": "9.name",
+      "tl_description": "9.options.option_1.result"
+    },
+    "scene_4_2": {
+      "id": "scene_4_2",
+      "title": "旅行友商",
+      "description": "你知道肩负的重任，也知晓对方绝无恶意。但正因如此，你不能让这些平和的人们卷入你可能带来的麻烦里，这是探险家们都有的共识。",
+      "background": "rl_camp",
+      "tl_title": "9.name",
+      "tl_description": "9.options.option_2.result"
+    },
+    "scene_5_enter": {
+      "id": "scene_5_enter",
+      "title": "信使招募",
+      "description": "你抵达了一处信使驿站，来自各国各地的信使在此驻扎休憩。身处信息交叉的节点，为了适当调整战略布置与队伍构成，你决定委托一名合作方信使。",
+      "background": "rl_messenger",
+      "tl_title": "16.name",
+      "tl_description": "16.description"
+    },
+    "scene_5_1": {
+      "id": "scene_5_1",
+      "title": "信使招募",
+      "description": "峯驰物流有着最稳定最广泛的送货渠道。你很快就会得到你所希望的结果。",
+      "background": "rl_messenger",
+      "tl_title": "16.name",
+      "tl_description": "16.options.option_1.result"
+    },
+    "scene_5_2": {
+      "id": "scene_5_2",
+      "title": "信使招募",
+      "description": "更复杂的联络系统为干员们的调度提供了更多可能，金钱可以拓展很多的事物，而你深谙此道。",
+      "background": "rl_messenger",
+      "tl_title": "16.name",
+      "tl_description": "16.options.option_2.result"
+    },
+    "scene_5_3": {
+      "id": "scene_5_3",
+      "title": "信使招募",
+      "description": "没有时间在这里逗留，还有更多的事情要做。",
+      "background": "rl_messenger",
+      "tl_title": "16.name",
+      "tl_description": "16.options.option_3.result"
+    },
+    "scene_6_enter": {
+      "id": "scene_6_enter",
+      "title": "打群架现场",
+      "description": "你看到了一群长相凶恶身材魁梧的本地人在互相争吵，走进一看发现他们正在争论“谁才拥有雨林里最美丽的尾巴”，聊着聊着就大打出手，现场非常热闹。",
+      "background": "rl_fight",
+      "tl_title": "5.name",
+      "tl_description": "5.description"
+    },
+    "scene_6_1": {
+      "id": "scene_6_1",
+      "title": "打群架现场",
+      "description": "你开心地冲入了混战的人群，没什么事情比打架更有乐子了。",
+      "background": "rl_fight",
+      "tl_title": "5.name",
+      "tl_description": "5.options.option_1.result"
+    },
+    "scene_6_2": {
+      "id": "scene_6_2",
+      "title": "打群架现场",
+      "description": "为了这点事情都能吵起来，这么多年来，这群人是你见过的最无聊的人。",
+      "background": "rl_fight",
+      "tl_title": "5.name",
+      "tl_description": "5.options.option_2.result"
+    },
+    "scene_7_enter": {
+      "id": "scene_7_enter",
+      "title": "巨型骸骨",
+      "description": "你看到一块尺寸惊人的巨大头骨，任意一颗牙齿都比一辆车要大，整个头骨半埋在地下，头骨以下的部分似乎已经不知所踪。仅仅是目睹着眼前场景，你就感到大地的形象在你的脑海里骚动，你无法用“死亡”来描述这一消亡的遗产。这到底是什么生物？不，这是生物吗？",
+      "background": "rl_bone",
+      "tl_title": "8.name",
+      "tl_description": "8.description"
+    },
+    "scene_7_1": {
+      "id": "scene_7_1",
+      "title": "巨型骸骨",
+      "description": "它似乎还活着。不，它确实死了，或者说，不存在了。你看着骨架下的营地废墟，即使是这样伟大的存在，也不过是旅人们遮风挡雨的去处罢了。",
+      "background": "rl_bone",
+      "tl_title": "8.name",
+      "tl_description": "8.options.option_1.result"
+    },
+    "scene_7_2": {
+      "id": "scene_7_2",
+      "title": "巨型骸骨",
+      "description": "这片大地上曾经生活着这样的生物，他们都去哪儿了？",
+      "background": "rl_bone",
+      "tl_title": "8.name",
+      "tl_description": "8.options.option_2.result"
+    },
+    "scene_8_enter": {
+      "id": "scene_8_enter",
+      "title": "有故事的人",
+      "description": "你看到一个脏兮兮的男人一脸惆怅的坐在木桩上，身上的皮夹克少了一条袖子。你和他聊了几句，得知了他的故事：这个男人家乡的源石水泵损坏了，他为了寻找修复水泵的零件四处奔走，最后却因为感染了矿石病而被驱赶出家乡。",
+      "background": "rl_lostway",
+      "tl_title": "12.name",
+      "tl_description": "12.description"
+    },
+    "scene_8_1": {
+      "id": "scene_8_1",
+      "title": "有故事的人",
+      "description": "“我的故事已经结束了。”悲伤的男人将自己的武器交给了你，向着广袤的荒原走去，只留下了背影。",
+      "background": "rl_lostway",
+      "tl_title": "12.name",
+      "tl_description": "12.options.option_1.result"
+    },
+    "scene_9_enter": {
+      "id": "scene_9_enter",
+      "title": "战术补给",
+      "description": "你看到了一个标记着“罗德岛后勤”标志的巨大密码箱，看起来这是罗德岛提供给前线干员的战地补给，但是你不知道密码。保险箱巨大无比，重达两吨，几乎没法打开。",
+      "background": "rl_camp",
+      "tl_title": "30.name",
+      "tl_description": "30.description"
+    },
+    "scene_9_1": {
+      "id": "scene_9_1",
+      "title": "战术补给",
+      "description": "你想尽办法打开了密码箱，然而里面只有几个私人用品。此时赶到现场的两位精英干员用惊讶的眼光看着你。你意识到，也许不该动这个箱子。",
+      "background": "rl_camp",
+      "tl_title": "30.name",
+      "tl_description": "30.options.option_1.result"
+    },
+    "scene_9_2": {
+      "id": "scene_9_2",
+      "title": "战术补给",
+      "description": "躲在箱子的阴凉处，生活无比惬意。工作中偷懒也是一种态度。",
+      "background": "rl_camp",
+      "tl_title": "30.name",
+      "tl_description": "30.options.option_2.result"
+    },
+    "scene_10_enter": {
+      "id": "scene_10_enter",
+      "title": "强悍信使",
+      "description": "你看到一个体格壮硕，笑容爽朗的大汉扛着一头驮兽向你走来，上前询问之后你才知道原来他是一位信使，这只驮兽是儿子送给他的礼物，但是他认为驮兽走得太慢了。你意识到或许可以委托这位信使送信。",
+      "background": "rl_messenger",
+      "tl_title": "20.name",
+      "tl_description": "20.description"
+    },
+    "scene_10_1": {
+      "id": "scene_10_1",
+      "title": "强悍信使",
+      "description": "对方接下了你的委托，扛着驮兽扬长而去。",
+      "background": "rl_messenger",
+      "tl_title": "20.name",
+      "tl_description": "20.options.option_1.result"
+    },
+    "scene_10_2": {
+      "id": "scene_10_2",
+      "title": "强悍信使",
+      "description": "你额外向这位壮汉支付了一点小费，对方明白了你的意思，于是一个健步狂奔而去，只留下驮兽的忧伤的声音。",
+      "background": "rl_messenger",
+      "tl_title": "20.name",
+      "tl_description": "20.options.option_2.result"
+    },
+    "scene_11_enter": {
+      "id": "scene_11_enter",
+      "title": "呼救的少女",
+      "description": "你听到远处有什么人在呼救，走进一看发现是一位卡特斯少女被落下的金属重物压住了脚，她看到了你，急切地向你求助。为什么这种荒郊野岭会有一个落单的少女？",
+      "background": "rl_girl",
+      "tl_title": "7.name",
+      "tl_description": "7.description"
+    },
+    "scene_11_1": {
+      "id": "scene_11_1",
+      "title": "呼救的少女",
+      "description": "当你靠近之后，卡特斯少女一脸坏笑地站了起来，并且掏出了武器，随后废墟里钻出了一群彪形大汉。",
+      "background": "rl_girl",
+      "tl_title": "7.name",
+      "tl_description": "7.options.option_1.result"
+    },
+    "scene_11_2": {
+      "id": "scene_11_2",
+      "title": "呼救的少女",
+      "description": "看到你离去，对方骂骂咧咧地站了起来。果然还是谨慎一点好。",
+      "background": "rl_girl",
+      "tl_title": "7.name",
+      "tl_description": "7.options.option_2.result"
+    },
+    "scene_12_enter": {
+      "id": "scene_12_enter",
+      "title": "古怪的饮料机器",
+      "description": "你看到了一台锈蚀斑驳的奇怪机器，孤零零地矗立在荒地上，几乎全部脱落的表面涂装上写着“有五分之一的概率获得神秘奖品”的字样，然而很明显机器里的饮料已经卖完了，但是你不确定神秘奖品还在不在。",
+      "background": "rl_desert",
+      "tl_title": "13.name",
+      "tl_description": "13.description"
+    },
+    "scene_12_1": {
+      "id": "scene_12_1",
+      "title": "古怪的饮料机器",
+      "description": "机器显示“已售罄”，但是没有把钱还给你。",
+      "background": "rl_desert",
+      "tl_title": "13.name",
+      "tl_description": "13.options.option_1.on_fail_1"
+    },
+    "scene_12_2": {
+      "id": "scene_12_2",
+      "title": "古怪的饮料机器",
+      "description": "机器显示“已售罄”，但是没有把钱还给你。",
+      "background": "rl_desert",
+      "tl_title": "13.name",
+      "tl_description": "13.options.option_1.on_fail_1"
+    },
+    "scene_12_3": {
+      "id": "scene_12_3",
+      "title": "古怪的饮料机器",
+      "description": "机器显示“已售罄”，但是没有把钱还给你。",
+      "background": "rl_desert",
+      "tl_title": "13.name",
+      "tl_description": "13.options.option_1.on_fail_1"
+    },
+    "scene_12_4": {
+      "id": "scene_12_4",
+      "title": "古怪的饮料机器",
+      "description": "机器显示“已售罄”，但是没有把钱还给你。",
+      "background": "rl_desert",
+      "tl_title": "13.name",
+      "tl_description": "13.options.option_1.on_fail_1"
+    },
+    "scene_12_5": {
+      "id": "scene_12_5",
+      "title": "古怪的饮料机器",
+      "description": "机器在一阵剧烈的晃动后，吐出一个沉甸甸的金属罐子。",
+      "background": "rl_desert",
+      "tl_title": "13.name",
+      "tl_description": "13.options.option_1.on_success_1"
+    },
+    "scene_13_enter": {
+      "id": "scene_13_enter",
+      "title": "迷路的维多利亚骑士",
+      "description": "你遇到了一个维多利亚骑士，带着仆从在大地上游荡。不知为何他的仆从一边走，一边用两个椰子壳敲打出奇怪的响声。他向你询问是否听说过“神圣源石手榴弹”这个东西。",
+      "background": "rl_lostway",
+      "tl_title": "21.name",
+      "tl_description": "21.description"
+    },
+    "scene_13_1": {
+      "id": "scene_13_1",
+      "title": "迷路的维多利亚骑士",
+      "description": "对方感谢你的诚实，送你半个椰子壳，然后随便选了个方向走了。",
+      "background": "rl_lostway",
+      "tl_title": "21.name",
+      "tl_description": "21.options.option_1.result"
+    },
+    "scene_13_2": {
+      "id": "scene_13_2",
+      "title": "迷路的维多利亚骑士",
+      "description": "对方感谢你的指引，送你半个椰子壳，然后顺着你指的方向走了。",
+      "background": "rl_lostway",
+      "tl_title": "21.name",
+      "tl_description": "21.options.option_2.result"
+    },
+    "scene_13_3": {
+      "id": "scene_13_3",
+      "title": "迷路的维多利亚骑士",
+      "description": "对方愣了一下，瞎指了一个方向，然后带着仆从走了。",
+      "background": "rl_lostway",
+      "tl_title": "21.name",
+      "tl_description": "21.options.option_3.result"
+    },
+    "scene_14_enter": {
+      "id": "scene_14_enter",
+      "title": "怀表的传说",
+      "description": "黑暗的洞穴里住着一位疯癫的萨卡兹。他嘟囔着所有未曾发生过的事物，对着自己的影子拳打脚踢，他坚称自一个萨科塔取走了钥匙之后，所有的钟表就都失去了意义，它展示给你了一些坏掉的钟表，现在它们都卖不出去了！",
+      "background": "rl_watch",
+      "tl_title": "23.name",
+      "tl_description": "23.description"
+    },
+    "scene_14_1": {
+      "id": "scene_14_1",
+      "title": "怀表的传说",
+      "description": "钱这个东西啊，只有花出去才有意义......大概吧",
+      "background": "rl_watch",
+      "tl_title": "23.name",
+      "tl_description": "23.options.option_1.result"
+    },
+    "scene_14_2": {
+      "id": "scene_14_2",
+      "title": "怀表的传说",
+      "description": "“这个东西要是有用，我就把它吃了！”",
+      "background": "rl_watch",
+      "tl_title": "23.name",
+      "tl_description": "23.options.option_2.result"
+    },
+    "scene_15_enter": {
+      "id": "scene_15_enter",
+      "title": "锈锤之战",
+      "description": "你在萨尔贡的荒漠中吃力前行的时候遭遇了一支正在袭击贵族运输队伍的武装份子，这只名为锈锤的武装队伍仅仅看到你的装备和衣着就将你认作敌人。现在，他们的重弩对向了你。",
+      "background": "rl_desert",
+      "tl_title": "28.name",
+      "tl_description": "28.description"
+    },
+    "scene_15_1": {
+      "id": "scene_15_1",
+      "title": "锈锤之战",
+      "description": "罗德岛没有理由放任这些暴徒肆意妄为，何况他们的暴力已经指向了你。",
+      "background": "rl_desert",
+      "tl_title": "28.name",
+      "tl_description": "28.options.option_1.result"
+    },
+    "scene_15_2": {
+      "id": "scene_15_2",
+      "title": "锈锤之战",
+      "description": "你知道避开冲突的重要性，在所知情报过少的情况下，没必要和这些流窜四方的野蛮暴徒纠缠。",
+      "background": "rl_desert",
+      "tl_title": "28.name",
+      "tl_description": "28.options.option_2.result"
+    },
+    "scene_16_enter": {
+      "id": "scene_16_enter",
+      "title": "黑色庆典",
+      "description": "天色阴暗，空气低沉，你眺望地平线，一支混乱但是庞大的队伍正在缓慢前行，他们穿着黑色古怪的服饰，用原始的乐器演奏着不成韵律的歌曲，游行的人们嘟囔着你听不懂的语言，呼喊着口号。这就是萨卡兹人的黑色庆典，也是安魂节真正的起源。",
+      "background": "rl_blackmissa",
+      "tl_title": "14.name",
+      "tl_description": "14.description"
+    },
+    "scene_16_1": {
+      "id": "scene_16_1",
+      "title": "黑色庆典",
+      "description": "都说参加了黑色庆典的人会交上厄运，还是离开吧。",
+      "background": "rl_blackmissa",
+      "tl_title": "14.name",
+      "tl_description": "14.options.option_4.result"
+    },
+    "scene_16_2": {
+      "id": "scene_16_2",
+      "title": "黑色庆典",
+      "description": "一个血魔递给你一瓶难闻的药水。",
+      "background": "rl_blackmissa",
+      "tl_title": "14.name",
+      "tl_description": "999.options.option_16_2.result"
+    },
+    "scene_16_3": {
+      "id": "scene_16_3",
+      "title": "黑色庆典",
+      "description": "一个萨卡兹术士递给你一件畸形的挂坠。",
+      "background": "rl_blackmissa",
+      "tl_title": "999.options.scene_16_3.name",
+      "tl_description": "999.options.scene_16_3.result"
+    },
+    "scene_16_4": {
+      "id": "scene_16_4",
+      "title": "黑色庆典",
+      "description": "这是一首古怪的歌，你只能跟着哼出旋律，不知为何你突然下定决心。",
+      "background": "rl_blackmissa",
+      "tl_title": "999.options.scene_16_4.name",
+      "tl_description": "999.options.scene_16_4.result"
+    },
+    "scene_16_5": {
+      "id": "scene_16_5",
+      "title": "黑色庆典",
+      "description": "你接过了一个萨卡兹人递给你的饮料，饮料非常难喝，但是你感觉放松了不少。",
+      "background": "rl_blackmissa",
+      "tl_title": "999.options.scene_16_5.name",
+      "tl_description": "999.options.scene_16_5.result"
+    },
+    "scene_16_6": {
+      "id": "scene_16_6",
+      "title": "黑色庆典",
+      "description": "你与萨卡兹人一起跳舞，肢体动作与你刻意放松的精神交融变幻，等回过神来，不知为何有人在你的脚下丢了硬币。",
+      "background": "rl_blackmissa",
+      "tl_title": "999.options.scene_16_6.name",
+      "tl_description": "999.options.scene_16_6.result"
+    },
+    "scene_17_enter": {
+      "id": "scene_17_enter",
+      "title": "一只鸭子",
+      "description": "从昨天晚上你就感觉有什么人一直跟着你，但是每次你回头查看却什么都没看到，这也太不寻常了。在简单的埋伏之后你发现了跟踪者的真面目，一只衣着奇怪的.........鸭子？",
+      "background": "rl_duck",
+      "tl_title": "2.name",
+      "tl_description": "2.description"
+    },
+    "scene_17_1": {
+      "id": "scene_17_1",
+      "title": "一只鸭子",
+      "description": "先打一顿再说。",
+      "background": "rl_duck",
+      "tl_title": "2.name",
+      "tl_description": "2.options.option_1.result"
+    },
+    "scene_17_2": {
+      "id": "scene_17_2",
+      "title": "一只鸭子",
+      "description": "反正它不敢咬我。",
+      "background": "rl_duck",
+      "tl_title": "2.name",
+      "tl_description": "2.options.option_2.result"
+    },
+    "scene_18_enter": {
+      "id": "scene_18_enter",
+      "title": "还是一只鸭子",
+      "description": "有只鸭子现在冠冕堂皇地站在你的面前，你根本不知道他是怎么出现的，仿佛他一直就在你的身边。他对你夸夸其谈，让你不胜其烦。他说你们有个共同的朋友，但从他的举止上来说，他大概只想戏弄你，然后拖着箱子跑路。",
+      "background": "rl_duck",
+      "tl_title": "26.name",
+      "tl_description": "26.description"
+    },
+    "scene_18_1": {
+      "id": "scene_18_1",
+      "title": "还是一只鸭子",
+      "description": "你决定抓住他——等等，为什么他“跑”到那儿去了？不，这算“跑”吗？",
+      "background": "rl_duck",
+      "tl_title": "26.name",
+      "tl_description": "26.options.option_1.result"
+    },
+    "scene_18_2": {
+      "id": "scene_18_2",
+      "title": "还是一只鸭子",
+      "description": "你只是在快速思考你们共同的朋友会是谁。很不幸，这种浮夸傲慢自大的说话方式的确让你想起一个......值得尊敬的大老板。",
+      "background": "rl_duck",
+      "tl_title": "26.name",
+      "tl_description": "26.options.option_2.result"
+    },
+    "scene_19_enter": {
+      "id": "scene_19_enter",
+      "title": "一只......鸭子？",
+      "description": "你的面前......你看到那只鸭子不怀好意地嘲笑着你，这一次他背后站着一个魁梧的乌萨斯人，你的视野开始被鸭毛遮蔽，动弹不得，你听见水滴破碎的声响，你就像落入猎人陷阱的猎物，大汗淋漓......然后你被难听的笑声拖回了现实，那只鸭子朝你比了个手势，那个魁梧的乌萨斯人向你冲了过来。",
+      "background": "rl_duckandbear",
+      "tl_title": "31.name",
+      "tl_description": "31.description"
+    },
+    "scene_19_1": {
+      "id": "scene_19_1",
+      "title": "一只......鸭子？",
+      "description": "不知为何，你的确觉得追着他打是你们共同的义务。他很高兴陪你玩，并且表示这次会特地准备更丰厚的礼物，赚钱就是为了快乐的人生！",
+      "background": "rl_duckandbear",
+      "tl_title": "31.name",
+      "tl_description": "31.options.option_1.result"
+    },
+    "scene_19_2": {
+      "id": "scene_19_2",
+      "title": "一只......鸭子？",
+      "description": "说实话，你觉得你和这只鸭子真的没有什么矛盾，你至今仍能闻到芦苇荡特有的泥水味儿。也许这个“鸭子”没那么普通......",
+      "background": "rl_duckandbear",
+      "tl_title": "31.name",
+      "tl_description": "31.options.option_2.result"
+    },
+    "scene_20_enter": {
+      "id": "scene_20_enter",
+      "title": "“酒桌应酬”",
+      "description": "你在驿站中找到了几位同样跋山涉水的龙门近卫局成员，他们大都酩酊大醉，唯一清醒的那个请求你帮个小忙，而他答应会给你点报酬。你看着另一位已经开始赤裸高歌的近卫局成员，陷入了思考。",
+      "background": "rl_drunk",
+      "tl_title": "32.name",
+      "tl_description": "32.description"
+    },
+    "scene_20_1": {
+      "id": "scene_20_1",
+      "title": "“酒桌应酬”",
+      "description": "这费了你不少力气，事后那位近卫局成员偷偷塞给了你一个小挂坠。看着有点眼熟？",
+      "background": "rl_drunk",
+      "tl_title": "32.name",
+      "tl_description": "32.options.option_1.result"
+    },
+    "scene_20_2": {
+      "id": "scene_20_2",
+      "title": "“酒桌应酬”",
+      "description": "对方为了向他艺术道路上获得的第一缕喝彩表示敬意，他把他的钱包扔给了你，但愿他不要后悔。",
+      "background": "rl_drunk",
+      "tl_title": "32.name",
+      "tl_description": "32.options.option_2.result"
+    },
+    "scene_21_enter": {
+      "id": "scene_21_enter",
+      "title": "疲惫督查之旅",
+      "description": "你面前站着一名近卫局成员，也许是督查之类的，戴着眼镜，文质彬彬。他几次想要开口都欲言又止，你隔着眼镜都能感觉到他眼神里的尴尬，最后他告诉你，他在寻找几位出差出到了无音讯的同事。他请求你的帮助，并答应准备一些必要的酬劳。",
+      "background": "rl_camp",
+      "tl_title": "33.name",
+      "tl_description": "33.description"
+    },
+    "scene_21_1": {
+      "id": "scene_21_1",
+      "title": "疲惫督查之旅",
+      "description": "负责人抚了抚眼镜，他脸上的表情让你确信这两件事之间有联系。他给了你不少钱，让你不要声张此事。",
+      "background": "rl_camp",
+      "tl_title": "33.name",
+      "tl_description": "33.options.option_1.result"
+    },
+    "scene_21_2": {
+      "id": "scene_21_2",
+      "title": "疲惫督查之旅",
+      "description": "额外的调查花了不少时间，不过你也因此得到了对方的赏识，以及，一些人手。这就是双赢。",
+      "background": "rl_camp",
+      "tl_title": "33.name",
+      "tl_description": "33.options.option_2.result"
+    },
+    "scene_21_3": {
+      "id": "scene_21_3",
+      "title": "疲惫督查之旅",
+      "description": "你当然没有义务去处理什么烂醉的近卫局成员，还不如用这个时间让干员们好好睡上一觉，对吧？",
+      "background": "rl_camp",
+      "tl_title": "33.name",
+      "tl_description": "33.options.option_3.result"
+    },
+    "scene_22_enter": {
+      "id": "scene_22_enter",
+      "title": "不存在的童话·Ⅰ",
+      "description": "你在荒野上遭遇了一名重伤的赏金猎人，很奇怪，他死死握住的不是通缉令或是藏宝图，而是一张古怪的商店传单。他将金币放在了你的手上，但还没来得及说些什么就咽了气。",
+      "background": "rl_tale1",
+      "tl_title": "3.name",
+      "tl_description": "3.description"
+    },
+    "scene_22_1": {
+      "id": "scene_22_1",
+      "title": "不存在的童话·Ⅰ",
+      "description": "为了在这荒郊野岭合乎礼仪地安葬对方，你被方圆数百里内唯一的村落好好敲诈了一番。",
+      "background": "rl_tale1",
+      "tl_title": "3.name",
+      "tl_description": "3.options.option_1.result"
+    },
+    "scene_22_2": {
+      "id": "scene_22_2",
+      "title": "不存在的童话·Ⅰ",
+      "description": "他给了你金币，那为什么不拿去换钱呢？所以你真的这么做了。",
+      "background": "rl_tale1",
+      "tl_title": "3.name",
+      "tl_description": "3.options.option_2.result"
+    },
+    "scene_23_enter": {
+      "id": "scene_23_enter",
+      "title": "不存在的童话·Ⅱ",
+      "description": "你沿着赏金猎人的血迹一路深入，发现了几辆遭到残酷破坏的废弃载具，遍地都是雇佣兵与赏金猎人交战的痕迹，很显然，这里充满危险，而危险意味着财富的气息。",
+      "background": "rl_tale2",
+      "tl_title": "4.name",
+      "tl_description": "4.description"
+    },
+    "scene_23_1": {
+      "id": "scene_23_1",
+      "title": "不存在的童话·Ⅱ",
+      "description": "穿过一片狼藉的交战现场，你看到了一个掩藏在废弃车辆后的地道，你不确定地道里有什么，但是危险肯定少不了。",
+      "background": "rl_tale2",
+      "tl_title": "4.name",
+      "tl_description": "4.options.option_1.result"
+    },
+    "scene_23_2": {
+      "id": "scene_23_2",
+      "title": "不存在的童话·Ⅱ",
+      "description": "你意识到这里到处都是赏金猎人埋下的陷阱，或许继续前进只能让自己遍体鳞伤。",
+      "background": "rl_tale2",
+      "tl_title": "999.options.option_scene_23_2.name",
+      "tl_description": "999.options.option_scene_23_2.result"
+    },
+    "scene_23_3": {
+      "id": "scene_23_3",
+      "title": "不存在的童话·Ⅱ",
+      "description": "在不远处的碎石堆里，你看到了一个很难被察觉的标记，在简单的挖掘后，你得到了一张奇怪的藏宝图。",
+      "background": "rl_tale2",
+      "tl_title": "999.options.option_scene_23_3.name",
+      "tl_description": "999.options.option_scene_23_3.result"
+    },
+    "scene_23_4": {
+      "id": "scene_23_4",
+      "title": "不存在的童话·Ⅱ",
+      "description": "也许你继承了那位赏金猎人的浪漫冒险精神，也许你只是求知欲或是贪婪作祟，总之，你依旧选择坚持到底。",
+      "background": "rl_tale2",
+      "tl_title": "999.options.option_scene_23_4.name",
+      "tl_description": "999.options.option_scene_23_4.result"
+    },
+    "scene_23_5": {
+      "id": "scene_23_5",
+      "title": "不存在的童话·Ⅱ",
+      "description": "也许这里什么都没有？赏金猎人的生活本就是如此，你没必要步其后尘。",
+      "background": "rl_tale2",
+      "tl_title": "999.options.option_scene_23_5.name",
+      "tl_description": "999.options.option_scene_23_5.result"
+    },
+    "scene_24_enter": {
+      "id": "scene_24_enter",
+      "title": "不存在的童话·Ⅲ",
+      "description": "藏宝图上写着的城市名和商店名都是虚构的，按照坐标绕了一个圈，最后还是只有芭蕉树林！这些地名似乎是某个萨米儿歌中才会出现的呓语，你琢磨着上面的语句，不知为何，气温开始变低了。",
+      "background": "rl_tale34",
+      "tl_title": "34.name",
+      "tl_description": "34.description"
+    },
+    "scene_24_1": {
+      "id": "scene_24_1",
+      "title": "不存在的童话·Ⅲ",
+      "description": "你发现了一座看不见的城市和一个看不见的人——他们只存在于这些碎片线索之中，你意识到这也许是一个陷阱，或是，一个寒冷幽灵的讯号。",
+      "background": "rl_tale3",
+      "tl_title": "34.name",
+      "tl_description": "34.description"
+    },
+    "scene_25_enter": {
+      "id": "scene_25_enter",
+      "title": "死斗之后",
+      "description": "在一片荒野之中，你看到了很多全副武装的雇佣兵倒在一片狼藉中，所有人都失去了生命气息。你快速的检查了这些倒霉蛋，发现一个又重又大的铁皮箱子，铁皮箱子上挂着无比结实的锁，但是你没有找到钥匙。",
+      "background": "rl_case",
+      "tl_title": "35.name",
+      "tl_description": "35.description"
+    },
+    "scene_25_1": {
+      "id": "scene_25_1",
+      "title": "死斗之后",
+      "description": "你回头看了一眼倒下的人，再看看手中的铁皮箱子，你有一种不好的预感。",
+      "background": "rl_case",
+      "tl_title": "35.name",
+      "tl_description": "35.options.option_1.result"
+    },
+    "scene_25_2": {
+      "id": "scene_25_2",
+      "title": "死斗之后",
+      "description": "虽然人们对城市生活多有抱怨，但是离开城市，就会有这种事情。",
+      "background": "rl_case",
+      "tl_title": "35.name",
+      "tl_description": "35.options.option_2.result"
+    },
+    "scene_26_enter": {
+      "id": "scene_26_enter",
+      "title": "灾祸将至",
+      "description": "你把黑色钥匙插入了铁皮箱的锁孔内，巨大铁锁应声而开，然而箱子里的东西让你不寒而栗，你看到一只断手紧握着一把拉特兰守护铳，断手已经变成了白骨。无论你怎么做都无法将它从武器上移除。你似乎在无意中深陷一场可怕的阴谋。",
+      "background": "rl_gun",
+      "tl_title": "36.name",
+      "tl_description": "36.description"
+    },
+    "scene_26_1": {
+      "id": "scene_26_1",
+      "title": "灾祸将至",
+      "description": "你多少听说过，远离移动城邦之外的荒地上。罪恶与欲望滋生蔓延，纯粹的暴力将伴随你左右。这一次你无法置身事外。",
+      "background": "rl_gun",
+      "tl_title": "36.name",
+      "tl_description": "36.options.option_1.result"
+    },
+    "scene_26_2": {
+      "id": "scene_26_2",
+      "title": "灾祸将至",
+      "description": "你将铁皮箱与箱子里的东西全都丢进了垃圾桶。虽然你惹上了不小的麻烦，但是现在抽身还不算晚。",
+      "background": "rl_gun",
+      "tl_title": "36.name",
+      "tl_description": "36.options.option_2.result"
+    },
+    "scene_27_enter": {
+      "id": "scene_27_enter",
+      "title": "一台烤面包机",
+      "description": "你看到了一台翻倒的驮兽货车，车夫与驮兽都不知所踪，货车上面什么都没有，只有一台锈迹斑斑的烤面包机。在烈日的照耀下，你发现烤面包机里有什么东西在反光。",
+      "background": "rl_desert",
+      "tl_title": "18.name",
+      "tl_description": "18.description"
+    },
+    "scene_27_1": {
+      "id": "scene_27_1",
+      "title": "一台烤面包机",
+      "description": "你发现面包机里藏着不少值钱的玩意儿，难道说在荒地上生活还得掌握修理烤面包机的技巧？",
+      "background": "rl_desert",
+      "tl_title": "18.name",
+      "tl_description": "18.options.option_1.result"
+    },
+    "scene_28_enter": {
+      "id": "scene_28_enter",
+      "title": "讲故事的人",
+      "description": "在夜色的掩护下，你支起了营帐。你的对面坐着一位特殊的路人，他自称“讲故事的人”，向你分享了很多有趣的故事：“在极北的冰原上，古老温迪戈血脉的战士为了祖国抗击扭曲可怖的邪魔……”、“在宏伟的高塔下，双子的公主击败了邪恶的巫王，拯救了她们的人民。”、“在黄金之城被大静谧笼罩时，秉持信仰的人挺身而出……”、“在一个渺无人烟的火山口里，住着一个锡人......”",
+      "background": "rl_camp",
+      "tl_title": "22.name",
+      "tl_description": "22.description"
+    },
+    "scene_28_1": {
+      "id": "scene_28_1",
+      "title": "讲故事的人",
+      "description": "这片大地充斥着残酷无情与冷漠，但是在满目疮痍的背后，也不缺少这些充斥力量与人性的故事。这些故事是真的么？",
+      "background": "rl_camp",
+      "tl_title": "22.name",
+      "tl_description": "22.options.option_1.result"
+    },
+    "scene_rest_enter": {
+      "id": "scene_rest_enter",
+      "title": "安全屋",
+      "description": "罗德岛在各地区的设施都有专门人员维护，从出发之日至今，你们遭遇的恶劣环境、强大的敌人以及光怪陆离的事件数不胜数，是时候砥砺刀刃，修补装备，总结经验，以迎接更大的挑战了。",
+      "background": "rl_rhodes",
+      "tl_title": "17.name",
+      "tl_description": "17.description"
+    },
+    "scene_rest_1": {
+      "id": "scene_rest_1",
+      "title": "安全屋",
+      "description": "你们度过了一个安静舒适的夜晚，泰拉大地的日历又翻过了一页。",
+      "background": "rl_rhodes",
+      "tl_title": "17.name",
+      "tl_description": "17.options.option_3.result"
+    },
+    "scene_rest_2": {
+      "id": "scene_rest_2",
+      "title": "安全屋",
+      "description": "泰拉大地上充满不可预料的风险，现在还不是安心休息的时候。",
+      "background": "rl_rhodes",
+      "tl_title": "17.name",
+      "tl_description": "17.options.option_1.result"
+    },
+    "scene_rest_3": {
+      "id": "scene_rest_3",
+      "title": "安全屋",
+      "description": "你讲述着一些鼓舞人心的往事，偶尔夹杂着一些幽默的故事，你们对接下来的冒险保持乐观。",
+      "background": "rl_rhodes",
+      "tl_title": "17.name",
+      "tl_description": "17.options.option_2.result"
+    },
+    "scene_rest_4": {
+      "id": "scene_rest_4",
+      "title": "安全屋",
+      "description": "你清点了目前的补给品，重新整理了队伍构成，似乎还有增加人手的余地。",
+      "background": "rl_rhodes",
+      "tl_title": "17.name",
+      "tl_description": "19.options.option_1.result"
+    },
+    "scene_c1_enter": {
+      "id": "scene_c1_enter",
+      "title": "源石虫赛跑",
+      "description": "你看到一群荒地居民围绕着用废旧铁皮与木头搭建的围栏边大吼大叫，笼子上写着“源石虫赛跑”。荒地居民们正在给笼子里的源石虫下注，一个丑陋的黎博利人问你要不要碰碰运气？",
+      "background": "rl_race",
+      "tl_title": "1.name",
+      "tl_description": "1.description"
+    },
+    "scene_c1_1": {
+      "id": "scene_c1_1",
+      "title": "源石虫赛跑",
+      "description": "一种奇妙的力量促使你重新回到了下注台前。",
+      "background": "rl_race",
+      "tl_title": "1.name",
+      "tl_description": "1.options.option_1.name"
+    },
+    "scene_c1_2": {
+      "id": "scene_c1_2",
+      "title": "源石虫赛跑",
+      "description": "你选了一只源石虫，这只虫子很普通地跑完了全程，虽然不是最后一名，但你还是亏了。",
+      "background": "rl_race",
+      "tl_title": "1.name",
+      "tl_description": "1.options.option_1.on_success_1"
+    },
+    "scene_c1_3": {
+      "id": "scene_c1_3",
+      "title": "源石虫赛跑",
+      "description": "你选了一只源石虫，这只敏捷的虫子跑得飞快，获得了不错的名次，至少没亏！",
+      "background": "rl_race",
+      "tl_title": "1.name",
+      "tl_description": "1.options.option_1.on_success_2"
+    },
+    "scene_c1_4": {
+      "id": "scene_c1_4",
+      "title": "源石虫赛跑",
+      "description": "你选了一只源石虫，这只暴躁的虫子并没有参与比赛，而是将在场的所有源石虫都打了一顿，场面一度非常混乱，你感到很开心。",
+      "background": "rl_race",
+      "tl_title": "1.name",
+      "tl_description": "1.options.option_1.on_success_3"
+    },
+    "scene_c1_5": {
+      "id": "scene_c1_5",
+      "title": "源石虫赛跑",
+      "description": "你选了一只源石虫，这只虫子非常狡猾，它通过抄近道等作弊手段成为了第一名，你获得了这次比赛的奖品。",
+      "background": "rl_race",
+      "tl_title": "1.name",
+      "tl_description": "1.options.option_1.on_success_4"
+    },
+    "scene_c1_6": {
+      "id": "scene_c1_6",
+      "title": "源石虫赛跑",
+      "description": "你选了一只源石虫，然而这只胖大的虫子基本上懒得动弹，毫无悬念地输掉了比赛。",
+      "background": "rl_race",
+      "tl_title": "1.name",
+      "tl_description": "1.options.option_1.on_success_5"
+    },
+    "scene_c1_7": {
+      "id": "scene_c1_7",
+      "title": "源石虫赛跑",
+      "description": "旁边的荒地人开始辱骂对方为“作弊者”，很快辱骂变成了拳脚相向，现场一片混乱。",
+      "background": "rl_race",
+      "tl_title": "1.name",
+      "tl_description": "1.options.option_1.on_success_6"
+    },
+    "scene_c1_8": {
+      "id": "scene_c1_8",
+      "title": "源石虫赛跑",
+      "description": "你盯着它们十分钟了，这些源石虫才爬了赛道的一半，你还有更重要的事情要做......",
+      "background": "rl_race",
+      "tl_title": "1.name",
+      "tl_description": "1.options.option_2.result"
+    },
+    "scene_c2_enter": {
+      "id": "scene_c2_enter",
+      "title": "古怪推销员",
+      "description": "你看到一个穿着脏兮兮正装的札拉克人站在一大堆盒子上面向荒地人兜售他的商品，这个男人宣称这些盒子都是他通过“特殊渠道”弄来的稀有货物。但是你发现这些盒子都印着哥伦比亚大型军事承包商与物流公司的商标......",
+      "background": "rl_gatcha",
+      "tl_title": "999.options.option_scene_c2_enter.name",
+      "tl_description": "999.options.option_scene_c2_enter.result"
+    },
+    "scene_c2_1": {
+      "id": "scene_c2_1",
+      "title": "古怪推销员",
+      "description": "虽然总觉得哪里不对，但是你还是从抽盒子中获得了一点乐趣。",
+      "background": "rl_gatcha",
+      "tl_title": "999.options.option_scene_c2_1.name",
+      "tl_description": "999.options.option_scene_c2_1.result"
+    },
+    "scene_c2_2": {
+      "id": "scene_c2_2",
+      "title": "古怪推销员",
+      "description": "盒子里装着一些有用的道具，你赚了！他亏了！",
+      "background": "rl_gatcha",
+      "tl_title": "999.options.option_scene_c2_2.name",
+      "tl_description": "999.options.option_scene_c2_2.result"
+    },
+    "scene_c2_3": {
+      "id": "scene_c2_3",
+      "title": "古怪推销员",
+      "description": "盒子里只有一些可疑的试剂和毫无用处的机械零件，你感觉很失望。",
+      "background": "rl_gatcha",
+      "tl_title": "999.options.option_scene_c2_3.name",
+      "tl_description": "999.options.option_scene_c2_3.result"
+    },
+    "scene_c2_4": {
+      "id": "scene_c2_4",
+      "title": "古怪推销员",
+      "description": "这些东西来路不明，很有问题......",
+      "background": "rl_gatcha",
+      "tl_title": "999.options.option_scene_c2_4.name",
+      "tl_description": "999.options.option_scene_c2_4.result"
+    },
+    "scene_blackm_enter": {
+      "id": "scene_blackm_enter",
+      "title": "喝酒大赛",
+      "description": "众所周知，和杜林人拼酒不会有什么好下场。我是说，他们会发酒疯。",
+      "background": "rl_beer",
+      "tl_title": "6.name",
+      "tl_description": "6.description"
+    },
+    "scene_blackm_1": {
+      "id": "scene_blackm_1",
+      "title": "喝酒大赛",
+      "description": "你的勇气获得了其他人的喝彩，他们给了你一点钱币。",
+      "background": "rl_beer",
+      "tl_title": "6.name",
+      "tl_description": "6.options.option_1.result"
+    },
+    "scene_blackm_2": {
+      "id": "scene_blackm_2",
+      "title": "喝酒大赛",
+      "description": "你的大口豪饮赢得了杜林人的欢呼，他们赠送了你一些礼物。",
+      "background": "rl_beer",
+      "tl_title": "6.name",
+      "tl_description": "6.options.option_2.result"
+    },
+    "scene_blackm_3": {
+      "id": "scene_blackm_3",
+      "title": "喝酒大赛",
+      "description": "杜林人目瞪口呆，对你的酒量表达了惊讶，你赢得了你的奖品。",
+      "background": "rl_beer",
+      "tl_title": "6.name",
+      "tl_description": "6.options.option_3.result"
+    },
+    "scene_blackm_4": {
+      "id": "scene_blackm_4",
+      "title": "喝酒大赛",
+      "description": "你留下杜林人继续狂欢，转身离开了。",
+      "background": "rl_beer",
+      "tl_title": "6.name",
+      "tl_description": "6.options.option_4.result"
+    },
+    "scene_treasure_enter": {
+      "id": "scene_treasure_enter",
+      "title": "补给品",
+      "description": "一位友善的本地人的馈赠、一箱无人认领的货物、一个半埋在土里的保险箱、一大片损坏的工业残骸......你获得了一件补给，最重要的是，它们是免费的。",
+      "background": "rl_relic",
+      "tl_title": "15.name",
+      "tl_description": "15.description"
+    },
+    "scene_treasure_1": {
+      "id": "scene_treasure_1",
+      "title": "补给品",
+      "description": "天上掉馅饼的事情是存在的，别想那么多，欣然接受吧。",
+      "background": "rl_relic",
+      "tl_title": "15.name",
+      "tl_description": "15.options.option_1.result"
+    },
+    "scene_startbuff_enter": {
+      "id": "scene_startbuff_enter",
+      "title": "行动奖励",
+      "description": "你的上一次冒险突破了至少两层困难，这一次可以获得来自罗德岛的更多支援。",
+      "background": "rl_rhodes",
+      "tl_title": "24.name",
+      "tl_description": "24.description"
+    }
+  }
+}
