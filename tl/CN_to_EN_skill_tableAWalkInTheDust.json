@@ -6913,110 +6913,6 @@
             "description": "Immediately seek enemies with the lowest HP ahead and carry out <@ba.vup>{times}</> Arts slashes, each hit dealing <@ba.vup>{atk_scale:0%}</> Arts damage (the last hit deals doubled <@ba.vup>True damage</>). For every enemy killed by the Arts slashes, gain <@ba.vup>+{amiya2_s_2[kill].atk:0%}</> ATK and <@ba.vup>+{amiya2_s_2[kill].magic_resistance}</> Arts Resistance (up to <@ba.vup>{amiya2_s_2[kill].max_stack_cnt}</> stacks). Attacks deal <@ba.vup>True damage</> for the remainder of the skill duration. <@ba.rem>Can only be used once in the same battle</>"
         }
     ],
-    "skchr_akafyu_1": [
-        {
-            "name": "Shinkage-ryu · Kaminari Gatana no Zei",
-            "level": 1,
-            "description": "Reduce Block Count to 0, ATK <@ba.vup>+{atk:0%}</>. Attacks deal 2 hits"
-        },
-        {
-            "name": "Shinkage-ryu · Kaminari Gatana no Zei",
-            "level": 2,
-            "description": "Reduce Block Count to 0, ATK <@ba.vup>+{atk:0%}</>. Attacks deal 2 hits"
-        },
-        {
-            "name": "Shinkage-ryu · Kaminari Gatana no Zei",
-            "level": 3,
-            "description": "Reduce Block Count to 0, ATK <@ba.vup>+{atk:0%}</>. Attacks deal 2 hits"
-        },
-        {
-            "name": "Shinkage-ryu · Kaminari Gatana no Zei",
-            "level": 4,
-            "description": "Reduce Block Count to 0, ATK <@ba.vup>+{atk:0%}</>. Attacks deal 2 hits"
-        },
-        {
-            "name": "Shinkage-ryu · Kaminari Gatana no Zei",
-            "level": 5,
-            "description": "Reduce Block Count to 0, ATK <@ba.vup>+{atk:0%}</>. Attacks deal 2 hits"
-        },
-        {
-            "name": "Shinkage-ryu · Kaminari Gatana no Zei",
-            "level": 6,
-            "description": "Reduce Block Count to 0, ATK <@ba.vup>+{atk:0%}</>. Attacks deal 2 hits"
-        },
-        {
-            "name": "Shinkage-ryu · Kaminari Gatana no Zei",
-            "level": 7,
-            "description": "Reduce Block Count to 0, ATK <@ba.vup>+{atk:0%}</>. Attacks deal 2 hits"
-        },
-        {
-            "name": "Shinkage-ryu · Kaminari Gatana no Zei",
-            "level": 8,
-            "description": "Reduce Block Count to 0, ATK <@ba.vup>+{atk:0%}</>. Attacks deal 2 hits"
-        },
-        {
-            "name": "Shinkage-ryu · Kaminari Gatana no Zei",
-            "level": 9,
-            "description": "Reduce Block Count to 0, ATK <@ba.vup>+{atk:0%}</>. Attacks deal 2 hits"
-        },
-        {
-            "name": "Shinkage-ryu · Kaminari Gatana no Zei",
-            "level": 10,
-            "description": "Reduce Block Count to 0, ATK <@ba.vup>+{atk:0%}</>. Attacks deal 2 hits"
-        }
-    ],
-    "skchr_akafyu_2": [
-        {
-            "name": "Shinkage-ryu · Juumonji Masaru",
-            "level": 1,
-            "description": "Immediately lose <@ba.vdown>{hp_ratio:0%}</> current HP and gain 1 layer of <$ba.shield>Shield</> (disappears when the skill ends). ATK <@ba.vup>+{atk:0%}</>, DEF <@ba.vup>+{def:0%}</>"
-        },
-        {
-            "name": "Shinkage-ryu · Juumonji Masaru",
-            "level": 2,
-            "description": "Immediately lose <@ba.vdown>{hp_ratio:0%}</> current HP and gain 1 layer of <$ba.shield>Shield</> (disappears when the skill ends). ATK <@ba.vup>+{atk:0%}</>, DEF <@ba.vup>+{def:0%}</>"
-        },
-        {
-            "name": "Shinkage-ryu · Juumonji Masaru",
-            "level": 3,
-            "description": "Immediately lose <@ba.vdown>{hp_ratio:0%}</> current HP and gain 1 layer of <$ba.shield>Shield</> (disappears when the skill ends). ATK <@ba.vup>+{atk:0%}</>, DEF <@ba.vup>+{def:0%}</>"
-        },
-        {
-            "name": "Shinkage-ryu · Juumonji Masaru",
-            "level": 4,
-            "description": "Immediately lose <@ba.vdown>{hp_ratio:0%}</> current HP and gain 1 layer of <$ba.shield>Shield</> (disappears when the skill ends). ATK <@ba.vup>+{atk:0%}</>, DEF <@ba.vup>+{def:0%}</>"
-        },
-        {
-            "name": "Shinkage-ryu · Juumonji Masaru",
-            "level": 5,
-            "description": "Immediately lose <@ba.vdown>{hp_ratio:0%}</> current HP and gain 1 layer of <$ba.shield>Shield</> (disappears when the skill ends). ATK <@ba.vup>+{atk:0%}</>, DEF <@ba.vup>+{def:0%}</>"
-        },
-        {
-            "name": "Shinkage-ryu · Juumonji Masaru",
-            "level": 6,
-            "description": "Immediately lose <@ba.vdown>{hp_ratio:0%}</> current HP and gain 1 layer of <$ba.shield>Shield</> (disappears when the skill ends). ATK <@ba.vup>+{atk:0%}</>, DEF <@ba.vup>+{def:0%}</>"
-        },
-        {
-            "name": "Shinkage-ryu · Juumonji Masaru",
-            "level": 7,
-            "description": "Immediately lose <@ba.vdown>{hp_ratio:0%}</> current HP and gain 1 layer of <$ba.shield>Shield</> (disappears when the skill ends). ATK <@ba.vup>+{atk:0%}</>, DEF <@ba.vup>+{def:0%}</>"
-        },
-        {
-            "name": "Shinkage-ryu · Juumonji Masaru",
-            "level": 8,
-            "description": "Immediately lose <@ba.vdown>{hp_ratio:0%}</> current HP and gain 1 layer of <$ba.shield>Shield</> (disappears when the skill ends). ATK <@ba.vup>+{atk:0%}</>, DEF <@ba.vup>+{def:0%}</>"
-        },
-        {
-            "name": "Shinkage-ryu · Juumonji Masaru",
-            "level": 9,
-            "description": "Immediately lose <@ba.vdown>{hp_ratio:0%}</> current HP and gain 1 layer of <$ba.shield>Shield</> (disappears when the skill ends). ATK <@ba.vup>+{atk:0%}</>, DEF <@ba.vup>+{def:0%}</>"
-        },
-        {
-            "name": "Shinkage-ryu · Juumonji Masaru",
-            "level": 10,
-            "description": "Immediately lose <@ba.vdown>{hp_ratio:0%}</> current HP and gain 1 layer of <$ba.shield>Shield</> (disappears when the skill ends). ATK <@ba.vup>+{atk:0%}</>, DEF <@ba.vup>+{def:0%}</>"
-        }
-    ],
     "skchr_bluep_1": [
         {
             "name": "Double Shot·Auto",
@@ -11753,52 +11649,52 @@
         {
             "name": "Signal Arrow",
             "level": 1,
-            "description": "立即标记一个敌方单位（优先重量较重的萨卡兹种族敌人）使其更容易受到我方的攻击且防御力<@ba.vup>{def:0%}</>。每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害。"
+            "description": "Immediately mark an enemy unit (prioritize heavier [Sarkaz] enemies), increasing their Taunt level and inflicting <@ba.vup>{def:0%}</> DEF. Attacks deal <@ba.vup>{atk_scale:0%}</> Physical damage"
         },
         {
             "name": "Signal Arrow",
             "level": 2,
-            "description": "立即标记一个敌方单位（优先重量较重的萨卡兹种族敌人）使其更容易受到我方的攻击且防御力<@ba.vup>{def:0%}</>。每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害。"
+            "description": "Immediately mark an enemy unit (prioritize heavier [Sarkaz] enemies), increasing their Taunt level and inflicting <@ba.vup>{def:0%}</> DEF. Attacks deal <@ba.vup>{atk_scale:0%}</> Physical damage"
         },
         {
             "name": "Signal Arrow",
             "level": 3,
-            "description": "立即标记一个敌方单位（优先重量较重的萨卡兹种族敌人）使其更容易受到我方的攻击且防御力<@ba.vup>{def:0%}</>。每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害。"
+            "description": "Immediately mark an enemy unit (prioritize heavier [Sarkaz] enemies), increasing their Taunt level and inflicting <@ba.vup>{def:0%}</> DEF. Attacks deal <@ba.vup>{atk_scale:0%}</> Physical damage"
         },
         {
             "name": "Signal Arrow",
             "level": 4,
-            "description": "立即标记一个敌方单位（优先重量较重的萨卡兹种族敌人）使其更容易受到我方的攻击且防御力<@ba.vup>{def:0%}</>。每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害。"
+            "description": "Immediately mark an enemy unit (prioritize heavier [Sarkaz] enemies), increasing their Taunt level and inflicting <@ba.vup>{def:0%}</> DEF. Attacks deal <@ba.vup>{atk_scale:0%}</> Physical damage"
         },
         {
             "name": "Signal Arrow",
             "level": 5,
-            "description": "立即标记一个敌方单位（优先重量较重的萨卡兹种族敌人）使其更容易受到我方的攻击且防御力<@ba.vup>{def:0%}</>。每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害。"
+            "description": "Immediately mark an enemy unit (prioritize heavier [Sarkaz] enemies), increasing their Taunt level and inflicting <@ba.vup>{def:0%}</> DEF. Attacks deal <@ba.vup>{atk_scale:0%}</> Physical damage"
         },
         {
             "name": "Signal Arrow",
             "level": 6,
-            "description": "立即标记一个敌方单位（优先重量较重的萨卡兹种族敌人）使其更容易受到我方的攻击且防御力<@ba.vup>{def:0%}</>。每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害。"
+            "description": "Immediately mark an enemy unit (prioritize heavier [Sarkaz] enemies), increasing their Taunt level and inflicting <@ba.vup>{def:0%}</> DEF. Attacks deal <@ba.vup>{atk_scale:0%}</> Physical damage"
         },
         {
             "name": "Signal Arrow",
             "level": 7,
-            "description": "立即标记一个敌方单位（优先重量较重的萨卡兹种族敌人）使其更容易受到我方的攻击且防御力<@ba.vup>{def:0%}</>。每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害。"
+            "description": "Immediately mark an enemy unit (prioritize heavier [Sarkaz] enemies), increasing their Taunt level and inflicting <@ba.vup>{def:0%}</> DEF. Attacks deal <@ba.vup>{atk_scale:0%}</> Physical damage"
         },
         {
             "name": "Signal Arrow",
             "level": 8,
-            "description": "立即标记一个敌方单位（优先重量较重的萨卡兹种族敌人）使其更容易受到我方的攻击且防御力<@ba.vup>{def:0%}</>。每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害。"
+            "description": "Immediately mark an enemy unit (prioritize heavier [Sarkaz] enemies), increasing their Taunt level and inflicting <@ba.vup>{def:0%}</> DEF. Attacks deal <@ba.vup>{atk_scale:0%}</> Physical damage"
         },
         {
             "name": "Signal Arrow",
             "level": 9,
-            "description": "立即标记一个敌方单位（优先重量较重的萨卡兹种族敌人）使其更容易受到我方的攻击且防御力<@ba.vup>{def:0%}</>。每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害。"
+            "description": "Immediately mark an enemy unit (prioritize heavier [Sarkaz] enemies), increasing their Taunt level and inflicting <@ba.vup>{def:0%}</> DEF. Attacks deal <@ba.vup>{atk_scale:0%}</> Physical damage"
         },
         {
             "name": "Signal Arrow",
             "level": 10,
-            "description": "立即标记一个敌方单位（优先重量较重的萨卡兹种族敌人）使其更容易受到我方的攻击且防御力<@ba.vup>{def:0%}</>。每次攻击造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害。"
+            "description": "Immediately mark an enemy unit (prioritize heavier [Sarkaz] enemies), increasing their Taunt level and inflicting <@ba.vup>{def:0%}</> DEF. Attacks deal <@ba.vup>{atk_scale:0%}</> Physical damage"
         }
     ],
     "skchr_toddi_2": [
@@ -16325,318 +16221,6 @@
             "description": "技能结束后回收自身"
         }
     ],
-    "skchr_skadi2_1": [
-        {
-            "name": "Chant of Returning by Varied Paths",
-            "level": 1,
-            "description": "Immediately recover all HP and gain Max HP <@ba.vup>+{max_hp:0%}</>. Increase Trait effect to <@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>. <@ba.vup>{damage_resistance:0%}</> of damage taken by all allies within Attack Range is transferred to Skadi (strongest effect takes precedence)"
-        },
-        {
-            "name": "Chant of Returning by Varied Paths",
-            "level": 2,
-            "description": "Immediately recover all HP and gain Max HP <@ba.vup>+{max_hp:0%}</>. Increase Trait effect to <@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>. <@ba.vup>{damage_resistance:0%}</> of damage taken by all allies within Attack Range is transferred to Skadi (strongest effect takes precedence)"
-        },
-        {
-            "name": "Chant of Returning by Varied Paths",
-            "level": 3,
-            "description": "Immediately recover all HP and gain Max HP <@ba.vup>+{max_hp:0%}</>. Increase Trait effect to <@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>. <@ba.vup>{damage_resistance:0%}</> of damage taken by all allies within Attack Range is transferred to Skadi (strongest effect takes precedence)"
-        },
-        {
-            "name": "Chant of Returning by Varied Paths",
-            "level": 4,
-            "description": "Immediately recover all HP and gain Max HP <@ba.vup>+{max_hp:0%}</>. Increase Trait effect to <@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>. <@ba.vup>{damage_resistance:0%}</> of damage taken by all allies within Attack Range is transferred to Skadi (strongest effect takes precedence)"
-        },
-        {
-            "name": "Chant of Returning by Varied Paths",
-            "level": 5,
-            "description": "Immediately recover all HP and gain Max HP <@ba.vup>+{max_hp:0%}</>. Increase Trait effect to <@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>. <@ba.vup>{damage_resistance:0%}</> of damage taken by all allies within Attack Range is transferred to Skadi (strongest effect takes precedence)"
-        },
-        {
-            "name": "Chant of Returning by Varied Paths",
-            "level": 6,
-            "description": "Immediately recover all HP and gain Max HP <@ba.vup>+{max_hp:0%}</>. Increase Trait effect to <@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>. <@ba.vup>{damage_resistance:0%}</> of damage taken by all allies within Attack Range is transferred to Skadi (strongest effect takes precedence)"
-        },
-        {
-            "name": "Chant of Returning by Varied Paths",
-            "level": 7,
-            "description": "Immediately recover all HP and gain Max HP <@ba.vup>+{max_hp:0%}</>. Increase Trait effect to <@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>. <@ba.vup>{damage_resistance:0%}</> of damage taken by all allies within Attack Range is transferred to Skadi (strongest effect takes precedence)"
-        },
-        {
-            "name": "Chant of Returning by Varied Paths",
-            "level": 8,
-            "description": "Immediately recover all HP and gain Max HP <@ba.vup>+{max_hp:0%}</>. Increase Trait effect to <@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>. <@ba.vup>{damage_resistance:0%}</> of damage taken by all allies within Attack Range is transferred to Skadi (strongest effect takes precedence)"
-        },
-        {
-            "name": "Chant of Returning by Varied Paths",
-            "level": 9,
-            "description": "Immediately recover all HP and gain Max HP <@ba.vup>+{max_hp:0%}</>. Increase Trait effect to <@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>. <@ba.vup>{damage_resistance:0%}</> of damage taken by all allies within Attack Range is transferred to Skadi (strongest effect takes precedence)"
-        },
-        {
-            "name": "Chant of Returning by Varied Paths",
-            "level": 10,
-            "description": "Immediately recover all HP and gain Max HP <@ba.vup>+{max_hp:0%}</>. Increase Trait effect to <@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>. <@ba.vup>{damage_resistance:0%}</> of damage taken by all allies within Attack Range is transferred to Skadi (strongest effect takes precedence)"
-        }
-    ],
-    "sktok_skadi2_1": [
-        {
-            "name": "共鸣",
-            "level": 1,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 2,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 3,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 4,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 5,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 6,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 7,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 8,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 9,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 10,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        }
-    ],
-    "skchr_skadi2_2": [
-        {
-            "name": "Wish of Burial Beyond the Light",
-            "level": 1,
-            "description": "Grant <$ba.inspire>Inspire</> effect equal to <@ba.vup>{atk:0%}</> of Skadi's ATK and DEF to all allies within Attack Range. Increase Trait effect to <@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>. \n<@ba.rem>Infinite duration</>"
-        },
-        {
-            "name": "Wish of Burial Beyond the Light",
-            "level": 2,
-            "description": "Grant <$ba.inspire>Inspire</> effect equal to <@ba.vup>{atk:0%}</> of Skadi's ATK and DEF to all allies within Attack Range. Increase Trait effect to <@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>. \n<@ba.rem>Infinite duration</>"
-        },
-        {
-            "name": "Wish of Burial Beyond the Light",
-            "level": 3,
-            "description": "Grant <$ba.inspire>Inspire</> effect equal to <@ba.vup>{atk:0%}</> of Skadi's ATK and DEF to all allies within Attack Range. Increase Trait effect to <@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>. \n<@ba.rem>Infinite duration</>"
-        },
-        {
-            "name": "Wish of Burial Beyond the Light",
-            "level": 4,
-            "description": "Grant <$ba.inspire>Inspire</> effect equal to <@ba.vup>{atk:0%}</> of Skadi's ATK and DEF to all allies within Attack Range. Increase Trait effect to <@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>. \n<@ba.rem>Infinite duration</>"
-        },
-        {
-            "name": "Wish of Burial Beyond the Light",
-            "level": 5,
-            "description": "Grant <$ba.inspire>Inspire</> effect equal to <@ba.vup>{atk:0%}</> of Skadi's ATK and DEF to all allies within Attack Range. Increase Trait effect to <@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>. \n<@ba.rem>Infinite duration</>"
-        },
-        {
-            "name": "Wish of Burial Beyond the Light",
-            "level": 6,
-            "description": "Grant <$ba.inspire>Inspire</> effect equal to <@ba.vup>{atk:0%}</> of Skadi's ATK and DEF to all allies within Attack Range. Increase Trait effect to <@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>. \n<@ba.rem>Infinite duration</>"
-        },
-        {
-            "name": "Wish of Burial Beyond the Light",
-            "level": 7,
-            "description": "Grant <$ba.inspire>Inspire</> effect equal to <@ba.vup>{atk:0%}</> of Skadi's ATK and DEF to all allies within Attack Range. Increase Trait effect to <@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>. \n<@ba.rem>Infinite duration</>"
-        },
-        {
-            "name": "Wish of Burial Beyond the Light",
-            "level": 8,
-            "description": "Grant <$ba.inspire>Inspire</> effect equal to <@ba.vup>{atk:0%}</> of Skadi's ATK and DEF to all allies within Attack Range. Increase Trait effect to <@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>. \n<@ba.rem>Infinite duration</>"
-        },
-        {
-            "name": "Wish of Burial Beyond the Light",
-            "level": 9,
-            "description": "Grant <$ba.inspire>Inspire</> effect equal to <@ba.vup>{atk:0%}</> of Skadi's ATK and DEF to all allies within Attack Range. Increase Trait effect to <@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>. \n<@ba.rem>Infinite duration</>"
-        },
-        {
-            "name": "Wish of Burial Beyond the Light",
-            "level": 10,
-            "description": "Grant <$ba.inspire>Inspire</> effect equal to <@ba.vup>{atk:0%}</> of Skadi's ATK and DEF to all allies within Attack Range. Increase Trait effect to <@ba.vup>{attack@atk_to_hp_recovery_ratio:0%}</>. \n<@ba.rem>Infinite duration</>"
-        }
-    ],
-    "sktok_skadi2_2": [
-        {
-            "name": "共鸣",
-            "level": 1,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 2,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 3,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 4,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 5,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 6,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 7,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 8,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 9,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 10,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        }
-    ],
-    "skchr_skadi2_3": [
-        {
-            "name": "“The Tide Surges, The Tide Recedes”",
-            "level": 1,
-            "description": "Trait changes to losing <@ba.vdown>{hp_ratio:0%}</> self HP every second. Deal <@ba.vup>{atk_scale:0%}</> <@ba.vup>True damage</> to all enemies within Attack Range every second (damage from self and Seaborn stacks). Grant <$ba.inspire>Inspire</> effect equal to <@ba.vup>{atk:0%}</> of Skadi's ATK to all allies within Attack Range"
-        },
-        {
-            "name": "“The Tide Surges, The Tide Recedes”",
-            "level": 2,
-            "description": "Trait changes to losing <@ba.vdown>{hp_ratio:0%}</> self HP every second. Deal <@ba.vup>{atk_scale:0%}</> <@ba.vup>True damage</> to all enemies within Attack Range every second (damage from self and Seaborn stacks). Grant <$ba.inspire>Inspire</> effect equal to <@ba.vup>{atk:0%}</> of Skadi's ATK to all allies within Attack Range"
-        },
-        {
-            "name": "“The Tide Surges, The Tide Recedes”",
-            "level": 3,
-            "description": "Trait changes to losing <@ba.vdown>{hp_ratio:0%}</> self HP every second. Deal <@ba.vup>{atk_scale:0%}</> <@ba.vup>True damage</> to all enemies within Attack Range every second (damage from self and Seaborn stacks). Grant <$ba.inspire>Inspire</> effect equal to <@ba.vup>{atk:0%}</> of Skadi's ATK to all allies within Attack Range"
-        },
-        {
-            "name": "“The Tide Surges, The Tide Recedes”",
-            "level": 4,
-            "description": "Trait changes to losing <@ba.vdown>{hp_ratio:0%}</> self HP every second. Deal <@ba.vup>{atk_scale:0%}</> <@ba.vup>True damage</> to all enemies within Attack Range every second (damage from self and Seaborn stacks). Grant <$ba.inspire>Inspire</> effect equal to <@ba.vup>{atk:0%}</> of Skadi's ATK to all allies within Attack Range"
-        },
-        {
-            "name": "“The Tide Surges, The Tide Recedes”",
-            "level": 5,
-            "description": "Trait changes to losing <@ba.vdown>{hp_ratio:0%}</> self HP every second. Deal <@ba.vup>{atk_scale:0%}</> <@ba.vup>True damage</> to all enemies within Attack Range every second (damage from self and Seaborn stacks). Grant <$ba.inspire>Inspire</> effect equal to <@ba.vup>{atk:0%}</> of Skadi's ATK to all allies within Attack Range"
-        },
-        {
-            "name": "“The Tide Surges, The Tide Recedes”",
-            "level": 6,
-            "description": "Trait changes to losing <@ba.vdown>{hp_ratio:0%}</> self HP every second. Deal <@ba.vup>{atk_scale:0%}</> <@ba.vup>True damage</> to all enemies within Attack Range every second (damage from self and Seaborn stacks). Grant <$ba.inspire>Inspire</> effect equal to <@ba.vup>{atk:0%}</> of Skadi's ATK to all allies within Attack Range"
-        },
-        {
-            "name": "“The Tide Surges, The Tide Recedes”",
-            "level": 7,
-            "description": "Trait changes to losing <@ba.vdown>{hp_ratio:0%}</> self HP every second. Deal <@ba.vup>{atk_scale:0%}</> <@ba.vup>True damage</> to all enemies within Attack Range every second (damage from self and Seaborn stacks). Grant <$ba.inspire>Inspire</> effect equal to <@ba.vup>{atk:0%}</> of Skadi's ATK to all allies within Attack Range"
-        },
-        {
-            "name": "“The Tide Surges, The Tide Recedes”",
-            "level": 8,
-            "description": "Trait changes to losing <@ba.vdown>{hp_ratio:0%}</> self HP every second. Deal <@ba.vup>{atk_scale:0%}</> <@ba.vup>True damage</> to all enemies within Attack Range every second (damage from self and Seaborn stacks). Grant <$ba.inspire>Inspire</> effect equal to <@ba.vup>{atk:0%}</> of Skadi's ATK to all allies within Attack Range"
-        },
-        {
-            "name": "“The Tide Surges, The Tide Recedes”",
-            "level": 9,
-            "description": "Trait changes to losing <@ba.vdown>{hp_ratio:0%}</> self HP every second. Deal <@ba.vup>{atk_scale:0%}</> <@ba.vup>True damage</> to all enemies within Attack Range every second (damage from self and Seaborn stacks). Grant <$ba.inspire>Inspire</> effect equal to <@ba.vup>{atk:0%}</> of Skadi's ATK to all allies within Attack Range"
-        },
-        {
-            "name": "“The Tide Surges, The Tide Recedes”",
-            "level": 10,
-            "description": "Trait changes to losing <@ba.vdown>{hp_ratio:0%}</> self HP every second. Deal <@ba.vup>{atk_scale:0%}</> <@ba.vup>True damage</> to all enemies within Attack Range every second (damage from self and Seaborn stacks). Grant <$ba.inspire>Inspire</> effect equal to <@ba.vup>{atk:0%}</> of Skadi's ATK to all allies within Attack Range"
-        }
-    ],
-    "sktok_skadi2_3": [
-        {
-            "name": "共鸣",
-            "level": 1,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 2,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 3,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 4,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 5,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 6,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 7,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 8,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 9,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        },
-        {
-            "name": "共鸣",
-            "level": 10,
-            "description": "攻击范围视为浊心斯卡蒂攻击范围的延伸"
-        }
-    ],
     "skchr_phatom_1": [
         {
             "name": "Phantom of the Night",
@@ -17313,162 +16897,6 @@
             "description": "Immediately attack the nearest ally ahead (prioritize allies directly in front) <@ba.vup>15</> times with <@ba.vup>500</> ATK. Thereafter, grant ATK <@ba.vup>+{atk:0%}</> and Attack Speed <@ba.vup>+{attack_speed}</> to self and the target for the duration of the skill"
         }
     ],
-    "skchr_glady_1": [
-        {
-            "name": "Waterless Parting of the Great Ocean",
-            "level": 1,
-            "description": "The next attack will pull the target towards self with <@ba.vup>small</> force, dealing <@ba.vup>{atk_scale:0%}</> Physical damage. \n<@ba.rem>Can hold {cnt} charges</>"
-        },
-        {
-            "name": "Waterless Parting of the Great Ocean",
-            "level": 2,
-            "description": "The next attack will pull the target towards self with <@ba.vup>small</> force, dealing <@ba.vup>{atk_scale:0%}</> Physical damage. \n<@ba.rem>Can hold {cnt} charges</>"
-        },
-        {
-            "name": "Waterless Parting of the Great Ocean",
-            "level": 3,
-            "description": "The next attack will pull the target towards self with <@ba.vup>small</> force, dealing <@ba.vup>{atk_scale:0%}</> Physical damage. \n<@ba.rem>Can hold {cnt} charges</>"
-        },
-        {
-            "name": "Waterless Parting of the Great Ocean",
-            "level": 4,
-            "description": "The next attack will pull the target towards self with <@ba.vup>medium</> force, dealing <@ba.vup>{atk_scale:0%}</> Physical damage. \n<@ba.rem>Can hold {cnt} charges</>"
-        },
-        {
-            "name": "Waterless Parting of the Great Ocean",
-            "level": 5,
-            "description": "The next attack will pull the target towards self with <@ba.vup>medium</> force, dealing <@ba.vup>{atk_scale:0%}</> Physical damage. \n<@ba.rem>Can hold {cnt} charges</>"
-        },
-        {
-            "name": "Waterless Parting of the Great Ocean",
-            "level": 6,
-            "description": "The next attack will pull the target towards self with <@ba.vup>medium</> force, dealing <@ba.vup>{atk_scale:0%}</> Physical damage. \n<@ba.rem>Can hold {cnt} charges</>"
-        },
-        {
-            "name": "Waterless Parting of the Great Ocean",
-            "level": 7,
-            "description": "The next attack will pull the target towards self with <@ba.vup>medium</> force, dealing <@ba.vup>{atk_scale:0%}</> Physical damage. \n<@ba.rem>Can hold {cnt} charges</>"
-        },
-        {
-            "name": "Waterless Parting of the Great Ocean",
-            "level": 8,
-            "description": "The next attack will pull the target towards self with <@ba.vup>medium</> force, dealing <@ba.vup>{atk_scale:0%}</> Physical damage. \n<@ba.rem>Can hold {cnt} charges</>"
-        },
-        {
-            "name": "Waterless Parting of the Great Ocean",
-            "level": 9,
-            "description": "The next attack will pull the target towards self with <@ba.vup>medium</> force, dealing <@ba.vup>{atk_scale:0%}</> Physical damage. \n<@ba.rem>Can hold {cnt} charges</>"
-        },
-        {
-            "name": "Waterless Parting of the Great Ocean",
-            "level": 10,
-            "description": "The next attack will pull the target towards self with <@ba.vup>large</> force, dealing <@ba.vup>{atk_scale:0%}</> Physical damage. \n<@ba.rem>Can hold {cnt} charges</>"
-        }
-    ],
-    "skchr_glady_2": [
-        {
-            "name": "Waterless Grasp of the Raging Seas",
-            "level": 1,
-            "description": "Increase Attack Interval (<@ba.vdown>+{base_attack_time:0%}</>), expand Attack Range. Attacks target 2 enemies and prioritize blocked enemies, dealing <@ba.vup>{attack@atk_scale:0%}</> Physical damage and pulling them towards self with <@ba.vup>small</> force"
-        },
-        {
-            "name": "Waterless Grasp of the Raging Seas",
-            "level": 2,
-            "description": "Increase Attack Interval (<@ba.vdown>+{base_attack_time:0%}</>), expand Attack Range. Attacks target 2 enemies and prioritize blocked enemies, dealing <@ba.vup>{attack@atk_scale:0%}</> Physical damage and pulling them towards self with <@ba.vup>small</> force"
-        },
-        {
-            "name": "Waterless Grasp of the Raging Seas",
-            "level": 3,
-            "description": "Increase Attack Interval (<@ba.vdown>+{base_attack_time:0%}</>), expand Attack Range. Attacks target 2 enemies and prioritize blocked enemies, dealing <@ba.vup>{attack@atk_scale:0%}</> Physical damage and pulling them towards self with <@ba.vup>small</> force"
-        },
-        {
-            "name": "Waterless Grasp of the Raging Seas",
-            "level": 4,
-            "description": "Increase Attack Interval (<@ba.vdown>+{base_attack_time:0%}</>), expand Attack Range. Attacks target 2 enemies and prioritize blocked enemies, dealing <@ba.vup>{attack@atk_scale:0%}</> Physical damage and pulling them towards self with <@ba.vup>medium</> force"
-        },
-        {
-            "name": "Waterless Grasp of the Raging Seas",
-            "level": 5,
-            "description": "Increase Attack Interval (<@ba.vdown>+{base_attack_time:0%}</>), expand Attack Range. Attacks target 2 enemies and prioritize blocked enemies, dealing <@ba.vup>{attack@atk_scale:0%}</> Physical damage and pulling them towards self with <@ba.vup>medium</> force"
-        },
-        {
-            "name": "Waterless Grasp of the Raging Seas",
-            "level": 6,
-            "description": "Increase Attack Interval (<@ba.vdown>+{base_attack_time:0%}</>), expand Attack Range. Attacks target 2 enemies and prioritize blocked enemies, dealing <@ba.vup>{attack@atk_scale:0%}</> Physical damage and pulling them towards self with <@ba.vup>medium</> force"
-        },
-        {
-            "name": "Waterless Grasp of the Raging Seas",
-            "level": 7,
-            "description": "Increase Attack Interval (<@ba.vdown>+{base_attack_time:0%}</>), expand Attack Range. Attacks target 2 enemies and prioritize blocked enemies, dealing <@ba.vup>{attack@atk_scale:0%}</> Physical damage and pulling them towards self with <@ba.vup>medium</> force"
-        },
-        {
-            "name": "Waterless Grasp of the Raging Seas",
-            "level": 8,
-            "description": "Increase Attack Interval (<@ba.vdown>+{base_attack_time:0%}</>), expand Attack Range. Attacks target 2 enemies and prioritize blocked enemies, dealing <@ba.vup>{attack@atk_scale:0%}</> Physical damage and pulling them towards self with <@ba.vup>medium</> force"
-        },
-        {
-            "name": "Waterless Grasp of the Raging Seas",
-            "level": 9,
-            "description": "Increase Attack Interval (<@ba.vdown>+{base_attack_time:0%}</>), expand Attack Range. Attacks target 2 enemies and prioritize blocked enemies, dealing <@ba.vup>{attack@atk_scale:0%}</> Physical damage and pulling them towards self with <@ba.vup>medium</> force"
-        },
-        {
-            "name": "Waterless Grasp of the Raging Seas",
-            "level": 10,
-            "description": "Increase Attack Interval (<@ba.vdown>+{base_attack_time:0%}</>), expand Attack Range. Attacks target 2 enemies and prioritize blocked enemies, dealing <@ba.vup>{attack@atk_scale:0%}</> Physical damage and pulling them towards self with <@ba.vup>large</> force"
-        }
-    ],
-    "skchr_glady_3": [
-        {
-            "name": "Waterless Dance of the Shattered Maelstrom",
-            "level": 1,
-            "description": "Inflict <$ba.root>Bind</> to a faraway target and generate a Tornado centered on it. The Tornado inflicts <@ba.vup>{move_speed:0%}</> Movement Speed to nearby enemies, deals <@ba.vup>{atk_scale:0%}</> <@ba.vup>Arts damage</> every <@ba.vup>{interval}</> seconds and pulls them towards the center with <@ba.vup>small</> force. When the skill ends, pull enemies nearby the Tornado towards self with <@ba.vup>small</> force"
-        },
-        {
-            "name": "Waterless Dance of the Shattered Maelstrom",
-            "level": 2,
-            "description": "Inflict <$ba.root>Bind</> to a faraway target and generate a Tornado centered on it. The Tornado inflicts <@ba.vup>{move_speed:0%}</> Movement Speed to nearby enemies, deals <@ba.vup>{atk_scale:0%}</> <@ba.vup>Arts damage</> every <@ba.vup>{interval}</> seconds and pulls them towards the center with <@ba.vup>small</> force. When the skill ends, pull enemies nearby the Tornado towards self with <@ba.vup>small</> force"
-        },
-        {
-            "name": "Waterless Dance of the Shattered Maelstrom",
-            "level": 3,
-            "description": "Inflict <$ba.root>Bind</> to a faraway target and generate a Tornado centered on it. The Tornado inflicts <@ba.vup>{move_speed:0%}</> Movement Speed to nearby enemies, deals <@ba.vup>{atk_scale:0%}</> <@ba.vup>Arts damage</> every <@ba.vup>{interval}</> seconds and pulls them towards the center with <@ba.vup>small</> force. When the skill ends, pull enemies nearby the Tornado towards self with <@ba.vup>small</> force"
-        },
-        {
-            "name": "Waterless Dance of the Shattered Maelstrom",
-            "level": 4,
-            "description": "Inflict <$ba.root>Bind</> to a faraway target and generate a Tornado centered on it. The Tornado inflicts <@ba.vup>{move_speed:0%}</> Movement Speed to nearby enemies, deals <@ba.vup>{atk_scale:0%}</> <@ba.vup>Arts damage</> every <@ba.vup>{interval}</> seconds and pulls them towards the center with <@ba.vup>small</> force. When the skill ends, pull enemies nearby the Tornado towards self with <@ba.vup>small</> force"
-        },
-        {
-            "name": "Waterless Dance of the Shattered Maelstrom",
-            "level": 5,
-            "description": "Inflict <$ba.root>Bind</> to a faraway target and generate a Tornado centered on it. The Tornado inflicts <@ba.vup>{move_speed:0%}</> Movement Speed to nearby enemies, deals <@ba.vup>{atk_scale:0%}</> <@ba.vup>Arts damage</> every <@ba.vup>{interval}</> seconds and pulls them towards the center with <@ba.vup>small</> force. When the skill ends, pull enemies nearby the Tornado towards self with <@ba.vup>small</> force"
-        },
-        {
-            "name": "Waterless Dance of the Shattered Maelstrom",
-            "level": 6,
-            "description": "Inflict <$ba.root>Bind</> to a faraway target and generate a Tornado centered on it. The Tornado inflicts <@ba.vup>{move_speed:0%}</> Movement Speed to nearby enemies, deals <@ba.vup>{atk_scale:0%}</> <@ba.vup>Arts damage</> every <@ba.vup>{interval}</> seconds and pulls them towards the center with <@ba.vup>small</> force. When the skill ends, pull enemies nearby the Tornado towards self with <@ba.vup>small</> force"
-        },
-        {
-            "name": "Waterless Dance of the Shattered Maelstrom",
-            "level": 7,
-            "description": "Inflict <$ba.root>Bind</> to a faraway target and generate a Tornado centered on it. The Tornado inflicts <@ba.vup>{move_speed:0%}</> Movement Speed to nearby enemies, deals <@ba.vup>{atk_scale:0%}</> <@ba.vup>Arts damage</> every <@ba.vup>{interval}</> seconds and pulls them towards the center with <@ba.vup>medium</> force. When the skill ends, pull enemies nearby the Tornado towards self with <@ba.vup>medium</> force"
-        },
-        {
-            "name": "Waterless Dance of the Shattered Maelstrom",
-            "level": 8,
-            "description": "Inflict <$ba.root>Bind</> to a faraway target and generate a Tornado centered on it. The Tornado inflicts <@ba.vup>{move_speed:0%}</> Movement Speed to nearby enemies, deals <@ba.vup>{atk_scale:0%}</> <@ba.vup>Arts damage</> every <@ba.vup>{interval}</> seconds and pulls them towards the center with <@ba.vup>medium</> force. When the skill ends, pull enemies nearby the Tornado towards self with <@ba.vup>medium</> force"
-        },
-        {
-            "name": "Waterless Dance of the Shattered Maelstrom",
-            "level": 9,
-            "description": "Inflict <$ba.root>Bind</> to a faraway target and generate a Tornado centered on it. The Tornado inflicts <@ba.vup>{move_speed:0%}</> Movement Speed to nearby enemies, deals <@ba.vup>{atk_scale:0%}</> <@ba.vup>Arts damage</> every <@ba.vup>{interval}</> seconds and pulls them towards the center with <@ba.vup>medium</> force. When the skill ends, pull enemies nearby the Tornado towards self with <@ba.vup>medium</> force"
-        },
-        {
-            "name": "Waterless Dance of the Shattered Maelstrom",
-            "level": 10,
-            "description": "Inflict <$ba.root>Bind</> to a faraway target and generate a Tornado centered on it. The Tornado inflicts <@ba.vup>{move_speed:0%}</> Movement Speed to nearby enemies, deals <@ba.vup>{atk_scale:0%}</> <@ba.vup>Arts damage</> every <@ba.vup>{interval}</> seconds and pulls them towards the center with <@ba.vup>large</> force. When the skill ends, pull enemies nearby the Tornado towards self with <@ba.vup>large</> force"
-        }
-    ],
     "skchr_shining_1": [
         {
             "name": "Creed",
@@ -17623,162 +17051,6 @@
             "name": "Dogmatic Field",
             "level": 10,
             "description": "ATK <@ba.vup>+{atk:0%}</>. All allies within Attack Range gain <@ba.vup>+{def:0%}</> DEF"
-        }
-    ],
-    "skchr_kalts_1": [
-        {
-            "name": "Command: Structural Fortification",
-            "level": 1,
-            "description": "Self and Mon3tr DEF <@ba.vup>+{def:0%}</>. Self gains <@ba.vup>{prob:0%}</> Physical block"
-        },
-        {
-            "name": "Command: Structural Fortification",
-            "level": 2,
-            "description": "Self and Mon3tr DEF <@ba.vup>+{def:0%}</>. Self gains <@ba.vup>{prob:0%}</> Physical block"
-        },
-        {
-            "name": "Command: Structural Fortification",
-            "level": 3,
-            "description": "Self and Mon3tr DEF <@ba.vup>+{def:0%}</>. Self gains <@ba.vup>{prob:0%}</> Physical block"
-        },
-        {
-            "name": "Command: Structural Fortification",
-            "level": 4,
-            "description": "Self and Mon3tr DEF <@ba.vup>+{def:0%}</>. Self gains <@ba.vup>{prob:0%}</> Physical block"
-        },
-        {
-            "name": "Command: Structural Fortification",
-            "level": 5,
-            "description": "Self and Mon3tr DEF <@ba.vup>+{def:0%}</>. Self gains <@ba.vup>{prob:0%}</> Physical block"
-        },
-        {
-            "name": "Command: Structural Fortification",
-            "level": 6,
-            "description": "Self and Mon3tr DEF <@ba.vup>+{def:0%}</>. Self gains <@ba.vup>{prob:0%}</> Physical block"
-        },
-        {
-            "name": "Command: Structural Fortification",
-            "level": 7,
-            "description": "Self and Mon3tr DEF <@ba.vup>+{def:0%}</>. Self gains <@ba.vup>{prob:0%}</> Physical block"
-        },
-        {
-            "name": "Command: Structural Fortification",
-            "level": 8,
-            "description": "Self and Mon3tr DEF <@ba.vup>+{def:0%}</>. Self gains <@ba.vup>{prob:0%}</> Physical block"
-        },
-        {
-            "name": "Command: Structural Fortification",
-            "level": 9,
-            "description": "Self and Mon3tr DEF <@ba.vup>+{def:0%}</>. Self gains <@ba.vup>{prob:0%}</> Physical block"
-        },
-        {
-            "name": "Command: Structural Fortification",
-            "level": 10,
-            "description": "Self and Mon3tr DEF <@ba.vup>+{def:0%}</>. Self gains <@ba.vup>{prob:0%}</> Physical block"
-        }
-    ],
-    "skchr_kalts_2": [
-        {
-            "name": "Command: Tactical Coordination",
-            "level": 1,
-            "description": "Self Attack Speed <@ba.vup>+{attack_speed}</>, Mon3tr ATK <@ba.vup>+{attack@atk:0%}</>. Mon3tr attacks multiple enemies equal to Block Count. \n<@ba.rem>This skill is <$ba.binding>Tied</> to Mon3tr</>"
-        },
-        {
-            "name": "Command: Tactical Coordination",
-            "level": 2,
-            "description": "Self Attack Speed <@ba.vup>+{attack_speed}</>, Mon3tr ATK <@ba.vup>+{attack@atk:0%}</>. Mon3tr attacks multiple enemies equal to Block Count. \n<@ba.rem>This skill is <$ba.binding>Tied</> to Mon3tr</>"
-        },
-        {
-            "name": "Command: Tactical Coordination",
-            "level": 3,
-            "description": "Self Attack Speed <@ba.vup>+{attack_speed}</>, Mon3tr ATK <@ba.vup>+{attack@atk:0%}</>. Mon3tr attacks multiple enemies equal to Block Count. \n<@ba.rem>This skill is <$ba.binding>Tied</> to Mon3tr</>"
-        },
-        {
-            "name": "Command: Tactical Coordination",
-            "level": 4,
-            "description": "Self Attack Speed <@ba.vup>+{attack_speed}</>, Mon3tr ATK <@ba.vup>+{attack@atk:0%}</>. Mon3tr attacks multiple enemies equal to Block Count. \n<@ba.rem>This skill is <$ba.binding>Tied</> to Mon3tr</>"
-        },
-        {
-            "name": "Command: Tactical Coordination",
-            "level": 5,
-            "description": "Self Attack Speed <@ba.vup>+{attack_speed}</>, Mon3tr ATK <@ba.vup>+{attack@atk:0%}</>. Mon3tr attacks multiple enemies equal to Block Count. \n<@ba.rem>This skill is <$ba.binding>Tied</> to Mon3tr</>"
-        },
-        {
-            "name": "Command: Tactical Coordination",
-            "level": 6,
-            "description": "Self Attack Speed <@ba.vup>+{attack_speed}</>, Mon3tr ATK <@ba.vup>+{attack@atk:0%}</>. Mon3tr attacks multiple enemies equal to Block Count. \n<@ba.rem>This skill is <$ba.binding>Tied</> to Mon3tr</>"
-        },
-        {
-            "name": "Command: Tactical Coordination",
-            "level": 7,
-            "description": "Self Attack Speed <@ba.vup>+{attack_speed}</>, Mon3tr ATK <@ba.vup>+{attack@atk:0%}</>. Mon3tr attacks multiple enemies equal to Block Count. \n<@ba.rem>This skill is <$ba.binding>Tied</> to Mon3tr</>"
-        },
-        {
-            "name": "Command: Tactical Coordination",
-            "level": 8,
-            "description": "Self Attack Speed <@ba.vup>+{attack_speed}</>, Mon3tr ATK <@ba.vup>+{attack@atk:0%}</>. Mon3tr attacks multiple enemies equal to Block Count. \n<@ba.rem>This skill is <$ba.binding>Tied</> to Mon3tr</>"
-        },
-        {
-            "name": "Command: Tactical Coordination",
-            "level": 9,
-            "description": "Self Attack Speed <@ba.vup>+{attack_speed}</>, Mon3tr ATK <@ba.vup>+{attack@atk:0%}</>. Mon3tr attacks multiple enemies equal to Block Count. \n<@ba.rem>This skill is <$ba.binding>Tied</> to Mon3tr</>"
-        },
-        {
-            "name": "Command: Tactical Coordination",
-            "level": 10,
-            "description": "Self Attack Speed <@ba.vup>+{attack_speed}</>, Mon3tr ATK <@ba.vup>+{attack@atk:0%}</>. Mon3tr attacks multiple enemies equal to Block Count. \n<@ba.rem>This skill is <$ba.binding>Tied</> to Mon3tr</>"
-        }
-    ],
-    "skchr_kalts_3": [
-        {
-            "name": "Command: Meltdown",
-            "level": 1,
-            "description": "Mon3tr DEF <@ba.vup>+{attack@def:0%}</>. Mon3tr gains <@ba.vup>+{attack@atk:0%}</> ATK that gradually decays to +0% over the skill duration and deals <@ba.vup>True damage</>. If Mon3tr doesn't kill any enemies within the skill duration, lose <@ba.vup>{attack@hp_ratio:0%}</> Max HP after the skill ends. <@ba.rem>This skill is <$ba.binding>Tied</> to Mon3tr</>"
-        },
-        {
-            "name": "Command: Meltdown",
-            "level": 2,
-            "description": "Mon3tr DEF <@ba.vup>+{attack@def:0%}</>. Mon3tr gains <@ba.vup>+{attack@atk:0%}</> ATK that gradually decays to +0% over the skill duration and deals <@ba.vup>True damage</>. If Mon3tr doesn't kill any enemies within the skill duration, lose <@ba.vup>{attack@hp_ratio:0%}</> Max HP after the skill ends. <@ba.rem>This skill is <$ba.binding>Tied</> to Mon3tr</>"
-        },
-        {
-            "name": "Command: Meltdown",
-            "level": 3,
-            "description": "Mon3tr DEF <@ba.vup>+{attack@def:0%}</>. Mon3tr gains <@ba.vup>+{attack@atk:0%}</> ATK that gradually decays to +0% over the skill duration and deals <@ba.vup>True damage</>. If Mon3tr doesn't kill any enemies within the skill duration, lose <@ba.vup>{attack@hp_ratio:0%}</> Max HP after the skill ends. <@ba.rem>This skill is <$ba.binding>Tied</> to Mon3tr</>"
-        },
-        {
-            "name": "Command: Meltdown",
-            "level": 4,
-            "description": "Mon3tr DEF <@ba.vup>+{attack@def:0%}</>. Mon3tr gains <@ba.vup>+{attack@atk:0%}</> ATK that gradually decays to +0% over the skill duration and deals <@ba.vup>True damage</>. If Mon3tr doesn't kill any enemies within the skill duration, lose <@ba.vup>{attack@hp_ratio:0%}</> Max HP after the skill ends. <@ba.rem>This skill is <$ba.binding>Tied</> to Mon3tr</>"
-        },
-        {
-            "name": "Command: Meltdown",
-            "level": 5,
-            "description": "Mon3tr DEF <@ba.vup>+{attack@def:0%}</>. Mon3tr gains <@ba.vup>+{attack@atk:0%}</> ATK that gradually decays to +0% over the skill duration and deals <@ba.vup>True damage</>. If Mon3tr doesn't kill any enemies within the skill duration, lose <@ba.vup>{attack@hp_ratio:0%}</> Max HP after the skill ends. <@ba.rem>This skill is <$ba.binding>Tied</> to Mon3tr</>"
-        },
-        {
-            "name": "Command: Meltdown",
-            "level": 6,
-            "description": "Mon3tr DEF <@ba.vup>+{attack@def:0%}</>. Mon3tr gains <@ba.vup>+{attack@atk:0%}</> ATK that gradually decays to +0% over the skill duration and deals <@ba.vup>True damage</>. If Mon3tr doesn't kill any enemies within the skill duration, lose <@ba.vup>{attack@hp_ratio:0%}</> Max HP after the skill ends. <@ba.rem>This skill is <$ba.binding>Tied</> to Mon3tr</>"
-        },
-        {
-            "name": "Command: Meltdown",
-            "level": 7,
-            "description": "Mon3tr DEF <@ba.vup>+{attack@def:0%}</>. Mon3tr gains <@ba.vup>+{attack@atk:0%}</> ATK that gradually decays to +0% over the skill duration and deals <@ba.vup>True damage</>. If Mon3tr doesn't kill any enemies within the skill duration, lose <@ba.vup>{attack@hp_ratio:0%}</> Max HP after the skill ends. <@ba.rem>This skill is <$ba.binding>Tied</> to Mon3tr</>"
-        },
-        {
-            "name": "Command: Meltdown",
-            "level": 8,
-            "description": "Mon3tr DEF <@ba.vup>+{attack@def:0%}</>. Mon3tr gains <@ba.vup>+{attack@atk:0%}</> ATK that gradually decays to +0% over the skill duration and deals <@ba.vup>True damage</>. If Mon3tr doesn't kill any enemies within the skill duration, lose <@ba.vup>{attack@hp_ratio:0%}</> Max HP after the skill ends. <@ba.rem>This skill is <$ba.binding>Tied</> to Mon3tr</>"
-        },
-        {
-            "name": "Command: Meltdown",
-            "level": 9,
-            "description": "Mon3tr DEF <@ba.vup>+{attack@def:0%}</>. Mon3tr gains <@ba.vup>+{attack@atk:0%}</> ATK that gradually decays to +0% over the skill duration and deals <@ba.vup>True damage</>. If Mon3tr doesn't kill any enemies within the skill duration, lose <@ba.vup>{attack@hp_ratio:0%}</> Max HP after the skill ends. <@ba.rem>This skill is <$ba.binding>Tied</> to Mon3tr</>"
-        },
-        {
-            "name": "Command: Meltdown",
-            "level": 10,
-            "description": "Mon3tr DEF <@ba.vup>+{attack@def:0%}</>. Mon3tr gains <@ba.vup>+{attack@atk:0%}</> ATK that gradually decays to +0% over the skill duration and deals <@ba.vup>True damage</>. If Mon3tr doesn't kill any enemies within the skill duration, lose <@ba.vup>{attack@hp_ratio:0%}</> Max HP after the skill ends. <@ba.rem>This skill is <$ba.binding>Tied</> to Mon3tr</>"
         }
     ],
     "skchr_cgbird_2": [
@@ -20200,20 +19472,6 @@
             "name": "派遣空援",
             "level": 1,
             "description": "佣兵小队布置的可移动战术机库，根据需要可随时发射无人机支援作战，因为资金问题，燃料不会加满。"
-        }
-    ],
-    "sktok_dsbell": [
-        {
-            "name": "应急治疗协议",
-            "level": 1,
-            "description": "激活持续治愈周围大范围我方累积的<$ba.dt.neural>神经损伤</>；被<自动维护机器>激活时治疗能力大幅度提升"
-        }
-    ],
-    "sktok_dstnta": [
-        {
-            "name": "摄食",
-            "level": 1,
-            "description": "使目标<$ba.stun>晕眩</>并持续受到物理与神经损伤"
         }
     ]
 }
