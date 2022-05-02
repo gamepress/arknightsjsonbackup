@@ -120,6 +120,16 @@
       "termName": "Apoptosis",
       "description": "When 1000 points of Apoptosis is accumulated, disable skill activation for 15 seconds. Additionally, lose 1 SP and receive 100 Arts damage every second"
     },
+    "ba.debuff": {
+      "termId": "ba.debuff",
+      "termName": "Abnormal Status",
+      "description": "Includes <$ba.stun>Stun</>, <$ba.cold>Chill</>, <$ba.frozen>Freeze</>, etc"
+    },
+    "ba.levitate": {
+      "termId": "ba.levitate",
+      "termName": "Levitate",
+      "description": "Changes into an aerial unit and becomes unable to move, attack and use skills; Duration halved against enemies with more than 3 weight"
+    },
     "cc.bd_A_1": {
       "termId": "cc.bd_A_1",
       "termName": "Supersensory",
@@ -198,7 +208,7 @@
     "cc.g.sp": {
       "termId": "cc.g.sp",
       "termName": "SP",
-      "description": "Includes the following operators\nLava the Purgatory, Skadi the Corrupting Heart, Ch'en the Holungday, Nearl the Radiant Knight, Kroos the Keen Glint"
+      "description": "Includes the following operators\nLava the Purgatory, Skadi the Corrupting Heart, Ch'en the Holungday, Nearl the Radiant Knight, Kroos the Keen Glint, Specter the Unchained"
     },
     "cc.g.abyssal": {
       "termId": "cc.g.abyssal",
