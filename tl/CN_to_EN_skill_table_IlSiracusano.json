@@ -14582,52 +14582,52 @@
         {
             "name": "Shadow of an Ambush",
             "level": 1,
-            "description": "Attack Speed <@ba.vup>+{attack_speed}</>. Prioritize aerial enemies"
+            "description": "Attack Speed <@ba.vup>+{attack_speed}</>. Gain <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</> seconds; Within the skill duration, defeating an enemy grants <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[cam].cam_duration}</> seconds"
         },
         {
             "name": "Shadow of an Ambush",
             "level": 2,
-            "description": "Attack Speed <@ba.vup>+{attack_speed}</>. Prioritize aerial enemies"
+            "description": "Attack Speed <@ba.vup>+{attack_speed}</>. Gain <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</> seconds; Within the skill duration, defeating an enemy grants <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[cam].cam_duration}</> seconds"
         },
         {
             "name": "Shadow of an Ambush",
             "level": 3,
-            "description": "Attack Speed <@ba.vup>+{attack_speed}</>. Prioritize aerial enemies"
+            "description": "Attack Speed <@ba.vup>+{attack_speed}</>. Gain <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</> seconds; Within the skill duration, defeating an enemy grants <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[cam].cam_duration}</> seconds"
         },
         {
             "name": "Shadow of an Ambush",
             "level": 4,
-            "description": "Attack Speed <@ba.vup>+{attack_speed}</>. Prioritize aerial enemies"
+            "description": "Attack Speed <@ba.vup>+{attack_speed}</>. Gain <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</> seconds; Within the skill duration, defeating an enemy grants <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[cam].cam_duration}</> seconds"
         },
         {
             "name": "Shadow of an Ambush",
             "level": 5,
-            "description": "Attack Speed <@ba.vup>+{attack_speed}</>. Prioritize aerial enemies"
+            "description": "Attack Speed <@ba.vup>+{attack_speed}</>. Gain <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</> seconds; Within the skill duration, defeating an enemy grants <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[cam].cam_duration}</> seconds"
         },
         {
             "name": "Shadow of an Ambush",
             "level": 6,
-            "description": "Attack Speed <@ba.vup>+{attack_speed}</>. Prioritize aerial enemies"
+            "description": "Attack Speed <@ba.vup>+{attack_speed}</>. Gain <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</> seconds; Within the skill duration, defeating an enemy grants <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[cam].cam_duration}</> seconds"
         },
         {
             "name": "Shadow of an Ambush",
             "level": 7,
-            "description": "Attack Speed <@ba.vup>+{attack_speed}</>. Prioritize aerial enemies"
+            "description": "Attack Speed <@ba.vup>+{attack_speed}</>. Gain <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</> seconds; Within the skill duration, defeating an enemy grants <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[cam].cam_duration}</> seconds"
         },
         {
             "name": "Shadow of an Ambush",
             "level": 8,
-            "description": "Attack Speed <@ba.vup>+{attack_speed}</>. Prioritize aerial enemies"
+            "description": "Attack Speed <@ba.vup>+{attack_speed}</>. Gain <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</> seconds; Within the skill duration, defeating an enemy grants <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[cam].cam_duration}</> seconds"
         },
         {
             "name": "Shadow of an Ambush",
             "level": 9,
-            "description": "Attack Speed <@ba.vup>+{attack_speed}</>. Prioritize aerial enemies"
+            "description": "Attack Speed <@ba.vup>+{attack_speed}</>. Gain <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</> seconds; Within the skill duration, defeating an enemy grants <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[cam].cam_duration}</> seconds"
         },
         {
             "name": "Shadow of an Ambush",
             "level": 10,
-            "description": "Attack Speed <@ba.vup>+{attack_speed}</>. Prioritize aerial enemies"
+            "description": "Attack Speed <@ba.vup>+{attack_speed}</>. Gain <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[start_cam].start_cam_duration}</> seconds; Within the skill duration, defeating an enemy grants <$ba.camou>Camouflage</> for <@ba.vup>{lunacu_s_2[cam].cam_duration}</> seconds"
         }
     ],
     "skchr_toddi_1": [
