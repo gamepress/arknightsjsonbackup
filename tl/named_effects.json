@@ -73,7 +73,7 @@
     "ba.dt.neural": {
       "termId": "ba.dt.neural",
       "termName": "Neural Damage",
-      "description": "When 1000 points of Neural damage is accumulated, receive 1000 True damage become <$ba.stun>Stunned</> for 10 seconds"
+      "description": "When 1000 points of Neural damage is accumulated, receive 1000 True damage and become <$ba.stun>Stunned</> for 10 seconds"
     },
     "ba.charged": {
       "termId": "ba.charged",
@@ -140,6 +140,31 @@
       "termName": "Arts Fragility",
       "description": "Increase Arts damage taken by the stated percentage (Does not stack, strongest effect takes precedence)"
     },
+    "ba.dying": {
+      "termId": "ba.dying",
+      "termName": "Critically Wounded",
+      "description": "Reduce Movement Speed and become unable to be blocked; Will die after 10 seconds; If killed, grants SP to the attacker"
+    },
+    "ba.barrier": {
+      "termId": "ba.barrier",
+      "termName": "Barrier",
+      "description": "Can absorb a certain amount of damage"
+    },
+    "ba.weightless": {
+      "termId": "ba.weightless",
+      "termName": "Weightless",
+      "description": "Reduce weight by 1 level (Does not stack)"
+    },
+    "ba.berserk": {
+      "termId": "ba.berserk",
+      "termName": "Berserk",
+      "description": "Gain an increase to a specific stat based on percentage of lost HP; Effect is capped after losing a certain percentage of HP (Strongest effect of each stat takes precedence)"
+    },
+    "ba.steal": {
+      "termId": "ba.steal",
+      "termName": "Steal",
+      "description": "Reduces the target's base stat and adds them to the user's own stat. The target's stat decrease and the user's stat increase cannot exceed the specified limit (Strongest effect of each stat takes precedence)"
+    },
     "cc.bd_A_1": {
       "termId": "cc.bd_A_1",
       "termName": "Supersensory",
@@ -170,6 +195,11 @@
       "termName": "Silent Resonance",
       "description": "Affects skills related to <$cc.bd_B_1><@cc.rem>Resounding Melodies</></>, <$cc.bd_B_2><@cc.rem>Sorrowful Harmonies</></>\nProvided by the following operators\nEbenholz"
     },
+    "cc.bd_C": {
+      "termId": "cc.bd_C",
+      "termName": "Shamanic Crystals",
+      "description": "Operator with this skill\nJieyun"
+    },
     "cc.bd_a1": {
       "termId": "cc.bd_a1",
       "termName": "Sensory Information",
@@ -178,7 +208,7 @@
     "cc.bd_b1": {
       "termId": "cc.bd_b1",
       "termName": "Worldly Plight",
-      "description": "Provided by the following operators\nDusk, Ling, Mr.Nothing, Mulberry"
+      "description": "Affects skills related to <$cc.bd_C><@cc.rem>Shamanic Crystal</></>\nProvided by the following operators\nDusk, Ling, Mr.Nothing, Mulberry"
     },
     "cc.bd_ash": {
       "termId": "cc.bd_ash",
@@ -189,6 +219,11 @@
       "termId": "cc.bd_tachanka",
       "termName": "Ursus Specialty Drink",
       "description": "Provided by the following operators\nTachanka"
+    },
+    "cc.bd_malist": {
+      "termId": "cc.bd_malist",
+      "termName": "Engineering Robots",
+      "description": "Provided by the following operators\nMinimalist"
     },
     "cc.bd_a1_a1": {
       "termId": "cc.bd_a1_a1",
@@ -204,6 +239,26 @@
       "termId": "cc.bd_a1_a3",
       "termName": "Bar",
       "description": "Affects variables related to <$cc.bd_a1><@cc.rem>Sensory Information</></>\nProvided by the following operators\nCzerny"
+    },
+    "cc.bd.costdrop": {
+      "termId": "cc.bd.costdrop",
+      "termName": "Mood Difference",
+      "description": "The difference between the operator's Max Mood and Current Mood"
+    },
+    "cc.bd_felyne": {
+      "termId": "cc.bd_felyne",
+      "termName": "Silvervine",
+      "description": "Affects skills related to <$cc.bd_felyne_1><@cc.rem>Cute Palicoes</></>, <$cc.bd_felyne_2><@cc.rem>Reliable Followers</></>\nProvided by the following operators\nRathalos S Noir Corne, Kirin X Yato"
+    },
+    "cc.bd_felyne_1": {
+      "termId": "cc.bd_felyne_1",
+      "termName": "Cute Palicoes",
+      "description": "Operator with this skill\nTerra Research Commission"
+    },
+    "cc.bd_felyne_2": {
+      "termId": "cc.bd_felyne_2",
+      "termName": "Reliable Followers",
+      "description": "Operator with this skill\nTerra Research Commission"
     },
     "cc.m.var1": {
       "termId": "cc.m.var1",
@@ -248,7 +303,7 @@
     "cc.g.sp": {
       "termId": "cc.g.sp",
       "termName": "SP",
-      "description": "Includes the following operators\nLava the Purgatory, Skadi the Corrupting Heart, Ch'en the Holungday, Nearl the Radiant Knight, Kroos the Keen Glint, Specter the Unchained, Hibiscus the Purifier"
+      "description": "Includes all Alternate operators"
     },
     "cc.g.abyssal": {
       "termId": "cc.g.abyssal",
@@ -268,7 +323,12 @@
     "cc.g.sui": {
       "termId": "cc.g.sui",
       "termName": "Sui",
-      "description": "Includes the following operators\nNian, Dusk, Ling"
+      "description": "Includes the following operators\nNian, Dusk, Ling, Chongyue"
+    },
+    "cc.g.glasgow": {
+      "termId": "cc.g.glasgow",
+      "termName": "Glasgow Group",
+      "description": "Includes the following operators\nSiege, Morgan, Dagda, Indra"
     },
     "cc.c.abyssal2_1": {
       "termId": "cc.c.abyssal2_1",
@@ -285,10 +345,30 @@
       "termName": "Special Priority Rules",
       "description": "Cannot stack with <$cc.m.var2><@cc.rem>Sense of Cooperation</></>, will override\nCannot stack with <$cc.m.pow1><@cc.rem>Automation·α</></>, <$cc.m.pow2><@cc.rem>Automation·β</></> and <$cc.m.pow3><@cc.rem>Bionic Seadragon</></>, will be overridden"
     },
+    "cc.c.room1": {
+      "termId": "cc.c.room1",
+      "termName": "Certain facilities",
+      "description": "Includes the following facilities\nPower Station, Human Resource, Reception"
+    },
+    "cc.c.room2": {
+      "termId": "cc.c.room2",
+      "termName": "Other facilities",
+      "description": "Includes the following facilities\nPower Station, Craft Station, Trade Station, Human Resource, Reception"
+    },
+    "cc.c.skill": {
+      "termId": "cc.c.skill",
+      "termName": "Certain skills",
+      "description": "Includes the following skills\nCompetent, S.W.E.E.P.. Snack Network, Cleanup Agreement, Substitute, Necessary Responsibility, Bodyguard, Tiny Leader, Egocentric"
+    },
     "cc.t.strong2": {
       "termId": "cc.t.strong2",
       "termName": "Special Priority Rules",
       "description": "Cannot stack with <$cc.t.snsant1><@cc.rem>Heavenly Reward·α</></>, <$cc.t.snsant2><@cc.rem>Heavenly Reward·β</></>, will override\nWhen <$cc.t.snsant1><@cc.rem>Heavenly Reward·α</></>, <$cc.t.snsant2><@cc.rem>Heavenly Reward·β</></> stacks with other skills, this skill will take effect on the resulting effect"
+    },
+    "cc.c.sui2_1": {
+      "termId": "cc.c.sui2_1",
+      "termName": "Special Comparison Rules",
+      "description": "Compares against the total recovery value provided to <$cc.c.room2><@cc.kw>other facilities</></> by other operators in the Control Center, and takes the higher value as effective"
     },
     "cc.m.pow1": {
       "termId": "cc.m.pow1",
@@ -330,6 +410,11 @@
       "termName": "Rhine Technology-type Skills",
       "description": "Includes the following skills\nRhine Technology·α, Rhine Technology·β"
     },
+    "cc.sk.manu3": {
+      "termId": "cc.sk.manu3",
+      "termName": "Pinus Sylvestris-type Skills",
+      "description": "Includes the following skills\nPinus Sylvestris·α, Pinus Sylvestris·β"
+    },
     "cc.tag.op": {
       "termId": "cc.tag.op",
       "termName": "Operation Platform",
@@ -338,7 +423,22 @@
     "cc.tag.knight": {
       "termId": "cc.tag.knight",
       "termName": "Knights",
-      "description": "Includes the following operators\nNearl the Radiant Knight, Nearl (mutually exclusive), Blemishine, Whislash, Flametail, Fartooth, Ashlock, Wild Mane, Justice Knight, Gravel"
+      "description": "Includes the following operators\nNearl the Radiant Knight, Nearl, Blemishine, Whislash, Flametail, Fartooth, Ashlock, Wild Mane, Justice Knight, Gravel"
+    },
+    "cc.tag.durin": {
+      "termId": "cc.tag.durin",
+      "termName": "Durin Race",
+      "description": "Includes the following operators\nMinimalist, Myrtle, Chestnut, Durin"
+    },
+    "cc.tag.mh": {
+      "termId": "cc.tag.mh",
+      "termName": "Monster Hunter Squad",
+      "description": "Includes the following operators\nRathalos S Noir Corne, Kirin X Yato, Terra Research Commission"
+    },
+    "cc.gvial": {
+      "termId": "cc.gvial",
+      "termName": "Gavial",
+      "description": "Includes the following operators\nGavial the Invincible, Gavial"
     }
   }
 }
