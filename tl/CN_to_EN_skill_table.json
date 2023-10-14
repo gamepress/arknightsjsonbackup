@@ -4365,6 +4365,110 @@
             "description": "After deployment, obtain a <$ba.barrier>Barrier</> that absorbs damage equal to <@ba.vup>{hp_ratio:0%}</> Max HP. Effect weakens over <@ba.vup>{duration}</> seconds"
         }
     ],
+    "skchr_vrdant_1": [
+        {
+            "name": "Verdant Barrier",
+            "level": 1,
+            "description": "Max HP <@ba.vup>+{max_hp:0%}</>, RES <@ba.vup>+{magic_resistance}</>"
+        },
+        {
+            "name": "Verdant Barrier",
+            "level": 2,
+            "description": "Max HP <@ba.vup>+{max_hp:0%}</>, RES <@ba.vup>+{magic_resistance}</>"
+        },
+        {
+            "name": "Verdant Barrier",
+            "level": 3,
+            "description": "Max HP <@ba.vup>+{max_hp:0%}</>, RES <@ba.vup>+{magic_resistance}</>"
+        },
+        {
+            "name": "Verdant Barrier",
+            "level": 4,
+            "description": "Max HP <@ba.vup>+{max_hp:0%}</>, RES <@ba.vup>+{magic_resistance}</>"
+        },
+        {
+            "name": "Verdant Barrier",
+            "level": 5,
+            "description": "Max HP <@ba.vup>+{max_hp:0%}</>, RES <@ba.vup>+{magic_resistance}</>"
+        },
+        {
+            "name": "Verdant Barrier",
+            "level": 6,
+            "description": "Max HP <@ba.vup>+{max_hp:0%}</>, RES <@ba.vup>+{magic_resistance}</>"
+        },
+        {
+            "name": "Verdant Barrier",
+            "level": 7,
+            "description": "Max HP <@ba.vup>+{max_hp:0%}</>, RES <@ba.vup>+{magic_resistance}</>"
+        },
+        {
+            "name": "Verdant Barrier",
+            "level": 8,
+            "description": "Max HP <@ba.vup>+{max_hp:0%}</>, RES <@ba.vup>+{magic_resistance}</>"
+        },
+        {
+            "name": "Verdant Barrier",
+            "level": 9,
+            "description": "Max HP <@ba.vup>+{max_hp:0%}</>, RES <@ba.vup>+{magic_resistance}</>"
+        },
+        {
+            "name": "Verdant Barrier",
+            "level": 10,
+            "description": "Max HP <@ba.vup>+{max_hp:0%}</>, RES <@ba.vup>+{magic_resistance}</>"
+        }
+    ],
+    "skchr_vrdant_2": [
+        {
+            "name": "Double-edged Poison Ivy",
+            "level": 1,
+            "description": "Attacks deal Arts damage, Attack Speed <@ba.vup>+{attack_speed}</>. When attacking enemies, lose <@ba.vdown>{hp_ratio:0%}</> HP"
+        },
+        {
+            "name": "Double-edged Poison Ivy",
+            "level": 2,
+            "description": "Attacks deal Arts damage, Attack Speed <@ba.vup>+{attack_speed}</>. When attacking enemies, lose <@ba.vdown>{hp_ratio:0%}</> HP"
+        },
+        {
+            "name": "Double-edged Poison Ivy",
+            "level": 3,
+            "description": "Attacks deal Arts damage, Attack Speed <@ba.vup>+{attack_speed}</>. When attacking enemies, lose <@ba.vdown>{hp_ratio:0%}</> HP"
+        },
+        {
+            "name": "Double-edged Poison Ivy",
+            "level": 4,
+            "description": "Attacks deal Arts damage, Attack Speed <@ba.vup>+{attack_speed}</>. When attacking enemies, lose <@ba.vdown>{hp_ratio:0%}</> HP"
+        },
+        {
+            "name": "Double-edged Poison Ivy",
+            "level": 5,
+            "description": "Attacks deal Arts damage, Attack Speed <@ba.vup>+{attack_speed}</>. When attacking enemies, lose <@ba.vdown>{hp_ratio:0%}</> HP"
+        },
+        {
+            "name": "Double-edged Poison Ivy",
+            "level": 6,
+            "description": "Attacks deal Arts damage, Attack Speed <@ba.vup>+{attack_speed}</>. When attacking enemies, lose <@ba.vdown>{hp_ratio:0%}</> HP"
+        },
+        {
+            "name": "Double-edged Poison Ivy",
+            "level": 7,
+            "description": "Attacks deal Arts damage, Attack Speed <@ba.vup>+{attack_speed}</>. When attacking enemies, lose <@ba.vdown>{hp_ratio:0%}</> HP"
+        },
+        {
+            "name": "Double-edged Poison Ivy",
+            "level": 8,
+            "description": "Attacks deal Arts damage, Attack Speed <@ba.vup>+{attack_speed}</>. When attacking enemies, lose <@ba.vdown>{hp_ratio:0%}</> HP"
+        },
+        {
+            "name": "Double-edged Poison Ivy",
+            "level": 9,
+            "description": "Attacks deal Arts damage, Attack Speed <@ba.vup>+{attack_speed}</>. When attacking enemies, lose <@ba.vdown>{hp_ratio:0%}</> HP"
+        },
+        {
+            "name": "Double-edged Poison Ivy",
+            "level": 10,
+            "description": "Attacks deal Arts damage, Attack Speed <@ba.vup>+{attack_speed}</>. When attacking enemies, lose <@ba.vdown>{hp_ratio:0%}</> HP"
+        }
+    ],
     "skchr_strong_1": [
         {
             "name": "Declawing",
@@ -11399,6 +11503,110 @@
             "description": "Only attack blocked enemies, reduce Attack Interval (<@ba.vup>reduced to {base_attack_time:0%}</>). Generate a field of water within Attack Range, reducing the Movement Speed of ground enemies within by <@ba.vup>{move_speed:0%}</> and dealing <@ba.vup>{damage_value}</> Arts damage to them every second"
         }
     ],
+    "skchr_delphn_1": [
+        {
+            "name": "“Cathexis”",
+            "level": 1,
+            "description": "<@ba.vup>Change</> Attack Range, greatly reduce Attack Interval (<@ba.vup>reduced to {base_attack_time:0%}</>). Attacks deal <@ba.vup>{attack@atk_scale:0%}</> Arts damage"
+        },
+        {
+            "name": "“Cathexis”",
+            "level": 2,
+            "description": "<@ba.vup>Change</> Attack Range, greatly reduce Attack Interval (<@ba.vup>reduced to {base_attack_time:0%}</>). Attacks deal <@ba.vup>{attack@atk_scale:0%}</> Arts damage"
+        },
+        {
+            "name": "“Cathexis”",
+            "level": 3,
+            "description": "<@ba.vup>Change</> Attack Range, greatly reduce Attack Interval (<@ba.vup>reduced to {base_attack_time:0%}</>). Attacks deal <@ba.vup>{attack@atk_scale:0%}</> Arts damage"
+        },
+        {
+            "name": "“Cathexis”",
+            "level": 4,
+            "description": "<@ba.vup>Change</> Attack Range, greatly reduce Attack Interval (<@ba.vup>reduced to {base_attack_time:0%}</>). Attacks deal <@ba.vup>{attack@atk_scale:0%}</> Arts damage"
+        },
+        {
+            "name": "“Cathexis”",
+            "level": 5,
+            "description": "<@ba.vup>Change</> Attack Range, greatly reduce Attack Interval (<@ba.vup>reduced to {base_attack_time:0%}</>). Attacks deal <@ba.vup>{attack@atk_scale:0%}</> Arts damage"
+        },
+        {
+            "name": "“Cathexis”",
+            "level": 6,
+            "description": "<@ba.vup>Change</> Attack Range, greatly reduce Attack Interval (<@ba.vup>reduced to {base_attack_time:0%}</>). Attacks deal <@ba.vup>{attack@atk_scale:0%}</> Arts damage"
+        },
+        {
+            "name": "“Cathexis”",
+            "level": 7,
+            "description": "<@ba.vup>Change</> Attack Range, greatly reduce Attack Interval (<@ba.vup>reduced to {base_attack_time:0%}</>). Attacks deal <@ba.vup>{attack@atk_scale:0%}</> Arts damage"
+        },
+        {
+            "name": "“Cathexis”",
+            "level": 8,
+            "description": "<@ba.vup>Change</> Attack Range, greatly reduce Attack Interval (<@ba.vup>reduced to {base_attack_time:0%}</>). Attacks deal <@ba.vup>{attack@atk_scale:0%}</> Arts damage"
+        },
+        {
+            "name": "“Cathexis”",
+            "level": 9,
+            "description": "<@ba.vup>Change</> Attack Range, greatly reduce Attack Interval (<@ba.vup>reduced to {base_attack_time:0%}</>). Attacks deal <@ba.vup>{attack@atk_scale:0%}</> Arts damage"
+        },
+        {
+            "name": "“Cathexis”",
+            "level": 10,
+            "description": "<@ba.vup>Change</> Attack Range, greatly reduce Attack Interval (<@ba.vup>reduced to {base_attack_time:0%}</>). Attacks deal <@ba.vup>{attack@atk_scale:0%}</> Arts damage"
+        }
+    ],
+    "skchr_delphn_2": [
+        {
+            "name": "“Preemptive Strike”",
+            "level": 1,
+            "description": "ATK <@ba.vup>+{atk:0%}</>, however attacks no longer target enemies with less than <@ba.vup>50%</> HP. Attacks cause the target to receive Arts damage equal to <@ba.vup>{damage_addition:0%}</> of Delphine's ATK every second (up to 4 stacks, lasts until the end of the skill)"
+        },
+        {
+            "name": "“Preemptive Strike”",
+            "level": 2,
+            "description": "ATK <@ba.vup>+{atk:0%}</>, however attacks no longer target enemies with less than <@ba.vup>50%</> HP. Attacks cause the target to receive Arts damage equal to <@ba.vup>{damage_addition:0%}</> of Delphine's ATK every second (up to 4 stacks, lasts until the end of the skill)"
+        },
+        {
+            "name": "“Preemptive Strike”",
+            "level": 3,
+            "description": "ATK <@ba.vup>+{atk:0%}</>, however attacks no longer target enemies with less than <@ba.vup>50%</> HP. Attacks cause the target to receive Arts damage equal to <@ba.vup>{damage_addition:0%}</> of Delphine's ATK every second (up to 4 stacks, lasts until the end of the skill)"
+        },
+        {
+            "name": "“Preemptive Strike”",
+            "level": 4,
+            "description": "ATK <@ba.vup>+{atk:0%}</>, however attacks no longer target enemies with less than <@ba.vup>50%</> HP. Attacks cause the target to receive Arts damage equal to <@ba.vup>{damage_addition:0%}</> of Delphine's ATK every second (up to 4 stacks, lasts until the end of the skill)"
+        },
+        {
+            "name": "“Preemptive Strike”",
+            "level": 5,
+            "description": "ATK <@ba.vup>+{atk:0%}</>, however attacks no longer target enemies with less than <@ba.vup>50%</> HP. Attacks cause the target to receive Arts damage equal to <@ba.vup>{damage_addition:0%}</> of Delphine's ATK every second (up to 4 stacks, lasts until the end of the skill)"
+        },
+        {
+            "name": "“Preemptive Strike”",
+            "level": 6,
+            "description": "ATK <@ba.vup>+{atk:0%}</>, however attacks no longer target enemies with less than <@ba.vup>50%</> HP. Attacks cause the target to receive Arts damage equal to <@ba.vup>{damage_addition:0%}</> of Delphine's ATK every second (up to 4 stacks, lasts until the end of the skill)"
+        },
+        {
+            "name": "“Preemptive Strike”",
+            "level": 7,
+            "description": "ATK <@ba.vup>+{atk:0%}</>, however attacks no longer target enemies with less than <@ba.vup>50%</> HP. Attacks cause the target to receive Arts damage equal to <@ba.vup>{damage_addition:0%}</> of Delphine's ATK every second (up to 4 stacks, lasts until the end of the skill)"
+        },
+        {
+            "name": "“Preemptive Strike”",
+            "level": 8,
+            "description": "ATK <@ba.vup>+{atk:0%}</>, however attacks no longer target enemies with less than <@ba.vup>50%</> HP. Attacks cause the target to receive Arts damage equal to <@ba.vup>{damage_addition:0%}</> of Delphine's ATK every second (up to 4 stacks, lasts until the end of the skill)"
+        },
+        {
+            "name": "“Preemptive Strike”",
+            "level": 9,
+            "description": "ATK <@ba.vup>+{atk:0%}</>, however attacks no longer target enemies with less than <@ba.vup>50%</> HP. Attacks cause the target to receive Arts damage equal to <@ba.vup>{damage_addition:0%}</> of Delphine's ATK every second (up to 4 stacks, lasts until the end of the skill)"
+        },
+        {
+            "name": "“Preemptive Strike”",
+            "level": 10,
+            "description": "ATK <@ba.vup>+{atk:0%}</>, however attacks no longer target enemies with less than <@ba.vup>50%</> HP. Attacks cause the target to receive Arts damage equal to <@ba.vup>{damage_addition:0%}</> of Delphine's ATK every second (up to 4 stacks, lasts until the end of the skill)"
+        }
+    ],
     "skchr_kjera_2": [
         {
             "name": "Unrestrained Heart",
@@ -13009,6 +13217,58 @@
             "name": "Nurturing Touch",
             "level": 10,
             "description": "Deal <@ba.vup>{atk_scale:0%}</> Arts damage every second to two enemies within range and inflict <@ba.vup>{move_speed:0%}</> Movement Speed to them"
+        }
+    ],
+    "skchr_vendla_2": [
+        {
+            "name": "Vine Shade",
+            "level": 1,
+            "description": "ATK <@ba.vup>+{atk:0%}</>. Increase Taunt level of the ally with the highest Max HP within Attack Range. When that ally is attacked, Vendela deals <@ba.vup>{atk_scale:0%}</> Arts damage to the attacker and activates Trait effect on that ally"
+        },
+        {
+            "name": "Vine Shade",
+            "level": 2,
+            "description": "ATK <@ba.vup>+{atk:0%}</>. Increase Taunt level of the ally with the highest Max HP within Attack Range. When that ally is attacked, Vendela deals <@ba.vup>{atk_scale:0%}</> Arts damage to the attacker and activates Trait effect on that ally"
+        },
+        {
+            "name": "Vine Shade",
+            "level": 3,
+            "description": "ATK <@ba.vup>+{atk:0%}</>. Increase Taunt level of the ally with the highest Max HP within Attack Range. When that ally is attacked, Vendela deals <@ba.vup>{atk_scale:0%}</> Arts damage to the attacker and activates Trait effect on that ally"
+        },
+        {
+            "name": "Vine Shade",
+            "level": 4,
+            "description": "ATK <@ba.vup>+{atk:0%}</>. Increase Taunt level of the ally with the highest Max HP within Attack Range. When that ally is attacked, Vendela deals <@ba.vup>{atk_scale:0%}</> Arts damage to the attacker and activates Trait effect on that ally"
+        },
+        {
+            "name": "Vine Shade",
+            "level": 5,
+            "description": "ATK <@ba.vup>+{atk:0%}</>. Increase Taunt level of the ally with the highest Max HP within Attack Range. When that ally is attacked, Vendela deals <@ba.vup>{atk_scale:0%}</> Arts damage to the attacker and activates Trait effect on that ally"
+        },
+        {
+            "name": "Vine Shade",
+            "level": 6,
+            "description": "ATK <@ba.vup>+{atk:0%}</>. Increase Taunt level of the ally with the highest Max HP within Attack Range. When that ally is attacked, Vendela deals <@ba.vup>{atk_scale:0%}</> Arts damage to the attacker and activates Trait effect on that ally"
+        },
+        {
+            "name": "Vine Shade",
+            "level": 7,
+            "description": "ATK <@ba.vup>+{atk:0%}</>. Increase Taunt level of the ally with the highest Max HP within Attack Range. When that ally is attacked, Vendela deals <@ba.vup>{atk_scale:0%}</> Arts damage to the attacker and activates Trait effect on that ally"
+        },
+        {
+            "name": "Vine Shade",
+            "level": 8,
+            "description": "ATK <@ba.vup>+{atk:0%}</>. Increase Taunt level of the ally with the highest Max HP within Attack Range. When that ally is attacked, Vendela deals <@ba.vup>{atk_scale:0%}</> Arts damage to the attacker and activates Trait effect on that ally"
+        },
+        {
+            "name": "Vine Shade",
+            "level": 9,
+            "description": "ATK <@ba.vup>+{atk:0%}</>. Increase Taunt level of the ally with the highest Max HP within Attack Range. When that ally is attacked, Vendela deals <@ba.vup>{atk_scale:0%}</> Arts damage to the attacker and activates Trait effect on that ally"
+        },
+        {
+            "name": "Vine Shade",
+            "level": 10,
+            "description": "ATK <@ba.vup>+{atk:0%}</>. Increase Taunt level of the ally with the highest Max HP within Attack Range. When that ally is attacked, Vendela deals <@ba.vup>{atk_scale:0%}</> Arts damage to the attacker and activates Trait effect on that ally"
         }
     ],
     "skchr_peper_2": [
@@ -31201,6 +31461,162 @@
             "description": "<@ba.vup>Expand</> Attack Range, ATK <@ba.vup>+{atk:0%}</>. Attacks deal Arts damage and target 2 additional enemies. Increase Talent 1 damage to <@ba.vup>{talent_scale}x</>. Ranged attacks no longer reduce ATK. Gain Attack Speed <@ba.vup>+{attack_speed}</> after every attack (up to <@ba.vup>{max_stack_cnt}</> stacks)"
         }
     ],
+    "skchr_hodrer_1": [
+        {
+            "name": "Inextinguishable Front",
+            "level": 1,
+            "description": "The next attack deals <@ba.vup>{atk_scale:0%}</> Physical damage and recovers <@ba.vup>{hp_ratio:0%}</> HP"
+        },
+        {
+            "name": "Inextinguishable Front",
+            "level": 2,
+            "description": "The next attack deals <@ba.vup>{atk_scale:0%}</> Physical damage and recovers <@ba.vup>{hp_ratio:0%}</> HP"
+        },
+        {
+            "name": "Inextinguishable Front",
+            "level": 3,
+            "description": "The next attack deals <@ba.vup>{atk_scale:0%}</> Physical damage and recovers <@ba.vup>{hp_ratio:0%}</> HP"
+        },
+        {
+            "name": "Inextinguishable Front",
+            "level": 4,
+            "description": "The next attack deals <@ba.vup>{atk_scale:0%}</> Physical damage and recovers <@ba.vup>{hp_ratio:0%}</> HP"
+        },
+        {
+            "name": "Inextinguishable Front",
+            "level": 5,
+            "description": "The next attack deals <@ba.vup>{atk_scale:0%}</> Physical damage and recovers <@ba.vup>{hp_ratio:0%}</> HP"
+        },
+        {
+            "name": "Inextinguishable Front",
+            "level": 6,
+            "description": "The next attack deals <@ba.vup>{atk_scale:0%}</> Physical damage and recovers <@ba.vup>{hp_ratio:0%}</> HP"
+        },
+        {
+            "name": "Inextinguishable Front",
+            "level": 7,
+            "description": "The next attack deals <@ba.vup>{atk_scale:0%}</> Physical damage and recovers <@ba.vup>{hp_ratio:0%}</> HP"
+        },
+        {
+            "name": "Inextinguishable Front",
+            "level": 8,
+            "description": "The next attack deals <@ba.vup>{atk_scale:0%}</> Physical damage and recovers <@ba.vup>{hp_ratio:0%}</> HP"
+        },
+        {
+            "name": "Inextinguishable Front",
+            "level": 9,
+            "description": "The next attack deals <@ba.vup>{atk_scale:0%}</> Physical damage and recovers <@ba.vup>{hp_ratio:0%}</> HP"
+        },
+        {
+            "name": "Inextinguishable Front",
+            "level": 10,
+            "description": "The next attack deals <@ba.vup>{atk_scale:0%}</> Physical damage and recovers <@ba.vup>{hp_ratio:0%}</> HP"
+        }
+    ],
+    "skchr_hodrer_2": [
+        {
+            "name": "Burden of Cinder",
+            "level": 1,
+            "description": "Passive: ATK <@ba.vup>+{atk:0%}</>\n<@ba.rem>Active: Can switch between the default state and the following state: </>\nSlightly increase Attack Interval (<@ba.vdown>+{base_attack_time} seconds</>), Block Count <@ba.vup>+{block_cnt}</>. Attacks <$ba.stun>Stun</> the target for <@ba.vup>{attack@stun}</> second"
+        },
+        {
+            "name": "Burden of Cinder",
+            "level": 2,
+            "description": "Passive: ATK <@ba.vup>+{atk:0%}</>\n<@ba.rem>Active: Can switch between the default state and the following state: </>\nSlightly increase Attack Interval (<@ba.vdown>+{base_attack_time} seconds</>), Block Count <@ba.vup>+{block_cnt}</>. Attacks <$ba.stun>Stun</> the target for <@ba.vup>{attack@stun}</> second"
+        },
+        {
+            "name": "Burden of Cinder",
+            "level": 3,
+            "description": "Passive: ATK <@ba.vup>+{atk:0%}</>\n<@ba.rem>Active: Can switch between the default state and the following state: </>\nSlightly increase Attack Interval (<@ba.vdown>+{base_attack_time} seconds</>), Block Count <@ba.vup>+{block_cnt}</>. Attacks <$ba.stun>Stun</> the target for <@ba.vup>{attack@stun}</> second"
+        },
+        {
+            "name": "Burden of Cinder",
+            "level": 4,
+            "description": "Passive: ATK <@ba.vup>+{atk:0%}</>\n<@ba.rem>Active: Can switch between the default state and the following state: </>\nSlightly increase Attack Interval (<@ba.vdown>+{base_attack_time} seconds</>), Block Count <@ba.vup>+{block_cnt}</>. Attacks <$ba.stun>Stun</> the target for <@ba.vup>{attack@stun}</> second"
+        },
+        {
+            "name": "Burden of Cinder",
+            "level": 5,
+            "description": "Passive: ATK <@ba.vup>+{atk:0%}</>\n<@ba.rem>Active: Can switch between the default state and the following state: </>\nSlightly increase Attack Interval (<@ba.vdown>+{base_attack_time} seconds</>), Block Count <@ba.vup>+{block_cnt}</>. Attacks <$ba.stun>Stun</> the target for <@ba.vup>{attack@stun}</> second"
+        },
+        {
+            "name": "Burden of Cinder",
+            "level": 6,
+            "description": "Passive: ATK <@ba.vup>+{atk:0%}</>\n<@ba.rem>Active: Can switch between the default state and the following state: </>\nSlightly increase Attack Interval (<@ba.vdown>+{base_attack_time} seconds</>), Block Count <@ba.vup>+{block_cnt}</>. Attacks <$ba.stun>Stun</> the target for <@ba.vup>{attack@stun}</> second"
+        },
+        {
+            "name": "Burden of Cinder",
+            "level": 7,
+            "description": "Passive: ATK <@ba.vup>+{atk:0%}</>\n<@ba.rem>Active: Can switch between the default state and the following state: </>\nSlightly increase Attack Interval (<@ba.vdown>+{base_attack_time} seconds</>), Block Count <@ba.vup>+{block_cnt}</>. Attacks <$ba.stun>Stun</> the target for <@ba.vup>{attack@stun}</> second"
+        },
+        {
+            "name": "Burden of Cinder",
+            "level": 8,
+            "description": "Passive: ATK <@ba.vup>+{atk:0%}</>\n<@ba.rem>Active: Can switch between the default state and the following state: </>\nSlightly increase Attack Interval (<@ba.vdown>+{base_attack_time} seconds</>), Block Count <@ba.vup>+{block_cnt}</>. Attacks <$ba.stun>Stun</> the target for <@ba.vup>{attack@stun}</> second"
+        },
+        {
+            "name": "Burden of Cinder",
+            "level": 9,
+            "description": "Passive: ATK <@ba.vup>+{atk:0%}</>\n<@ba.rem>Active: Can switch between the default state and the following state: </>\nSlightly increase Attack Interval (<@ba.vdown>+{base_attack_time} seconds</>), Block Count <@ba.vup>+{block_cnt}</>. Attacks <$ba.stun>Stun</> the target for <@ba.vup>{attack@stun}</> second"
+        },
+        {
+            "name": "Burden of Cinder",
+            "level": 10,
+            "description": "Passive: ATK <@ba.vup>+{atk:0%}</>\n<@ba.rem>Active: Can switch between the default state and the following state: </>\nSlightly increase Attack Interval (<@ba.vdown>+{base_attack_time} seconds</>), Block Count <@ba.vup>+{block_cnt}</>. Attacks <$ba.stun>Stun</> the target for <@ba.vup>{attack@stun}</> second"
+        }
+    ],
+    "skchr_hodrer_3": [
+        {
+            "name": "Smog of Encroaching Death",
+            "level": 1,
+            "description": "Lose <@ba.vdown>{attack@value}</> HP every second. Enemies that have attacked and been attacked by Hoederer receive <@ba.vup>{attack@damage}</> True damage every second. Attack Range <@ba.vup>+{ability_range_forward_extend}</> tile, Max HP <@ba.vup>+{max_hp:0%}</>, ATK <@ba.vup>+{atk:0%}</>. Attacks recover <@ba.vup>{attack@hp_ratio:0%}</> HP and have <@ba.vup>{attack@buff_prob:0%}</> chance to <$ba.stun>Stun</> the target for <@ba.vup>{attack@stun}</> seconds"
+        },
+        {
+            "name": "Smog of Encroaching Death",
+            "level": 2,
+            "description": "Lose <@ba.vdown>{attack@value}</> HP every second. Enemies that have attacked and been attacked by Hoederer receive <@ba.vup>{attack@damage}</> True damage every second. Attack Range <@ba.vup>+{ability_range_forward_extend}</> tile, Max HP <@ba.vup>+{max_hp:0%}</>, ATK <@ba.vup>+{atk:0%}</>. Attacks recover <@ba.vup>{attack@hp_ratio:0%}</> HP and have <@ba.vup>{attack@buff_prob:0%}</> chance to <$ba.stun>Stun</> the target for <@ba.vup>{attack@stun}</> seconds"
+        },
+        {
+            "name": "Smog of Encroaching Death",
+            "level": 3,
+            "description": "Lose <@ba.vdown>{attack@value}</> HP every second. Enemies that have attacked and been attacked by Hoederer receive <@ba.vup>{attack@damage}</> True damage every second. Attack Range <@ba.vup>+{ability_range_forward_extend}</> tile, Max HP <@ba.vup>+{max_hp:0%}</>, ATK <@ba.vup>+{atk:0%}</>. Attacks recover <@ba.vup>{attack@hp_ratio:0%}</> HP and have <@ba.vup>{attack@buff_prob:0%}</> chance to <$ba.stun>Stun</> the target for <@ba.vup>{attack@stun}</> seconds"
+        },
+        {
+            "name": "Smog of Encroaching Death",
+            "level": 4,
+            "description": "Lose <@ba.vdown>{attack@value}</> HP every second. Enemies that have attacked and been attacked by Hoederer receive <@ba.vup>{attack@damage}</> True damage every second. Attack Range <@ba.vup>+{ability_range_forward_extend}</> tile, Max HP <@ba.vup>+{max_hp:0%}</>, ATK <@ba.vup>+{atk:0%}</>. Attacks recover <@ba.vup>{attack@hp_ratio:0%}</> HP and have <@ba.vup>{attack@buff_prob:0%}</> chance to <$ba.stun>Stun</> the target for <@ba.vup>{attack@stun}</> seconds"
+        },
+        {
+            "name": "Smog of Encroaching Death",
+            "level": 5,
+            "description": "Lose <@ba.vdown>{attack@value}</> HP every second. Enemies that have attacked and been attacked by Hoederer receive <@ba.vup>{attack@damage}</> True damage every second. Attack Range <@ba.vup>+{ability_range_forward_extend}</> tile, Max HP <@ba.vup>+{max_hp:0%}</>, ATK <@ba.vup>+{atk:0%}</>. Attacks recover <@ba.vup>{attack@hp_ratio:0%}</> HP and have <@ba.vup>{attack@buff_prob:0%}</> chance to <$ba.stun>Stun</> the target for <@ba.vup>{attack@stun}</> seconds"
+        },
+        {
+            "name": "Smog of Encroaching Death",
+            "level": 6,
+            "description": "Lose <@ba.vdown>{attack@value}</> HP every second. Enemies that have attacked and been attacked by Hoederer receive <@ba.vup>{attack@damage}</> True damage every second. Attack Range <@ba.vup>+{ability_range_forward_extend}</> tile, Max HP <@ba.vup>+{max_hp:0%}</>, ATK <@ba.vup>+{atk:0%}</>. Attacks recover <@ba.vup>{attack@hp_ratio:0%}</> HP and have <@ba.vup>{attack@buff_prob:0%}</> chance to <$ba.stun>Stun</> the target for <@ba.vup>{attack@stun}</> seconds"
+        },
+        {
+            "name": "Smog of Encroaching Death",
+            "level": 7,
+            "description": "Lose <@ba.vdown>{attack@value}</> HP every second. Enemies that have attacked and been attacked by Hoederer receive <@ba.vup>{attack@damage}</> True damage every second. Attack Range <@ba.vup>+{ability_range_forward_extend}</> tile, Max HP <@ba.vup>+{max_hp:0%}</>, ATK <@ba.vup>+{atk:0%}</>. Attacks recover <@ba.vup>{attack@hp_ratio:0%}</> HP and have <@ba.vup>{attack@buff_prob:0%}</> chance to <$ba.stun>Stun</> the target for <@ba.vup>{attack@stun}</> seconds"
+        },
+        {
+            "name": "Smog of Encroaching Death",
+            "level": 8,
+            "description": "Lose <@ba.vdown>{attack@value}</> HP every second. Enemies that have attacked and been attacked by Hoederer receive <@ba.vup>{attack@damage}</> True damage every second. Attack Range <@ba.vup>+{ability_range_forward_extend}</> tile, Max HP <@ba.vup>+{max_hp:0%}</>, ATK <@ba.vup>+{atk:0%}</>. Attacks recover <@ba.vup>{attack@hp_ratio:0%}</> HP and have <@ba.vup>{attack@buff_prob:0%}</> chance to <$ba.stun>Stun</> the target for <@ba.vup>{attack@stun}</> seconds"
+        },
+        {
+            "name": "Smog of Encroaching Death",
+            "level": 9,
+            "description": "Lose <@ba.vdown>{attack@value}</> HP every second. Enemies that have attacked and been attacked by Hoederer receive <@ba.vup>{attack@damage}</> True damage every second. Attack Range <@ba.vup>+{ability_range_forward_extend}</> tile, Max HP <@ba.vup>+{max_hp:0%}</>, ATK <@ba.vup>+{atk:0%}</>. Attacks recover <@ba.vup>{attack@hp_ratio:0%}</> HP and have <@ba.vup>{attack@buff_prob:0%}</> chance to <$ba.stun>Stun</> the target for <@ba.vup>{attack@stun}</> seconds"
+        },
+        {
+            "name": "Smog of Encroaching Death",
+            "level": 10,
+            "description": "Lose <@ba.vdown>{attack@value}</> HP every second. Enemies that have attacked and been attacked by Hoederer receive <@ba.vup>{attack@damage}</> True damage every second. Attack Range <@ba.vup>+{ability_range_forward_extend}</> tile, Max HP <@ba.vup>+{max_hp:0%}</>, ATK <@ba.vup>+{atk:0%}</>. Attacks recover <@ba.vup>{attack@hp_ratio:0%}</> HP and have <@ba.vup>{attack@buff_prob:0%}</> chance to <$ba.stun>Stun</> the target for <@ba.vup>{attack@stun}</> seconds"
+        }
+    ],
     "skchr_chen_1": [
         {
             "name": "Sheath Strike",
@@ -33213,14 +33629,14 @@
         {
             "name": "自走车出击！",
             "level": 1,
-            "description": "消耗<@ba.vup>{cost}</>点部署费用，向自身部署方向发射一辆<@ba.vup>自走车</>\\n<@ba.rem>自走车出发后延直线移动，行驶到不可通行区域会出局，经过自走车单行道或我方单位时，会改变移动方向为其部署方向（每个单位仅一次）</>"
+            "description": "消耗<@ba.vup>{cost}</>点部署费用，向自身部署方向发射一辆<@ba.vup>自走车</>\\n<@ba.rem>自走车出发后沿直线移动，行驶到不可通行区域会出局，经过自走车单行道或我方单位时，会改变移动方向为其部署方向（每个单位仅一次）</>"
         }
     ],
     "sktok_garage_2": [
         {
             "name": "自走车出击！",
             "level": 1,
-            "description": "开启后持续自动发射<@ba.vup>自走车</>，每次消耗<@ba.vup>{cost}</>点部署费用向自身部署方向发射一辆，再次使用技能可关闭自动发射\\n<@ba.rem>自走车出发后延直线移动，行驶到不可通行区域会出局，经过自走车单行道或我方单位时，会改变移动方向为其部署方向（每个单位仅一次）</>"
+            "description": "开启后持续自动发射<@ba.vup>自走车</>，每次消耗<@ba.vup>{cost}</>点部署费用向自身部署方向发射一辆，再次使用技能可关闭自动发射\\n<@ba.rem>自走车出发后沿直线移动，行驶到不可通行区域会出局，经过自走车单行道或我方单位时，会改变移动方向为其部署方向（每个单位仅一次）</>"
         }
     ],
     "sktok_turngear": [
@@ -34079,6 +34495,27 @@
             "name": "喷气散热",
             "level": 4,
             "description": "被动：受到攻击时回复<@ba.vup>{sp}</>点技力\\n开启后<@ba.vup>{duration}</>秒内每秒对攻击范围内所有地面敌人和我方单位造成<@ba.vdown>{value}</>点法术伤害，额外使敌人移动速度<@ba.vup>-{-move_speed:0%}</>并获得<@ba.vdown>{energy}</>点能量"
+        }
+    ],
+    "sktok_bonore": [
+        {
+            "name": "唤血祭坛",
+            "level": 1,
+            "description": "释放脉冲波吸收范围内的所有<@ba.vup>血珀</>，并转化成<@ba.vup>新生血裔</>"
+        }
+    ],
+    "sktok_outset": [
+        {
+            "name": "炸弹载荷点",
+            "level": 1,
+            "description": "消耗10点部署费用，生成会驶向下个唤血祭坛的<@ba.vup>反巫术变位炸弹</>（已存在时无法生成）"
+        }
+    ],
+    "sktok_bldore": [
+        {
+            "name": "沥血王座",
+            "level": 1,
+            "description": "释放血雾对笼罩的我方单位造成越来越高的法术伤害并降低40点攻击速度，被血雾笼罩的<@ba.vup>血珀</>会转化成<@ba.vup>新生血裔</>"
         }
     ],
     "sktok_ltstat": [
