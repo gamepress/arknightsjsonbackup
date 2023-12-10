@@ -32,8 +32,8 @@
     },
     "ba.fragile": {
       "termId": "ba.fragile",
-      "termName": "Weakening",
-      "description": "Increase all damage taken by the stated percentage (Does not stack, strongest effect takes precedence)"
+      "termName": "Fragility",
+      "description": "Increase Physical, Arts and True damage taken by the stated percentage (Does not stack, strongest effect takes precedence)"
     },
     "ba.shield": {
       "termId": "ba.shield",
@@ -165,6 +165,26 @@
       "termName": "Steal",
       "description": "Reduces the target's base stat and adds them to the user's own stat. The target's stat decrease and the user's stat increase cannot exceed the specified limit (Strongest effect of each stat takes precedence)"
     },
+    "ba.weaken": {
+      "termId": "ba.weaken",
+      "termName": "Weakening",
+      "description": "Reduces the target's ATK by the stated percentage (Does not stack, strongest effect takes precedence)"
+    },
+    "ba.dt.apoptosis2": {
+      "termId": "ba.dt.apoptosis2",
+      "termName": "Apoptosis·Allied",
+      "description": "Triggers when enough points are accumulated (1000 for normal/elite enemies, 2000 for bosses), inflicting 50% Weakening that gradually reduces and dealing 800 Elemental damage per second. 15 second cooldown"
+    },
+    "ba.epbarrier": {
+      "termId": "ba.epbarrier",
+      "termName": "Elemental Barrier",
+      "description": "Can absorb a certain amount of <$ba.dt.element>Elemental damage</>"
+    },
+    "ba.tremble": {
+      "termId": "ba.tremble",
+      "termName": "Tremble",
+      "description": "When blocked, unable to carry out normal attacks"
+    },
     "cc.bd_A_1": {
       "termId": "cc.bd_A_1",
       "termName": "Supersensory",
@@ -185,6 +205,11 @@
       "termName": "Sorrowful Harmonies",
       "description": "Operator with this skill\nEbenholz"
     },
+    "cc.bd_B_3": {
+      "termId": "cc.bd_B_3",
+      "termName": "Wordless Carols",
+      "description": "Operator with this skill\nVirtuosa"
+    },
     "cc.bd_A": {
       "termId": "cc.bd_A",
       "termName": "Chain of Thought",
@@ -193,7 +218,7 @@
     "cc.bd_B": {
       "termId": "cc.bd_B",
       "termName": "Silent Resonance",
-      "description": "Affects skills related to <$cc.bd_B_1><@cc.rem>Resounding Melodies</></>, <$cc.bd_B_2><@cc.rem>Sorrowful Harmonies</></>\nProvided by the following operators\nEbenholz"
+      "description": "Affects skills related to <$cc.bd_B_1><@cc.rem>Resounding Melodies</></>, <$cc.bd_B_2><@cc.rem>Sorrowful Harmonies</></>, <$cc.bd_B_3><@cc.rem>Wordless Carols</></>\nProvided by the following operators\nEbenholz, Virtuosa, Bassline"
     },
     "cc.bd_C": {
       "termId": "cc.bd_C",
@@ -248,7 +273,7 @@
     "cc.bd_felyne": {
       "termId": "cc.bd_felyne",
       "termName": "Silvervine",
-      "description": "Affects skills related to <$cc.bd_felyne_1><@cc.rem>Cute Palicoes</></>, <$cc.bd_felyne_2><@cc.rem>Reliable Followers</></>\nProvided by the following operators\nRathalos S Noir Corne, Kirin X Yato"
+      "description": "Affects skills related to <$cc.bd_felyne_1><@cc.rem>Cute Palicoes</></>, <$cc.bd_felyne_2><@cc.rem>Reliable Followers</></>\nProvided by the following operators\nRathalos S Noir Corne, Kirin R Yato"
     },
     "cc.bd_felyne_1": {
       "termId": "cc.bd_felyne_1",
@@ -293,7 +318,7 @@
     "cc.g.ussg": {
       "termId": "cc.g.ussg",
       "termName": "Ursus Student Council",
-      "description": "Includes the following operators\nRosa, Zima, Istina, Gum"
+      "description": "Includes the following operators\nRosa, Zima, Istina, Gum, Leto"
     },
     "cc.g.R6": {
       "termId": "cc.g.R6",
@@ -318,7 +343,7 @@
     "cc.g.karlan": {
       "termId": "cc.g.karlan",
       "termName": "Karlan Trading",
-      "description": "Includes the following operators\nSilverash, Gnosis, Pramanix, Cliffheart, Matterhorn, Courier, Kjera, Aurora"
+      "description": "Includes the following operators\nSilverash, Gnosis, Pramanix, Cliffheart, Matterhorn, Courier, Kjera, Aurora, Degenbrecher"
     },
     "cc.g.sui": {
       "termId": "cc.g.sui",
@@ -329,6 +354,21 @@
       "termId": "cc.g.glasgow",
       "termName": "Glasgow Group",
       "description": "Includes the following operators\nSiege, Morgan, Dagda, Indra"
+    },
+    "cc.g.rh": {
+      "termId": "cc.g.rh",
+      "termName": "Rhine Labs",
+      "description": "Includes the following operators\nSilence, Ifrit, Saria, Ptilopsis, Mayer, Magallan, Dorothy, Astgenne, Muelsyse"
+    },
+	"cc.g.sm": {
+      "termId": "cc.g.sm",
+      "termName": "Sami",
+      "description": "Includes the following operators\nGitano, Bibeak, Qanipalaat, Typhon, Santalla, Valarqvin"
+    },
+    "cc.g.bs": {
+      "termId": "cc.g.bs",
+      "termName": "Blacksteel",
+      "description": "Includes the following operators\nLiskarm, Franka, Jessica, Vanilla, Almond"
     },
     "cc.c.abyssal2_1": {
       "termId": "cc.c.abyssal2_1",
@@ -355,10 +395,15 @@
       "termName": "Other facilities",
       "description": "Includes the following facilities\nPower Station, Craft Station, Trade Station, Human Resource, Reception"
     },
+    "cc.c.room3": {
+      "termId": "cc.c.room3",
+      "termName": "Workplace",
+      "description": "Includes the following facilities\nPower Station, Craft Station, Trade Station, Human Resource, Reception, Command Center, Training Room"
+    },
     "cc.c.skill": {
       "termId": "cc.c.skill",
       "termName": "Certain skills",
-      "description": "Includes the following skills\nCompetent, S.W.E.E.P.. Snack Network, Cleanup Agreement, Substitute, Necessary Responsibility, Bodyguard, Tiny Leader, Egocentric"
+      "description": "Includes the following skills\nCompetent, S.W.E.E.P.. Snack Network, Cleanup Agreement, Substitute, Necessary Responsibility, Bodyguard, Tiny Leader, Egocentric, Sunshine Smile, Marigold Poetry Club"
     },
     "cc.t.strong2": {
       "termId": "cc.t.strong2",
@@ -408,12 +453,17 @@
     "cc.sk.manu2": {
       "termId": "cc.sk.manu2",
       "termName": "Rhine Technology-type Skills",
-      "description": "Includes the following skills\nRhine Technology·α, Rhine Technology·β"
+      "description": "Includes the following skills\nRhine Technology·α, Rhine Technology·β, Rhine Technology·γ"
     },
     "cc.sk.manu3": {
       "termId": "cc.sk.manu3",
       "termName": "Pinus Sylvestris-type Skills",
       "description": "Includes the following skills\nPinus Sylvestris·α, Pinus Sylvestris·β"
+    },
+    "cc.sk.manu4": {
+      "termId": "cc.sk.manu4",
+      "termName": "Metal Crafts-type Skills",
+      "description": "Includes the following skills\nMetal Crafts·α, Metal Crafts·β"
     },
     "cc.tag.op": {
       "termId": "cc.tag.op",
@@ -423,7 +473,7 @@
     "cc.tag.knight": {
       "termId": "cc.tag.knight",
       "termName": "Knights",
-      "description": "Includes the following operators\nNearl the Radiant Knight, Nearl, Blemishine, Whislash, Flametail, Fartooth, Ashlock, Wild Mane, Justice Knight, Gravel"
+      "description": "Includes the following operators\nNearl the Radiant Knight, Nearl, Blemishine, Whislash, Flametail, Fartooth, Ashlock, Wild Mane, Justice Knight, Gravel, Viviana"
     },
     "cc.tag.durin": {
       "termId": "cc.tag.durin",
@@ -433,7 +483,7 @@
     "cc.tag.mh": {
       "termId": "cc.tag.mh",
       "termName": "Monster Hunter Squad",
-      "description": "Includes the following operators\nRathalos S Noir Corne, Kirin X Yato, Terra Research Commission"
+      "description": "Includes the following operators\nRathalos S Noir Corne, Kirin R Yato, Terra Research Commission"
     },
     "cc.gvial": {
       "termId": "cc.gvial",
